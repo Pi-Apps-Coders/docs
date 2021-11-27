@@ -1,0 +1,22 @@
+site_name: Raspbian Addons Docs
+theme:
+  name: material
+  logo: 'https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/icons/logo-condensed-nosquare.png'
+  favicon: 'https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/icons/logo-condensed-nosquare.png'
+  palette:
+      - scheme: default
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/weather-sunny
+          name: Switch to dark mode
+      - scheme: slate
+        primary: red
+        accent: red
+        toggle:
+          icon: material/weather-night
+          name: Switch to light mode
+
+repo_name: raspbian-addons/docs
+repo_url: https://github.com/raspbian-addons/docs
+edit_uri: https://github.com/raspbian-addons/docs/edit/main/docs/
