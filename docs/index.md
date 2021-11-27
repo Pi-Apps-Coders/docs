@@ -6,7 +6,7 @@ Pi-Apps is an open-source app store for Raspberry Pi computers, written in 100% 
 
 If you find the project helpful, please consider leaving a star on our [main repository](https://github.com/Botspot/pi-apps)!
 
-Main Repo: https://github.com/Botspot/pi-apps
+Main Repository: https://github.com/Botspot/pi-apps
 
 Website: https://pi-apps.io
 
