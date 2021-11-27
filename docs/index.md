@@ -1,13 +1,13 @@
 # Home
 
-Welcome to the Raspbian Addons documentation!
+Welcome to the Pi-Apps documentation!
 
-Raspbian Addons is an APT repository for Raspberry Pies, containing open-source software not in the Pi Foundation's repositories.
+Pi-Apps is an open-source app store for Raspberry Pi computers, written in 100% bash scripts.
 
-If you find the project helpful, please consider leaving a star on our [main repository](https://github.com/raspbian-addons/raspbian-addons/)!
+If you find the project helpful, please consider leaving a star on our [main repository](https://github.com/Botspot/pi-apps)!
 
-Website: [https://raspbian-addons.org](https://raspbian-addons.org)
+Main Repository: https://github.com/Botspot/pi-apps
 
-Docs: [https://docs.raspbian-addons.org](https://docs.raspbian-addons.org)
+Website: https://pi-apps.io
 
-Package List: [https://docs.raspbian-addons.org/package-list/](https://docs.raspbian-addons.org/package-list/)
+File Storage: https://github.com/Pi-Apps-Coders/files

@@ -1,8 +1,8 @@
-site_name: Raspbian Addons Docs
+site_name: Pi-Apps Docs
 theme:
   name: material
-  logo: 'https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/icons/logo-condensed-nosquare.png'
-  favicon: 'https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/icons/logo-condensed-nosquare.png'
+  logo: 'https://github.com/Botspot/pi-apps/blob/master/icons/logo.png?raw=true'
+  favicon: 'https://github.com/Botspot/pi-apps/blob/master/icons/logo.png?raw=true'
   palette:
       - scheme: default
         primary: indigo
@@ -17,6 +17,6 @@ theme:
           icon: material/weather-night
           name: Switch to light mode
 
-repo_name: raspbian-addons/docs
-repo_url: https://github.com/raspbian-addons/docs
-edit_uri: https://github.com/raspbian-addons/docs/edit/main/docs/
+repo_name: Pi-Apps-Coders/docs
+repo_url: https://github.com/Pi-Apps-Coders/docs
+edit_uri: https://github.com/Pi-Apps-Coders/docs/edit/master/docs/
