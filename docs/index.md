@@ -1,6 +1,6 @@
 # Home
 
-Welcome to the Pi-Apps documentation!
+Welcome to the Pi-Apps documentation page!
 
 Pi-Apps is an open-source app store for Raspberry Pi computers, written in 100% bash scripts.
 
