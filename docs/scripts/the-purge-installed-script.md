@@ -1,4 +1,3 @@
-### The `purge-installed` script
 #### Location:
 On a default pi-apps installation, you will find this script at `/home/pi/pi-apps/purge-installed`. 
 #### Purpose:

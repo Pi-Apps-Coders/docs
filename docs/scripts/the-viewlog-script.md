@@ -1,4 +1,3 @@
-## The `viewlog` script
 #### Location:
 On a default pi-apps installation, you will find this script at `/home/pi/pi-apps/etc/viewlog`.  
 This file is located in the `etc` folder because it's one of the smaller scripts.
