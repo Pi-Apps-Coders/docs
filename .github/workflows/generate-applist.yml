@@ -1,0 +1,21 @@
+name: Generate applist
+
+on:
+  schedule:
+     - cron: '0 21 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-checksums:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: generate
+        run: |
+          git config user.name 'Ryan Fortner'
+          git config user.email 'ryanfortner@users.noreply.github.com'
+          git clone https://github.com/Botspot/pi-apps.wiki.git && cp ./pi-apps.wiki/Apps-List.md ./docs/apps-list.md && rm -rf pi-apps.wiki
+          git add .
+          git commit -m "[auto] update appslist"
+          git push origin master
