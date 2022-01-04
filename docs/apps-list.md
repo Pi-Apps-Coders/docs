@@ -1,3 +1,4 @@
+# Apps List
 # Appearance
 
 ### <img src=https://github.com/Botspot/pi-apps/blob/master/apps/Color%20Emoji%20font/icon-64.png height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
