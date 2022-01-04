@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-checksums:
+  generate-applist:
     runs-on: ubuntu-latest
 
     steps:
