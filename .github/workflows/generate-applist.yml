@@ -17,6 +17,8 @@ jobs:
           git config user.email 'ryanfortner@users.noreply.github.com'
           git clone https://github.com/Botspot/pi-apps.wiki.git && cp ./pi-apps.wiki/Apps-List.md ./docs/apps-list.md && rm -rf pi-apps.wiki
           sed -i '1s/^/# Apps List\n/' ./docs/apps-list.md
+          sed -i 's/blob/raw/' ./docs/apps-list.md
+          sed -i 's/icon-64/icon-24/' ./docs/apps-list.md
           git add .
           git commit -m "[auto] update appslist"
           git push origin master
