@@ -1593,6 +1593,19 @@ ARM32/ARM64
     Software used to control autonomous vehicles.
     Mission Planner is a free, open-source ground station for communicating with autonomous aircraft, vehicles, or boats running Ardupilot firmware. It's used to monitor such vehicles, view logs, and create waypoint missions.
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/More%20RAM/icon-24.png height=32> ***[More RAM](https://github.com/Botspot/pi-apps/tree/master/apps/More%20RAM)***
+Botspot<br />
+ARM32/ARM64
+
+    Of course Pi-Apps lets you download more RAM!
+    This app sets up ZRAM and a swapfile.
+    ZRAM compresses the data stored in RAM, thereby increasing the capacity. Swap allows RAM to overflow to the disk, only if absolutely necessary.
+    These modifications prevent the system from locking up under heavy memory usage. Under low memory usage, neither ZRAM nor swap are used.
+    
+    How much RAM do you get?
+    - ZRAM will double the total capacity available. (4GB of ZRAM on a 4GB Pi, 1GB on a 1GB Pi)
+    - Swap will add 1GB of overflow capacity. This will be skipped if your SD card is nearly full. (<2GB free space)
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Nautilus/icon-24.png height=32> ***[Nautilus](https://github.com/Botspot/pi-apps/tree/master/apps/Nautilus)***
 https://wiki.gnome.org/Apps/Files - Botspot<br />
 Package app
