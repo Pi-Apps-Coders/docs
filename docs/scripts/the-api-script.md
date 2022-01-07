@@ -1,9 +1,7 @@
 #### Location:
 On a default pi-apps installation, you will find this script at `/home/pi/pi-apps/api`. 
-<br>
 #### Purpose:
 This script is a collection of **functions** that do various things. Functions are small chunks of bash-code that can be run like a normal command.
-<br>
 #### Usage:
 ```bash
 source ~/pi-apps/api
@@ -13,9 +11,9 @@ Alternatively, the `api` script supports running a single function *without* bei
 ```bash
 ~/pi-apps/api apt_lock_wait
 ```
-<br>
 #### List of functions:
 Note: new functions are added often. If you don't see a function on this list but do see it in the api, please let us know.
+<br>
 - `error` - display a custom message in red and exit with a return code of `1`.
   Usage:
   ```
@@ -25,9 +23,11 @@ Note: new functions are added often. If you don't see a function on this list bu
   ```
   sudo apt update || error "The command 'sudo apt update' failed!"
   ```
+<br>
 - `warning` - Display a custom message in yellow and prefix it with "WARNING: ".
   - Useful for everything where something is wrong but it's not a fatal error.
   - This function outputs to `stderr`.
+<br>
 - `status` - Display a custom message in light-blue.
   - Used by scripts to indicate current status, like "Downloading...", "Extracting...", and "Please wait."
   - This function outputs to `stderr`.
