@@ -25,7 +25,7 @@ Note: new functions are added often. If you don't see a function on this list bu
   ```
 <br>
 - `warning` - Display a custom message in yellow and prefix it with "WARNING: ".
-  - Useful for everything where something is wrong but it's not a fatal error.
+  - Useful for everything where something is wrong but it's not a fatal error.<br>
   - This function outputs to `stderr`.
 <br>
 - `status` - Display a custom message in light-blue.
