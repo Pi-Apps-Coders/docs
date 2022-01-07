@@ -1,7 +1,9 @@
 #### Location:
 On a default pi-apps installation, you will find this script at `/home/pi/pi-apps/api`. 
+<br>
 #### Purpose:
 This script is a collection of **functions** that do various things. Functions are small chunks of bash-code that can be run like a normal command.
+<br>
 #### Usage:
 ```bash
 source ~/pi-apps/api
@@ -11,6 +13,7 @@ Alternatively, the `api` script supports running a single function *without* bei
 ```bash
 ~/pi-apps/api apt_lock_wait
 ```
+<br>
 #### List of functions:
 Note: new functions are added often. If you don't see a function on this list but do see it in the api, please let us know.
 - `error` - display a custom message in red and exit with a return code of `1`.
