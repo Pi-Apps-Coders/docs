@@ -758,6 +758,17 @@ ARM32/ARM64
     To run in terminal: sr-editor
     
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Tetris%20CLI/icon-24.png height=32> ***[Tetris CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Tetris%20CLI)***
+<https://github.com/k-vernooy/tetris> - DEB packages hosted by ryanfortner<br />
+ARM32/ARM64
+
+    ASCII/CLI rendition of the Tetris game.
+    
+    As one of the most recognizable and influential video game brands in the world, it’s no wonder why there are hundreds of millions of Tetris products being played, worn, and enjoyed by fans in their everyday lives. For over thirty-five years, the game and brand have truly transcended the barriers of culture and language, resulting in a fun and exciting playing experience for everyone, everywhere!
+    
+    To run: Menu -> Games -> Tetris CLI
+    In terminal: tetris
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Unciv/icon-24.png height=32> ***[Unciv](https://github.com/Botspot/pi-apps/tree/master/apps/Unciv)***
 <https://github.com/yairm210/Unciv> - Added by Md. Touhidur Rahman
   Github: https://github.com/touhidurrr
