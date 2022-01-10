@@ -184,6 +184,16 @@ ARM32/ARM64
     To run: Menu -> Programming -> BlockPi
     To run in a terminal: /opt/BlockPi/blockpi
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/BlueJ%20Java%20IDE/icon-24.png height=32> ***[BlueJ Java IDE](https://github.com/Botspot/pi-apps/tree/master/apps/BlueJ%20Java%20IDE)***
+<https://bluej.org> - open-sorcerer64<br />
+Package app
+
+    A simple but powerful Java IDE.
+    
+    BlueJ is an integrated development environment for the Java programming language, developed mainly for educational purposes.
+    
+    To run: Menu -> Programming -> BlueJ Java IDE
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Boxy%20SVG/icon-24.png height=32> ***[Boxy SVG](https://github.com/Botspot/pi-apps/tree/master/apps/Boxy%20SVG)***
 <https://github.com/Botspot/Boxy-SVG-RPi> - Shout-out to ItzCutePikachu for figuring out how to remove the annoying "Boxy SVG will stop working" pop-up from the javascript.<br />
 ARM32/ARM64
@@ -1639,6 +1649,19 @@ Package app
     Feature-rich file manager for the GNOME desktop
     To run: Menu -> Accessories -> Nautilus
     To run in terminal: nautilus
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Nemo/icon-24.png height=32> ***[Nemo](https://github.com/Botspot/pi-apps/tree/master/apps/Nemo)***
+<https://github.com/linuxmint/nemo> - open-sorcerer64
+linuxmint<br />
+Package app
+
+    File manager and graphical shell for Cinnamon, also works well on other desktop environments.
+    
+    Nemo is the official file manager for the Cinnamon desktop. It allows one to browse directories, preview files, and launch applications associated with them.
+    It is also responsible for handling the icons on the Cinnamon desktop. It works on local and remote filesystems. Several icon themes and components for viewing different kinds of files are available in separate packages.
+    
+    To run: Menu -> Accessories -> Files
+    To run in terminal: nemo
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Node.js/icon-24.png height=32> ***[Node.js](https://github.com/Botspot/pi-apps/tree/master/apps/Node.js)***
 <https://nodesource.com/> - Script by ilobilo
