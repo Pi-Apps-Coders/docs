@@ -674,7 +674,9 @@ ARM32/ARM64
 <https://github.com/cobalt2727/L4T-Megascript/raw/master/scripts/games_and_emulators/minecraft_java_multimc.sh> - Install script written by theofficialgman based on the version for the L4T Megascript<br />
 ARM32/ARM64
 
-    NOTE: For best performance, we recommend a version like 1.12.2 + Optifine or the latest Minecraft with Optifabric or Sodium/Lithium/Phosphor Fabric Mods.
+    CUSTOM BUILD of MultiMC5/Launcher code for ARMhf/ARM64 support. Includes Microsoft, Mojang, and PC GamePass Account support. This launcher allows you to easily manage multiple instances of minecraft and your mods at once.
+    
+    NOTE: The use of performance enhancing mods is highly encouraged, such as optifine with Optifabric and Fabric/Forge or Sodium/Lithium/Phosphor Fabric Mods.
     
     Minecraft Java MultiMC5 for the Raspberry Pi
     To run: Menu -> Games -> MultiMC
@@ -684,17 +686,38 @@ ARM32/ARM64
     
     The MultiMC5 Wiki can be found here: https://github.com/MultiMC/MultiMC5/wiki
     If you need help installing Optifine: https://github.com/MultiMC/MultiMC5/wiki/MultiMC-and-OptiFine
+    How to choose the correct java version: https://github.com/MultiMC/Launcher/wiki/Using-the-right-Java#setting-up-java-in-multimc
     
-    the MultiMC5 install script contains OS detection (ubuntu and debian/raspbian based systems supported), and automatic java 8, 11, and 16 download and installation
+    The install script contains OS detection (ubuntu and debian/raspbian based systems supported), and automatic java 8/11/16/17 installation.
     
-    MultiMC5 supports mojang, microsoft account login, and microsoft gamepass support, and minecraft versions from the old beta/alphas all the way up to 1.17+. Fabric and Forge mod loading is supported for the applicable minecraft versions
+    MultiMC5 supports minecraft versions from the old beta/alphas all the way up to 1.18+. Fabric and Forge mod loading is fully supported.
     
     A custom meta repo is used for arm32 and arm64 to provide lwjgl 2.9.4, 3.1.2(fake), 3.1.6, 3.2.1, 3.2.2, and 3.2.3(unused) native libraries. (https://github.com/theofficialgman/meta-multimc)
     This supports all currently released versions of minecraft.
     
-    Note: MultiMC5 does not give support for custom builds
+    Note: MultiMC5 github/discord does support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord, Forum Post, or Pi-Apps github issues.
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20Server/icon-24.png height=32> ***[Minecraft Java Server](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Server)***
+<https://mcversions.net/> - Thanks to:
+Mojang for creating the Minecraft server.
+theofficialgman who wrote the script
+GYKGAMER for the initial idea/implementation
+Crilum for bugtesting<br />
+ARM32/ARM64
+
+    This is a simple tool to create a Minecraft server of whatever version you choose.
     
-    If you have found a bug and it is re-producible on official MultiMC5 builds, then it can be submitted at https://github.com/MultiMC/MultiMC5/issues. Otherwise, bugs should be submitted to https://github.com/Botspot/pi-apps/issues
+    You can play over your local network
+    
+    Minecraft Server for the Raspberry Pi
+    To run: Menu -> Games -> Minecraft Java Server
+    Attach to a server in the background with: screen -r Minecraft_Server
+    Detach from a running server session with: CTRL+A then D
+    To start from a terminal: sudo systemctl start minecraft-server
+    To stop the server: sudo systemctl stop minecraft-server
+    To start on automatically on boot and stop on shutdown: sudo systemctl enable minecraft-server
+    
+    Temurin (Adoptium) or AdoptOpenJDK Java 8/16/17 apt repos are used in this installer for compatibility.
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Pi%20(Modded)/icon-24.png height=32> ***[Minecraft Pi (Modded)](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Pi%20(Modded))***
 <https://discord.com/invite/aDqejQGMMy> - Game mods and jMCPIL made by TheBrokenRail#5376 on Discord
 gMCPIL made by Alvarito050506#8207 on Discord
@@ -743,7 +766,7 @@ Package app
     To run in a terminal: steamlink
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Stunt%20Rally/icon-24.png height=32> ***[Stunt Rally](https://github.com/Botspot/pi-apps/tree/master/apps/Stunt%20Rally)***
-<http://stuntrally.tuxfamily.org/> - Compiled and packaged into a deb by Itai-Nelken.
+<http://stuntrally.tuxfamily.org/> - Compiled and packaged into a deb by Itai-Nelken and ryanfortner.
 Added to pi-apps by Itai-Nelken.<br />
 ARM32/ARM64
 
@@ -1891,7 +1914,7 @@ ARM32/ARM64
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/VeraCrypt/icon-24.png height=32> ***[VeraCrypt](https://github.com/Botspot/pi-apps/tree/master/apps/VeraCrypt)***
 <https://www.veracrypt.fr/en/Documentation.html> - nielsbaloe on Github suggested this be added.
 Botspot added it.<br />
-ARM32 ONLY
+ARM32/ARM64
 
     Open source disk encryption software
     - Creates a virtual encrypted disk within a file and mounts it as a real disk.
