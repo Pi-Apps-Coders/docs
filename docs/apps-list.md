@@ -1630,6 +1630,16 @@ ARM32/ARM64
     KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.
     Run via the Main Menu > Accessories > KeePassXC
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Microsoft%20PowerShell/icon-24.png height=32> ***[Microsoft PowerShell](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20PowerShell)***
+<https://docs.microsoft.com/en-us/powershell/scripting/install/install-raspbian?view=powershell-7.2> - Made by Microsoft [ Open Source Code ]
+Ported by TurquoiseTNT<br />
+ARM32/ARM64
+
+    PowerShell is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
+    
+    To run: Menu -> Accessories -> Microsoft PowerShell
+    In terminal: pwsh
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Mission%20Planner/icon-24.png height=32> ***[Mission Planner](https://github.com/Botspot/pi-apps/tree/master/apps/Mission%20Planner)***
 <https://ardupilot.org/planner/> - Botspot made this app.<br />
 ARM32/ARM64
