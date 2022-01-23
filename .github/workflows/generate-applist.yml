@@ -14,7 +14,7 @@ jobs:
       - name: generate
         run: |
           rm -rf ./pi-apps/
-          git clone https://Botspot/pi-apps.git && cd pi-apps
+          git clone https://github.com/Botspot/pi-apps.git && cd pi-apps
           export version=$(bash -c 'git rev-parse HEAD | cut -c 1-8')
           cd ../ && rm -rf ./pi-apps/
           export current=$(cat appslist-commit.txt)
