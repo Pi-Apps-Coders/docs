@@ -1,27 +1,28 @@
-name: Generate applist
+name: Publish docs
 
 on:
-  schedule:
-     - cron: '0 21 * * *'
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
-  generate-applist:
+  publish-docs:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
-      - name: generate
+      - name: generate appslist
         run: |
-          rm -rf ./pi-apps/
-          git clone https://github.com/Botspot/pi-apps.git && cd pi-apps
-          export version=$(bash -c 'git rev-parse HEAD | cut -c 1-8')
-          cd ../ && rm -rf ./pi-apps/
-          export current=$(cat appslist-commit.txt)
-          [ "$current" == "$version" ] && exit 0
+          rm -rf ./pi-apps*/
           git config user.name 'Ryan Fortner'
           git config user.email 'ryanfortner@users.noreply.github.com'
-          git clone https://github.com/Botspot/pi-apps.wiki.git && cp ./pi-apps.wiki/Apps-List.md ./docs/apps-list.md && rm -rf pi-apps.wiki
+          git clone https://github.com/Botspot/pi-apps.wiki.git
+          export version=$(bash -c 'git rev-parse HEAD | cut -c 1-8')
+          export current=$(cat appslist-commit.txt)
+          [ "$current" == "$version" ] && exit 0
+          cp ./pi-apps.wiki/Apps-List.md ./docs/apps-list.md
+          rm -rf pi-apps.wiki
           sed -i '1s/^/# Apps List\n/' ./docs/apps-list.md
           sed -i 's/blob/raw/' ./docs/apps-list.md
           sed -i 's/icon-64/icon-24/' ./docs/apps-list.md
@@ -33,3 +34,10 @@ jobs:
           git add .
           git commit -m "[auto] update appslist"
           git push origin master
+
+      - name: deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONFIG_FILE: mkdocs.yml
+          EXTRA_PACKAGES: build-base
