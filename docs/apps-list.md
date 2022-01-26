@@ -521,12 +521,32 @@ ARM32/ARM64
     Microsoft's vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under this not-FLOSS license and contains telemetry/tracking.
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/WPS%20Office/icon-24.png height=32> ***[WPS Office](https://github.com/Botspot/pi-apps/tree/master/apps/WPS%20Office)***
-<https://www.wps.com> - Botspot figured out how to instapp WPS Office on PiOS64.
-Botspot submitted this app to Pi-Apps.<br />
-ARM64 ONLY
+<https://www.wps.com> - Botspot figured out how to install WPS Office on PiOS64. (dependency handling)
+Botspot figured out how to install WPS Office on PiOS32. (chroot setup)<br />
+ARM32/ARM64
 
-    This is the Chinese version of Microsoft Office.
-    It is not open source, but works well on PiOS 64, and looks much more polished than Libreoffice or Openoffice.
+    This is a Chinese clone of Microsoft Office.
+    It includes Word, Excel, PowerPoint, a PDF viewer, and a web browser. It appears to be free software and you don't need to create an account to use it.
+    Compared to LibreOffice, WPS Office runs faster, looks better, and seems to be more stable.
+    
+    This script will prevent the program from connecting to the Internet, just in case it contains telemetry or spyware.
+    
+    To run: Menu -> Office -> WPS Office
+    To run in a terminal: it depends! Please read the information below.
+    
+    This app installs differently, depending on if you are using a 32-bit OS or a 64-bit OS.
+    If you are using a 32-bit OS:
+    - You will have to enable the 64-bit kernel. Don't worry, enabling it will not harm your OS - you probably won't even notice.
+    - A 64-bit Debian Bullseye chroot will be created. (/opt/wps-office-chroot)
+    - The total installation will take 2.1GB of space.
+    - To run in a terminal: schroot -c wps-office-chroot -- wps
+    - If you trust WPS Office and want to use its Internet features, then run this command: sudo cp /etc/resolv.conf /opt/wps-office-chroot/etc/resolv.conf
+    
+    If you are using a 64-bit OS:
+    - WPS will be directly installed with apt.
+    - The total installation will take 1.3GB of space.
+    - To run in a terminal: wps
+    - If you trust WPS Office and want to use its Internet features, edit the menu button and get rid of the "firejail --net=none" part.
 # Games
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Amiberry/icon-24.png height=32> ***[Amiberry](https://github.com/Botspot/pi-apps/tree/master/apps/Amiberry)***
@@ -929,6 +949,24 @@ Package app
     To run in terminal: filezilla
     Note: For more cloud-storage, see the CloudBuddy app.
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/HTTrack%20Website%20Copier/icon-24.png height=32> ***[HTTrack Website Copier](https://github.com/Botspot/pi-apps/tree/master/apps/HTTrack%20Website%20Copier)***
+<https://httrack.com> - Thanks to:
+ - Xavier Roche and all contributors for creating HTTrack!
+ - Thanks to Crilum on GitHub for adding HTTrack to Pi-Apps!<br />
+Package app
+
+    HTTrack is a free and easy-to-use offline browser utility.
+    
+    It allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. HTTrack arranges the original site's relative link-structure. Simply open a page of the "mirrored" website in your browser, and you can browse the site from link to link, as if you were viewing it online. HTTrack can also update an existing mirrored site, and resume interrupted downloads. HTTrack is fully configurable, and has an integrated help system. 
+    
+    This will also install WebHTTrack, which is a graphical version of HTTrack that uses a locally served website as a GUI.
+    
+    To run HTTrack:
+    Run from Terminal: httrack
+    
+    To run WebHTTrack (graphical version of HTTrack):
+    Run from Terminal: webhttrack
+    Run from Menu: Menu -> Internet -> WebHTTrack Website Copier
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Lokinet/icon-24.png height=32> ***[Lokinet](https://github.com/Botspot/pi-apps/tree/master/apps/Lokinet)***
 <https://wiki.oxen.io/wiki/Main_Page> - This application is a product of ongoing research and various tool development of the Oxen Privacy Tech Foundation.
 https://optf.ngo/<br />
