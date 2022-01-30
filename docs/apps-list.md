@@ -717,16 +717,16 @@ ARM32/ARM64
     
     Note: MultiMC5 github/discord does support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord, Forum Post, or Pi-Apps github issues.
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20Server/icon-24.png height=32> ***[Minecraft Java Server](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Server)***
-<https://mcversions.net/> - Thanks to:
+<https://serverjars.com> - Thanks to:
 Mojang for creating the Minecraft server.
 theofficialgman who wrote the script
 GYKGAMER for the initial idea/implementation
 Crilum for bugtesting<br />
 ARM32/ARM64
 
-    This is a simple tool to create a Minecraft server of whatever version you choose.
+    This is a simple tool to create a Minecraft server: Vanilla, Fabric, Forge, Paper, Bukkit, Spigot, Purpur and Tuinity are supported
     
-    You can play over your local network
+    You can play over your local network (or you can create a port forward on your internet router/modem at port 25565 to play over the internet)
     
     Minecraft Server for the Raspberry Pi
     To run: Menu -> Games -> Minecraft Java Server
@@ -735,6 +735,8 @@ ARM32/ARM64
     To start from a terminal: sudo systemctl start minecraft-server
     To stop the server: sudo systemctl stop minecraft-server
     To start on automatically on boot and stop on shutdown: sudo systemctl enable minecraft-server
+    
+    Refer to the ~/Minecraft-Java-Server/start-server.sh file if you need to add custom JVM arguements
     
     Temurin (Adoptium) or AdoptOpenJDK Java 8/16/17 apt repos are used in this installer for compatibility.
 
