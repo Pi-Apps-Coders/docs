@@ -1180,6 +1180,16 @@ ARM32 ONLY
     
     All deb files are downloaded from https://archive.raspberrypi.org/debian/pool/main/c/chromium-browser
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Epiphany/icon-24.png height=32> ***[Epiphany](https://github.com/Botspot/pi-apps/tree/master/apps/Epiphany)***
+<https://gitlab.gnome.org/GNOME/epiphany> - open-sorcerrer64<br />
+Package app
+
+    Epiphany is a lightweight web browser based on the WebKit rendering engine. It is also known as GNOME Web.
+    
+    Epiphany is the default web browser for GNOME desktop and elementary OS. Epiphany was the default web browser for Raspberry Pi OS (then, Raspbian) until 28th Sep 2016, when ditched for chromium. 
+    
+    To run: Menu  -> Internet -> Epiphany Web Browser
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Falkon/icon-24.png height=32> ***[Falkon](https://github.com/Botspot/pi-apps/tree/master/apps/Falkon)***
 <https://falkon.org><br />
 ARM32/ARM64
