@@ -649,6 +649,19 @@ ARM32 ONLY
     To run: Menu -> Games -> Free Heroes 2
     To run in a terminal: ~/.fheroes2/fheroes2-rpi
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LineRider/icon-24.png height=32> ***[LineRider](https://github.com/Botspot/pi-apps/tree/master/apps/LineRider)***
+<https://github.com/RatherBeLunar/LRA-Community-Edition> - Sussy-OS (rb24#0032), Cycool, and theofficialgman for writing the install script, Boštjan Čadež for the original https://linerider.com game.<br />
+ARM32/ARM64
+
+    An Open Source spiritual successor to the flash game Line Rider
+    Line Rider is a classic sandbox game where you draw a track for the sledder to ride on.
+    
+    Open Source:
+    LRA-Community-Edition is an open source spiritual successor to Line Rider 6.2
+    
+    To run: Menu -> Games -> LineRider
+    To run in a terminal: mono ~/LineRider/linerider.exe
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Bedrock/icon-24.png height=32> ***[Minecraft Bedrock](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Bedrock)***
 <https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/appimage> - Install script written by RaspberryPiNews on YT
 Appimage made by ChristopherHX on Github
