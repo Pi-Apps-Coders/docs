@@ -244,15 +244,6 @@ ARM32 ONLY
     To run: Menu -> Programming -> Eagle
     To run in a terminal: eagle
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/FreeCAD/icon-24.png height=32> ***[FreeCAD](https://github.com/Botspot/pi-apps/tree/master/apps/FreeCAD)***
-<https://scruss.com/blog/2020/02/16/freecad-on-raspberry-pi-4/> - .deb compiled by @ryanfortner (GitHub)<br />
-ARM32 ONLY
-
-    3D designer software. Unlike the repository's version of FreeCAD, this one actually works.
-    Thanks to @ryanfortner, the FreeCAD app is now a deb, and installs in a few minutes instead of many hours!
-    To run: Menu -> Graphics -> FreeCAD
-    To run in a terminal: FreeCAD
-
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/GIMP/icon-24.png height=32> ***[GIMP](https://github.com/Botspot/pi-apps/tree/master/apps/GIMP)***
 <https://www.gimp.org/> - Made by The GIMP Team
 Added to Pi Apps by Lightstrike on Discord<br />
@@ -335,18 +326,6 @@ Package app
 ARM32 ONLY
 
     Develop printed circuit boards.
-
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LinuxCNC/icon-24.png height=32> ***[LinuxCNC](https://github.com/Botspot/pi-apps/tree/master/apps/LinuxCNC)***
-<http://linuxcnc.org> - Thanks to the LinuxCNC community for creating LinuxCNC
-Thanks to Crilum on GitHub for making the scripts.<br />
-ARM32 ONLY
-
-    LinuxCNC controls CNC machines. It can drive milling machines, lathes, 3D printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
-    
-    How to run: Menu -> Other -> LinuxCNC
-    In Terminal: linuxcnc
-    
-    LinuxCNC is software that runs on Linux, on most standard PCs, that can interpret G-code and run a CNC machine. It was originally developed on a milling machine, but support was added for lathes and many other types of machine. It can be used with mills, lathes, plasma cutters, routers, robots, and so on.
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/NixNote2/icon-24.png height=32> ***[NixNote2](https://github.com/Botspot/pi-apps/tree/master/apps/NixNote2)***
 <https://github.com/baumgarr/Nixnote2> - Botspot<br />
@@ -1097,7 +1076,7 @@ ARM32 ONLY
     To run: Menu -> Internet -> WeChat
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/WhatsApp/icon-24.png height=32> ***[WhatsApp](https://github.com/Botspot/pi-apps/tree/master/apps/WhatsApp)***
-no website - Apps compiled using Nativefier and scripts written by Itai-Nelken
+no website - Apps compiled using Nativefier and DEB packages hosted by cycool29
 Nativefier made by jiahaog.
 Thanks to Botspot for help with debugging the menu shortcut and for creating pi-apps!<br />
 ARM32/ARM64
@@ -1202,18 +1181,6 @@ Package app
     Epiphany is the default web browser for GNOME desktop and elementary OS. Epiphany was the default web browser for Raspberry Pi OS (then, Raspbian) until 28th Sep 2016, when ditched for chromium. 
     
     To run: Menu  -> Internet -> Epiphany Web Browser
-
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Falkon/icon-24.png height=32> ***[Falkon](https://github.com/Botspot/pi-apps/tree/master/apps/Falkon)***
-<https://falkon.org><br />
-ARM32/ARM64
-
-    Falkon is a KDE web browser using QtWebEngine rendering engine, previously known as QupZilla.
-    
-    It aims to be a lightweight web browser available through all major platforms. This project has been originally started only for educational purposes. But from its start, Falkon has grown into a feature-rich browser.
-    
-    Falkon has all standard functions you expect from a web browser. It includes bookmarks, history (both also in sidebar) and tabs. Above that, it has by default enabled blocking ads with a built-in AdBlock plugin.
-    
-    To run: Menu -> Internet -> Falkon
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Firefox%20Rapid%20Release/icon-24.png height=32> ***[Firefox Rapid Release](https://github.com/Botspot/pi-apps/tree/master/apps/Firefox%20Rapid%20Release)***
 Scripts made by chunky-milk
