@@ -1652,14 +1652,6 @@ Package app
     To run: Menu -> Accessories -> Imager
     To run in terminal: rpi-imager
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/KeePassX/icon-24.png height=32> ***[KeePassX](https://github.com/Botspot/pi-apps/tree/master/apps/KeePassX)***
-<https://github.com/keepassxreboot/keepassxc> - @ryanfortner (GitHub) for the scripts
-@raspbian-addons maintainers for the deb<br />
-ARM32/ARM64
-
-    KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.
-    Run via the Main Menu > Accessories > KeePassXC
-
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Microsoft%20PowerShell/icon-24.png height=32> ***[Microsoft PowerShell](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20PowerShell)***
 <https://docs.microsoft.com/en-us/powershell/scripting/install/install-raspbian?view=powershell-7.2> - Made by Microsoft [ Open Source Code ]
 Ported by TurquoiseTNT<br />
