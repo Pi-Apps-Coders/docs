@@ -327,6 +327,17 @@ ARM32 ONLY
 >
     Develop printed circuit boards.
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/MatterControl/icon-24.png height=32> ***[MatterControl](https://github.com/Botspot/pi-apps/tree/master/apps/MatterControl)***
+<https://mattercontrol.com> - Botspot and theofficialgman<br />
+ARM32/ARM64
+>
+    MatterControl is an all-in-one program to create, edit, slice, and manage your 3D prints.
+    While not quite as popular as Cura or PrusaSlicer, this program offers features and supports printers that alternative programs don't.
+    
+    To run: Menu -> Accessories -> MatterControl
+    To run in a terminal: mattercontrol
+    Please note that when the window first opens that it will be black. Resizing or maximizing the window will solve this problem.
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/NixNote2/icon-24.png height=32> ***[NixNote2](https://github.com/Botspot/pi-apps/tree/master/apps/NixNote2)***
 <https://github.com/baumgarr/Nixnote2> - Botspot<br />
 Package app
@@ -1186,7 +1197,7 @@ Package app
     To run: Menu  -> Internet -> Epiphany Web Browser
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Firefox%20Rapid%20Release/icon-24.png height=32> ***[Firefox Rapid Release](https://github.com/Botspot/pi-apps/tree/master/apps/Firefox%20Rapid%20Release)***
-Scripts made by chunky-milk
+<https://firefox.com> - Scripts made by chunky-milk
 Added to Pi-Apps by Tejas Singh YT
 Original Web-Browser made by Mozilla Foundation.<br />
 ARM32/ARM64
@@ -1739,7 +1750,7 @@ ARM32/ARM64
     As usual, this app will keep it updated.
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pi-Apps%20Terminal%20Plugin%20(bash)/icon-24.png height=32> ***[Pi-Apps Terminal Plugin (bash)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(bash))***
-Created and added to pi-apps by Itai-Nelken<br />
+<https://github.com/Itai-Nelken/PiApps-terminal_bash-edition> - Created and added to pi-apps by Itai-Nelken<br />
 ARM32/ARM64
 >
     Pi-apps terminal is a script that lets you use pi-apps from the terminal, its written in bash.
@@ -1790,7 +1801,7 @@ ARM32/ARM64
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/piKiss/icon-24.png height=32> ***[piKiss](https://github.com/Botspot/pi-apps/tree/master/apps/piKiss)***
 <https://github.com/jmcerrejon/PiKISS><br />
-ARM32 ONLY
+ARM32/ARM64
 >
     A bunch of scripts with a menu to make your life easier. 
     To run: Menu -> System Tools -> PiKiss
