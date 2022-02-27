@@ -1019,7 +1019,7 @@ ARM32/ARM64
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/TeamViewer%20Host/icon-24.png height=32> ***[TeamViewer Host](https://github.com/Botspot/pi-apps/tree/master/apps/TeamViewer%20Host)***
 <https://github.com/Benmac83/Teamviewer-installer-for-pi> - Credits go to @Benmac83 on the Botspot discord server<br />
-ARM32 ONLY
+ARM32/ARM64
 >
     Remote desktop server software.
     To run: Menu -> Internet -> TeamViewer Host
@@ -1811,6 +1811,21 @@ ARM32/ARM64
      ∙ Emulators galore!
      ∙ Install apps like OBS and Cool-Retro-Term!
      ∙ AND MUCH MORE!
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/PiKISS%20GUI/icon-24.png height=32> ***[PiKISS GUI](https://github.com/Botspot/pi-apps/tree/master/apps/PiKISS%20GUI)***
+<https://github.com/Jai-JAP/PiKISS-GUI> - @krishenriksen on Github for creating PiKISS-GUI.
+@Jai-JAP on Github for modifying the app to add semi-automated app syncs from piKISS & adding this app to Pi-Apps.<br />
+ARM32/ARM64
+>
+    PiKISS GUI is a GTK frontend for PiKISS
+    
+    To run: Menu -> Accessories -> PiKISS GUI
+    To run in a terminal: ~/.local/bin/pikiss-gui
+    
+    To Sync apps with PiKISS:
+    Run: Menu -> Accessories -> PiKISS GUI Sync Apps
+    (or)
+    From terminal run: ~/local/share/pikiss-gui/getapps.sh
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pi%20Power%20Tools/icon-24.png height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
 <https://github.com/Botspot/Pi-Power-Tools><br />
