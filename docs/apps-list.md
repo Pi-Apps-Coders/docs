@@ -244,6 +244,16 @@ ARM32 ONLY
     To run: Menu -> Programming -> Eagle
     To run in a terminal: eagle
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Fritzing/icon-24.png height=32> ***[Fritzing](https://github.com/Botspot/pi-apps/tree/master/apps/Fritzing)***
+<https://fritzing.org/> - theofficialgman for writing the install script<br />
+ARM32/ARM64
+>
+    The Fritzing application is an Electronic Design Automation software with a low entry barrier, suited for the needs of makers and hobbyists.
+    It offers a unique real-life "breadboard" view, and a parts library with many commonly used high-level components. Fritzing makes it very easy to communicate about circuits, as well as to turn them into PCB layouts ready for production. 
+    
+    To run: Menu -> Programming/Development -> Fritzing
+    To run in a terminal: Fritzing --parts $HOME/.local/share/fritzing/parts
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/GIMP/icon-24.png height=32> ***[GIMP](https://github.com/Botspot/pi-apps/tree/master/apps/GIMP)***
 <https://www.gimp.org/> - Made by The GIMP Team
 Added to Pi Apps by Lightstrike on Discord<br />
@@ -1880,7 +1890,7 @@ Package app
     To run in terminal: gnome-screenshot
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Snapdrop/icon-24.png height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
-<https://github.com/RobinLinus/snapdrop> - Added by @ryanfortner (Github)<br />
+<https://github.com/RobinLinus/snapdrop> - Packaged and added by Ryan Fortner<br />
 ARM32/ARM64
 >
     Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
