@@ -322,6 +322,17 @@ ARM32 ONLY
     
     This program runs extremely well on RPi. The only problem I (Botspot) could find was the sound effects don't work.
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LibreCAD/icon-24.png height=32> ***[LibreCAD](https://github.com/Botspot/pi-apps/tree/master/apps/LibreCAD)***
+<https://librecad.org/> - @Jai-JAP for adding this app to pi-apps<br />
+Package app
+>
+    Open Source 2D-CAD
+    LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. Support and documentation are free from our large, dedicated community of users, contributors and developers.
+    
+    Documentation available at: https://dokuwiki.librecad.org/doku.php
+    
+    To run: Menu -> Graphics -> LibreCAD
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LibreOffice/icon-24.png height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
 <https://www.libreoffice.org> - Botspot<br />
 Package app
@@ -899,6 +910,14 @@ ARM32/ARM64
     Caprine is a third-party app and is not affiliated with Facebook. 
     
     
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Cawbird/icon-24.png height=32> ***[Cawbird](https://github.com/Botspot/pi-apps/tree/master/apps/Cawbird)***
+<https://ibboard.co.uk/cawbird/> - IBBoard for continuously developing Cawbird.<br />
+ARM32/ARM64
+>
+    Cawbird is a fork of the Corebird GTK Twitter client that continues to work with Twitter.
+    
+    Cawbird works with the new APIs and includes a few fixes and modifications that have historically been patched in to IBBoard's custom Corebird build on his personal Open Build Service account.
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/CloudBuddy/icon-24.png height=32> ***[CloudBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/CloudBuddy)***
 <https://github.com/Botspot/cloudbuddy> - Botspot made, Botspot added.<br />
@@ -1809,19 +1828,6 @@ ARM32/ARM64
     PiGro is a program designed to make all Debian-based distributions easier to use on the Pi.
     The most common terminal commands can be executed with one click.
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/piKiss/icon-24.png height=32> ***[piKiss](https://github.com/Botspot/pi-apps/tree/master/apps/piKiss)***
-<https://github.com/jmcerrejon/PiKISS><br />
-ARM32/ARM64
->
-    A bunch of scripts with a menu to make your life easier. 
-    To run: Menu -> System Tools -> PiKiss
-    To run in a terminal: ~/piKiss/piKiss.sh
-     ∙ Easy system configuration
-     ∙ Ability to install your favourite games like Half Life
-     ∙ Emulators galore!
-     ∙ Install apps like OBS and Cool-Retro-Term!
-     ∙ AND MUCH MORE!
-
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/PiKISS%20GUI/icon-24.png height=32> ***[PiKISS GUI](https://github.com/Botspot/pi-apps/tree/master/apps/PiKISS%20GUI)***
 <https://github.com/Jai-JAP/PiKISS-GUI> - @krishenriksen on Github for creating PiKISS-GUI.
 @Jai-JAP on Github for modifying the app to add semi-automated app syncs from piKISS & adding this app to Pi-Apps.<br />
@@ -1836,6 +1842,19 @@ ARM32/ARM64
     Run: Menu -> Accessories -> PiKISS GUI Sync Apps
     (or)
     From terminal run: ~/local/share/pikiss-gui/getapps.sh
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/piKiss/icon-24.png height=32> ***[piKiss](https://github.com/Botspot/pi-apps/tree/master/apps/piKiss)***
+<https://github.com/jmcerrejon/PiKISS><br />
+ARM32/ARM64
+>
+    A bunch of scripts with a menu to make your life easier. 
+    To run: Menu -> System Tools -> PiKiss
+    To run in a terminal: ~/piKiss/piKiss.sh
+     ∙ Easy system configuration
+     ∙ Ability to install your favourite games like Half Life
+     ∙ Emulators galore!
+     ∙ Install apps like OBS and Cool-Retro-Term!
+     ∙ AND MUCH MORE!
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pi%20Power%20Tools/icon-24.png height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
 <https://github.com/Botspot/Pi-Power-Tools><br />
