@@ -2024,6 +2024,16 @@ ARM32/ARM64
     - Provides plausible deniability, in case an adversary forces you to reveal the password: Hidden volume (steganography) and hidden operating system.
     - More information about the features of VeraCrypt may be found in the documentation.
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/VMware%20Horizon%20Client/icon-24.png height=32> ***[VMware Horizon Client](https://github.com/Botspot/pi-apps/tree/master/apps/VMware%20Horizon%20Client)***
+<https://www.vmware.com/products/horizon><br />
+ARM32 ONLY
+>
+    VMware Horizon Client allows your end users to connect to their VMware Horizon View VM from a device of choice.
+    
+    The Horizon Client app communicates with the View Connection Server, which acts as a broker between the client device and View desktops. Users enter credentials into Horizon Client and the View Connection Server authenticates them and then finds their virtual desktops.
+    
+    IT administrators can also use Horizon Client and the View Connection Server to deliver Microsoft Remote Desktop Session Host (RDSH) desktops and applications from an RDSH farm or to deliver VMware ThinApp applications within Horizon View.
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Windows%20Flasher/icon-24.png height=32> ***[Windows Flasher](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Flasher)***
 <https://github.com/Botspot/wor-flasher> - Botspot<br />
 ARM32/ARM64
