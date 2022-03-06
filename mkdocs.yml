@@ -10,7 +10,7 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/lightbulb-outline
+        icon: material/toggle-switch
         name: Switch to dark mode
 
     # Dark mode
@@ -19,7 +19,7 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/lightbulb
+        icon: material/toggle-switch-off-outline
         name: Switch to light mode
 
 repo_name: Pi-Apps-Coders/docs
