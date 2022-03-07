@@ -25,7 +25,7 @@ jobs:
           [ "$current" == "$version" ] && exit 0
           rm -f ./docs/apps-list.md
           cp ./appslist-template.md ./docs/apps-list.md
-          cat ./pi-apps.wiki.git/Apps-List.md >> ./docs/apps-list.md
+          cat ./pi-apps.wiki/Apps-List.md >> ./docs/apps-list.md
           rm -rf ./pi-apps.wiki/
           sed -i '1s/^/# Apps List\n/' ./docs/apps-list.md
           sed -i 's/blob/raw/' ./docs/apps-list.md
