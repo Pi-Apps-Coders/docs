@@ -1,3 +1,7 @@
+---
+template: overrides/main.html
+---
+
 Pi-Apps keeps track of each app's status: installed or uninstalled. (as well as a few other possible values)  
 Each app's status is located in the `data/status` folder.  
 For example, on a default Pi-Apps installation, the status file for **arduino** is located at: `/home/pi/pi-apps/data/status/Arduino`.  

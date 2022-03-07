@@ -1,3 +1,7 @@
+---
+template: overrides/main.html
+---
+
 #### Location:
 On a default pi-apps installation, you will find this script at `/home/pi/pi-apps/etc/categoryedit`.  
 This file is located in the `etc` folder because it's one of the smaller scripts.

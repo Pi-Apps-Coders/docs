@@ -1,3 +1,7 @@
+---
+template: overrides/main.html
+---
+
 # Home
 
 Welcome to the Pi-Apps documentation page!
