@@ -1,4 +1,3 @@
-# Apps List
 ---
 template: overrides/main.html
 ---
