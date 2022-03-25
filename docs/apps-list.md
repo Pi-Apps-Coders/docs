@@ -1642,7 +1642,8 @@ To run in terminal: ~/autostar/main.sh
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/BalenaEtcher/icon-24.png height=32> ***[BalenaEtcher](https://github.com/Botspot/pi-apps/tree/master/apps/BalenaEtcher)***
-<https://www.raspberrypi.org/forums/viewtopic.php?f=62https://www.raspberrypi.org/forums/viewtopic.php?f=62&t=255205&start=25#p1564958t=255205https://www.raspberrypi.org/forums/viewtopic.php?f=62&t=255205&start=25#p1564958start=25#p1564958> - Etcher .deb compiled by Itai Nelken.<br />
+<https://www.raspberrypi.org/forums/viewtopic.php?f=62https://www.raspberrypi.org/forums/viewtopic.php?f=62&t=255205&start=25#p1564958t=255205https://www.raspberrypi.org/forums/viewtopic.php?f=62&t=255205&start=25#p1564958start=25#p1564958> - @Itai-Nelken (GitHub)
+@ryanfortner (GitHub)<br />
 ARM32/ARM64
 ```
 Flash SD cards with a disk image. Many file types supported.
@@ -1739,6 +1740,22 @@ Package app
 Ever wonder where you put that big file, or why your SD card is full? Now you can, with a glance at a pie chart.
 To run: Menu -> System Tools -> Disk Usage Analyzer
 To run in a terminal: baobab
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Ducopanel/icon-24.png height=32> ***[Ducopanel](https://github.com/Botspot/pi-apps/tree/master/apps/Ducopanel)***
+<https://github.com/ponsato/ducopanel> - @ponsato (GitHub) for the program
+@ryanfortner (GitHub) for the scripts<br />
+ARM64 ONLY
+```
+Desktop app to manage Duino-Coin miners and tools.
+
+You can upload the code to any Arduino board, mine with all the boards or with the ones you choose, mine with the PC (choosing the cores you want), and much more.
+You can also connect to your official wallet and perform any operation without leaving the application, as well as see the live status of the network and servers.
+This development makes everything related to DuinoCoin even easier, based exclusively on the official tools.
+
+ElectronJs has been used for this purpose.
+
+To run the program: Main Menu -> Accessories -> Ducopanel
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/FF%20Multi%20Converter/icon-24.png height=32> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
