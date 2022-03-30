@@ -1491,7 +1491,7 @@ Disabling the compositor improves playback performance.
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Kodi/icon-24.png height=32> ***[Kodi](https://github.com/Botspot/pi-apps/tree/master/apps/Kodi)***
 <https://kodi.tv/about> - Botspot<br />
-Package app
+ARM32/ARM64
 ```
 Kodi is the ultimate entertainment center.
 Kodi excels at:
@@ -1850,6 +1850,24 @@ This app uses Wine to run a windows exe file.
 To launch: Menu -> Applications -> HTTPS File Server
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Hyper/icon-24.png height=32> ***[Hyper](https://github.com/Botspot/pi-apps/tree/master/apps/Hyper)***
+<https://hyper.is> - Thanks to:
+ - vercel and all contributors for creating Hyper!
+ - @Jai-JAP on GitHub for armv7l build & fixing arm64 build
+ - @Crilum on GitHub for the simple scripts<br />
+ARM32/ARM64
+```
+A modern electron terminal
+
+Hyper is an Electron-based terminal.
+ - Built on HTML/CSS/JS
+ - Fully extensible
+ - Install themes and plugins from the command line
+
+Run from Terminal: hyper
+Run from Menu: Menu -> Accessories -> Hyper
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Imager/icon-24.png height=32> ***[Imager](https://github.com/Botspot/pi-apps/tree/master/apps/Imager)***
 <https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility> - Botspot<br />
 Package app
@@ -2154,6 +2172,19 @@ For testing purposes, you can look at the website from the Pi itself by launchin
 As mentioned earlier, the website is only visible to computers in the local network.
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Tabby/icon-24.png height=32> ***[Tabby](https://github.com/Botspot/pi-apps/tree/master/apps/Tabby)***
+<https://tabby.sh/> - Thanks to:
+ - Eugeny and all contributors for creating Tabby!
+ - @Jai-JAP on GitHub for armv7l & arm64 builds & for the simple scripts<br />
+ARM32/ARM64
+```
+ A terminal for a more modern age 
+Tabby (formerly Terminus) is a highly configurable terminal emulator, SSH and serial client for Windows, macOS and Linux.
+
+Run from Terminal: tabby
+Run from Menu: Menu -> Accessories -> Tabby
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Temps/icon-24.png height=32> ***[Temps](https://github.com/Botspot/pi-apps/tree/master/apps/Temps)***
 <https://github.com/musicpro/temps> - Thanks to Crilum on GitHub for making the scripts.
 Thanks to jackd248 on GitHub for the original temps.
@@ -2165,6 +2196,13 @@ Temps is a modern and minimal menubar application based on Electron with actual 
 Run from: Menu -> Accessories -> Temps
 or from Terminal: temps
 
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/TiLP/icon-24.png height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
+<https://github.com/debrouxl/tilp_and_gfm> - @ryanfortner (GitHub)<br />
+Package app
+```
+TiLP is a linking program for Texas Instruments graphing calculators. It can transfer apps, programs, and more to a calculator.
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Timeshift/icon-24.png height=32> ***[Timeshift](https://github.com/Botspot/pi-apps/tree/master/apps/Timeshift)***
