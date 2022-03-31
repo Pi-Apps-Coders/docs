@@ -46,13 +46,13 @@ To run in terminal: ~/cool-retro-term/cool-retro-term
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/eDEX-UI/icon-24.png height=32> ***[eDEX-UI](https://github.com/Botspot/pi-apps/tree/master/apps/eDEX-UI)***
-<https://github.com/Botspot/eDEX-UI-RPi><br />
+<https://github.com/GitSquared/edex-ui><br />
 ARM32/ARM64
 ```
 Futuristic hacker terminal
 Inspired from Hollywood, this terminal is beautiful to look at and will impress your friends. It's a fully-functional bash terminal, system monitor, file manager, and on-screen keyboard, all in one fullscreen window.
 Oh, and it has sound effects.
-To run: Menu -> System Tools -> eDEX-UI 2.2.7. This new version loads in about 10 seconds! (instead of 2 minutes like Novaspirit's old version)
+To run: Menu -> System Tools -> eDEX-UI. This new version loads in about 10 seconds! (instead of 2 minutes like Novaspirit's old version)
 
 To exit eDEX-UI, press Alt+F4, or run this command in the terminal: exit
 Change settings with Ctrl+Shift+S.
@@ -2222,6 +2222,7 @@ to run from terminal: timeshift
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/tldr/icon-24.png height=32> ***[tldr](https://github.com/Botspot/pi-apps/tree/master/apps/tldr)***
 <https://github.com/dbrgn/tealdeer> - Ported to pi-apps by Raspberry Pi News on youtube
+Updated by CleanMachine1
 Made by the community at https://github.com/tldr-pages/tldr<br />
 ARM32/ARM64
 ```
