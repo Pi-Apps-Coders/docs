@@ -952,10 +952,8 @@ To run: Menu -> Games -> Unciv
 # Internet
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Angry%20IP%20scanner/icon-24.png height=32> ***[Angry IP scanner](https://github.com/Botspot/pi-apps/tree/master/apps/Angry%20IP%20scanner)***
-<https://angryip.org> - Added to pi-apps by Itai-Nelken.
-
-Big thanks to chunky-milk for finding that this app works on the rpi.
-https://github.com/chunky-milk/pi-bashscripts-files/tree/main/angry-ip-scanner<br />
+<https://angryip.org> - @Itai-Nelken (GitHub)
+@ryanfortner (GitHub)<br />
 ARM32/ARM64
 ```
 Scans local networks as well as Internet
@@ -1685,7 +1683,7 @@ Because Box64 uses the native versions of some "system" libraries, like libc, li
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Box86/icon-24.png height=32> ***[Box86](https://github.com/Botspot/pi-apps/tree/master/apps/Box86)***
 <https://github.com/ptitSeb/box86> - Itai-Nelken for his box86 debs and script creation<br />
-ARM32 ONLY
+ARM32/ARM64
 ```
 Easily emulate x86 linux apps on Raspberry Pi.
 Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux, like ARM (host system needs to be 32bit little-endian).
