@@ -2170,6 +2170,15 @@ For testing purposes, you can look at the website from the Pi itself by launchin
 As mentioned earlier, the website is only visible to computers in the local network.
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/System%20Monitoring%20Center/icon-24.png height=32> ***[System Monitoring Center](https://github.com/Botspot/pi-apps/tree/master/apps/System%20Monitoring%20Center)***
+<https://github.com/hakandundar34coding/system-monitoring-center> - @hakandundar34coding (GitHub)
+@ryanfortner (GitHub)<br />
+ARM32/ARM64
+```
+Linux system monitor similar to the Windows task manager, written in Python.
+Run via the Main Menu > System Tools > System Monitoring Center.
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Tabby/icon-24.png height=32> ***[Tabby](https://github.com/Botspot/pi-apps/tree/master/apps/Tabby)***
 <https://tabby.sh/> - Thanks to:
  - Eugeny and all contributors for creating Tabby!
