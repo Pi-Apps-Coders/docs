@@ -835,15 +835,14 @@ Temurin (Adoptium) or AdoptOpenJDK Java 8/16/17 apt repos are used in this insta
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Pi%20(Modded)/icon-24.png height=32> ***[Minecraft Pi (Modded)](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Pi%20(Modded))***
-<https://discord.com/invite/aDqejQGMMy> - Game mods and jMCPIL made by TheBrokenRail#5376 on Discord
-gMCPIL made by Alvarito050506#8207 on Discord
+<https://discord.com/invite/aDqejQGMMy> - Game mods made by TheBrokenRail#5376 on Discord
 
 Ported to Pi-Apps by TheBrokenRail#5376 on Discord with a little help from Botspot.<br />
 ARM32/ARM64
 ```
 A modded version of Minecraft: Pi Edition with things like survival mode, multiplayer support, and more!
 
-To open the launcher: Menu > Games > gMCPIL or jMCPIL, depending on which version you chose at install time. Use the launcher to set up mods and multiplayer.
+To open the game: Menu > Games > Minecraft Pi (Modded)
 
 Need help? Consider asking on MCPI Modded's Discord server instead: https://discord.gg/3wXu3xtr
 
@@ -854,7 +853,6 @@ F1 key to hide HUD
 F5 to switch to 3rd person view
 
 Notes:
-You must be in gamemode survival and have Touch GUI enabled to use Chests, Crafting Tables, etc.
 To make a crafting table, press "E" and then go to the Craft menu in the upper left-hand corner. Click on what you want to craft, then click the big button with all of the stuff needed to craft the item to craft it.
 Mouse scroll doesn't exist, you need to use your mouse to drag stuff like the crafting menu.
 ```
