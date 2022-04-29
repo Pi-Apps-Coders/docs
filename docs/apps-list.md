@@ -2146,6 +2146,15 @@ To run: Menu -> Preferences -> Synaptic Package Manager
 To run in terminal: sudo synaptic
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Syncthing/icon-24.png height=32> ***[Syncthing](https://github.com/Botspot/pi-apps/tree/master/apps/Syncthing)***
+<https://syncthing.net> - @theofficialgman on GitHub for the scripts<br />
+ARM32/ARM64
+```
+A sync manager that syncs folders to different devices no matter where you are!
+to start, go to Internet => Syncthing start
+Terminal: syncthing.
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/SysMonTask/icon-24.png height=32> ***[SysMonTask](https://github.com/Botspot/pi-apps/tree/master/apps/SysMonTask)***
 <https://github.com/KrispyCamel4u/SysMonTask> - @KrispyCamel4u (GitHub) for the program
 @ryanfortner (GitHub) for the scripts<br />
