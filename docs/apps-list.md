@@ -1369,7 +1369,7 @@ To run in terminal: palemoon
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Puffin/icon-24.png height=32> ***[Puffin](https://github.com/Botspot/pi-apps/tree/master/apps/Puffin)***
 <https://www.puffin.com/raspberry-pi/> - Botspot added this app to Pi-Apps.<br />
-ARM32 ONLY
+ARM32/ARM64
 ```
 Speeds up web browsing thanks to cloud servers.
 This web browser uses cloud servers to load websites for you, instead of making your Pi do it all.
@@ -1521,6 +1521,32 @@ Free and open source software for video recording and live streaming.
 
 To run: Menu -> Sound & Video -> OBS Studio
 To run in a terminal: obs
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Renoise%20(Demo)/icon-24.png height=32> ***[Renoise (Demo)](https://github.com/Botspot/pi-apps/tree/master/apps/Renoise%20(Demo))***
+<https://renoise.com> - Thanks to:
+ - Renoise developer for making Renoise, and providing Raspberry Pi builds!
+ - @Crilum on GitHub for adding teh app to Pi-Apps<br />
+ARM32/ARM64
+```
+Renoise is a cross-platform Digital Audio Workstation with a unique top-down approach to music composition known as a tracker interface.
+
+Already known to be a very feature-complete software, version 3 improves on core features such as the native sampler and instrument. 
+
+This version is only a demo, you can buy the full version at: https://www.renoise.com/shop
+Renoise Demo Restrictions
+
+ · No ASIO support on Windows
+ · Rendering to .wav is disabled
+ · Rendering/resampling selections is disabled
+ · Rendering/freezing plugin instruments to samples is disabled
+ · Nag screens
+ · As ReWire Master, only the first stereo input bus will be available
+ · As ReWire Slave, Renoise will occasionally generate a small subtle hiss
+
+
+To Run from Menu: Menu -> Sound and Video -> Renoise
+To run in Terminal: renoise
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/SimpleScreenRecorder/icon-24.png height=32> ***[SimpleScreenRecorder](https://github.com/Botspot/pi-apps/tree/master/apps/SimpleScreenRecorder)***
