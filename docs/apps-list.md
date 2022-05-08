@@ -550,7 +550,8 @@ It natively supports many programming languages and markup languages. Additional
 
 To run: Menu -> Programming -> Sublime Text
 
-This runs Sublime Text v2 with the Box86 emulator.
+On armhf based Operating Systems, this runs Sublime Text 2 with the Box86 emulator.
+However on arm64 based Operating Systems this runs the latest Sublime Text 4 without any emulation.
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Turbowarp/icon-24.png height=32> ***[Turbowarp](https://github.com/Botspot/pi-apps/tree/master/apps/Turbowarp)***
@@ -1821,6 +1822,17 @@ How will it compare to the newest devices on the market?
 Find out today with Geekbench 5.
 
 To run in terminal: geekbench
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Github%20Desktop/icon-24.png height=32> ***[Github Desktop](https://github.com/Botspot/pi-apps/tree/master/apps/Github%20Desktop)***
+<https://desktop.github.com/> - Added to pi-apps and compiled by theofficialgman<br />
+ARM32/ARM64
+```
+Github Desktop is a GUI git client.
+Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.
+
+Run from Menu: Menu -> Accessories -> Github Desktop
+Run from Terminal: github-desktop
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Github-CLI/icon-24.png height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
