@@ -248,6 +248,18 @@ To run: Menu -> Programming -> Ultimaker Cura
 To run in a terminal: ~/Cura.AppImage
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Dot%20Matrix/icon-24.png height=32> ***[Dot Matrix](https://github.com/Botspot/pi-apps/tree/master/apps/Dot%20Matrix)***
+<https://github.com/lainsce/dot-matrix> - Thanks to:
+ - @lainsce (Lains) on GitHub, as well as all the other contributors for creating Dot Matrix!
+ - @Crilum on GitHub for creating the scripts and submitting the app to Pi-Apps.<br />
+ARM64 ONLY
+```
+The glyph playground of creativity from simple lines
+
+Run from Menu: Menu -> Graphics -> Dot Matrix
+Run from Terminal: flatpak run io.github.lainsce.DotMatrix
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Drawing/icon-24.png height=32> ***[Drawing](https://github.com/Botspot/pi-apps/tree/master/apps/Drawing)***
 <https://github.com/maoschanz/drawing> - Botspot<br />
 ARM32/ARM64
@@ -705,7 +717,7 @@ As one of only a few survivors, you must fight your way to hell and back against
 <https://github.com/hiulit/Unofficial-Godot-Engine-Raspberry-Pi> - Credits to Irtexo for putting it on Pi-Apps.
 Credits to Hiulit for porting it to the Rpi.
 Credits to Juan Linietsky and Ariel Manzur for creating Godot.<br />
-ARM32/ARM64
+ARM32 ONLY
 ```
 Open Source Game Engine that runs fine on the Raspberry Pi (for 2d games).
 For the export instructions for Raspberry Pi, go to the website.
@@ -1522,6 +1534,23 @@ Free and open source software for video recording and live streaming.
 
 To run: Menu -> Sound & Video -> OBS Studio
 To run in a terminal: obs
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Reaper/icon-24.png height=32> ***[Reaper](https://github.com/Botspot/pi-apps/tree/master/apps/Reaper)***
+<https://reaper.fm> - Thanks to @Crilum on GitHub for adding this app to Pi-Apps<br />
+ARM32/ARM64
+```
+REAPER is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+REAPER supports a vast range of hardware, digital formats and plugins, and can be comprehensively extended, scripted and modified.
+
+REAPER's full, flexible feature set and renowned stability have found a home wherever digital audio is used: commercial and home studios, broadcast, location recording, education, science and research, sound design, game development, and more.
+
+From mission-critical professional environments to students' laptops, there is a single version of REAPER, fully featured with no artificial limitations. You can evaluate REAPER in full for 60 days. A REAPER license is affordably priced and DRM-free.
+
+This is a free 60-day trial of Reaper.
+
+To run from Teminal: reaper
+To run from Menu: Menu -> Sound and Video -> Reaper 
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Renoise%20(Demo)/icon-24.png height=32> ***[Renoise (Demo)](https://github.com/Botspot/pi-apps/tree/master/apps/Renoise%20(Demo))***
