@@ -717,7 +717,7 @@ As one of only a few survivors, you must fight your way to hell and back against
 <https://github.com/hiulit/Unofficial-Godot-Engine-Raspberry-Pi> - Credits to Irtexo for putting it on Pi-Apps.
 Credits to Hiulit for porting it to the Rpi.
 Credits to Juan Linietsky and Ariel Manzur for creating Godot.<br />
-ARM32 ONLY
+ARM32/ARM64
 ```
 Open Source Game Engine that runs fine on the Raspberry Pi (for 2d games).
 For the export instructions for Raspberry Pi, go to the website.
@@ -1607,6 +1607,21 @@ ralf1307 (github) issue #192 for the suggestion.<br />
 ARM32 ONLY
 ```
 Cross-platform audio player - emulated Windows app
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Waveform/icon-24.png height=32> ***[Waveform](https://github.com/Botspot/pi-apps/tree/master/apps/Waveform)***
+<https://tracktion.com/products/waveform-free> - Thanks to @Crilum on GitHub for adding this app to Pi-Apps!<br />
+ARM32/ARM64
+```
+Waveform is a proprietary Digital Audio Workstation specializing in creative and inspirational workflows.
+
+Waveform is a rapidly evolving application specifically designed for the needs of modern music producers. Specializing in creative and inspirational workflows and avoiding features not explicitly needed allow the app to remain surprisingly fun and intuitive.
+
+This is a 90-day free trial of Waveform, but you can get a free licence by creating an account at https://www.tracktion.com/welcome/waveform-free. Once you have an account, you can use it to activate Waveform.
+This app will also work with Pro licenses.
+
+To run from Menu: Menu -> Sound and Video -> Waveform 11
+To run from Terminal: Waveform11
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/YouTubuddy/icon-24.png height=32> ***[YouTubuddy](https://github.com/Botspot/pi-apps/tree/master/apps/YouTubuddy)***
