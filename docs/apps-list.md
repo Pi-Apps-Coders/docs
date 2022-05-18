@@ -1597,6 +1597,29 @@ To run in a terminal: /usr/lib/scratch3/scratch-desktop
 Note: Consider trying Turbowarp or Scratch 2 - both run faster than this version.
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Sphero%20SDK/icon-24.png height=32> ***[Sphero SDK](https://github.com/Botspot/pi-apps/tree/master/apps/Sphero%20SDK)***
+<https://sdk.sphero.com> - Sphero SDK maintainers
+zShqdows (GitHub)
+ryanfortner (GitHub) for some improvements<br />
+ARM32/ARM64
+```
+Software Development Kit for the Sphero RVR Robot
+
+This app can be used with the Sphero RVR Robot to code IR sensors, color sensors, LEDS, and much more, even programming servo's, and robotics arms to pick up and move items to another location.
+
+To run this app: Most of the Instructions are provided after install. 
+Make sure to do - cd ~/sphero-sdk-raspberrypi-python/
+
+(BEFORE INSTALLATION: ENABLE SERIAL PORT, THEN DISABLE SERIAL CONSOLE IN RASPBERRY PI CONFIG)
+
+After reading the instructions, and rebooting, connecting to RVR is simple, using jumper wires, 
+Connect GND from the Raspberry Pi to GND on RVR.
+Connect TX from the Raspberry Pi to RX on RVR.
+Lastly, connect RX from the Raspberry Pi to TX on the RVR.
+
+There you go! You are now ready to run your programs.
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/StackEdit/icon-24.png height=32> ***[StackEdit](https://github.com/Botspot/pi-apps/tree/master/apps/StackEdit)***
 <https://stackedit.io/> - Added to pi-apps by Itai-Nelken.
 webapps compiled by Itai-Nelken using nativefier.
@@ -2243,17 +2266,6 @@ ARM32/ARM64
 Create compressed image files.  Flash SD cards from a disk image. Many file types supported.
 To run: Menu -> Accessories -> PiSafe
 To run in a terminal: pisafe
-```
-
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Raspi2png/icon-24.png height=32> ***[Raspi2png](https://github.com/Botspot/pi-apps/tree/master/apps/Raspi2png)***
-<https://github.com/AndrewFromMelbourne/raspi2png><br />
-ARM32/ARM64
-```
-Takes a screenshot of the framebuffer.
-Useful for overlay applications, like Minecraft or VLC, as this will capture them properly.
-
-Run in a terminal: raspi2png
-The resulting image will be saved to /home/pi/snapshot.png
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Scrcpy/icon-24.png height=32> ***[Scrcpy](https://github.com/Botspot/pi-apps/tree/master/apps/Scrcpy)***
