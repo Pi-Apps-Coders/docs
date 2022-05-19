@@ -1487,6 +1487,22 @@ A free note-taking software for programmers and Computer Science students.
 To run: Menu -> Accessories -> Codex
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Electron%20Fiddle/icon-24.png height=32> ***[Electron Fiddle](https://github.com/Botspot/pi-apps/tree/master/apps/Electron%20Fiddle)***
+<https://www.electronjs.org/fiddle> - Thanks to:
+ - All contributers to Electron, and Electron Fiddle.
+ - Crilum on GitHub for making the scripts.<br />
+ARM32/ARM64
+```
+Electron Fiddle lets you create and play with small Electron experiments. 
+
+It greets you with a quick-start template after opening – change a few things, choose the version of Electron you want to run it with, and play around.
+Then, save your Fiddle either as a GitHub Gist or to a local folder.
+Once pushed to GitHub, anyone can quickly try your Fiddle out by just entering it in the address bar.
+
+Run from menu: Menu -> Accesories -> Electron Fiddle
+Run from Terminal: electron-fiddle
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Github%20Desktop/icon-24.png height=32> ***[Github Desktop](https://github.com/Botspot/pi-apps/tree/master/apps/Github%20Desktop)***
 <https://desktop.github.com/> - Added to pi-apps and compiled by theofficialgman<br />
 ARM32/ARM64
