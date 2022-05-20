@@ -3,6 +3,7 @@ template: overrides/main.html
 ---
 
 # Apps List
+# 
 # Appearance
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Color%20Emoji%20font/icon-24.png height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
@@ -871,6 +872,26 @@ Support for HTTP, HTTPS, FTP, DASH, HLS, HDS protocols, firewalls, proxy servers
 ```
 # Internet/Browsers
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Better%20Chromium/icon-24.png height=32> ***[Better Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Better%20Chromium)***
+Botspot<br />
+ARM32/ARM64
+```
+Make the most of your browser.
+This is a collection of improvements for various aspects of Chromium.
+A window will appear with options. Feel free to pick and choose what you want, and uninstall this app to revert all changes.
+Be sure to close Chromium and re-launch it for the changes to take effect.
+
+Features:
+- Dark mode
+- Change UI scale
+- Google Chrome Sync
+- Widevine DRM support (for protected media like Netflix or Spotify)
+- Performance Improvements
+- Reduce writes to the SD card
+
+With the exception of Widevine, this script simply adds files fo the /etc/chromium.d folder, most of which will add command-line flags to Chromium as it launches. Feel free to inspect the script to see how each of these features work.
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Browsh/icon-24.png height=32> ***[Browsh](https://github.com/Botspot/pi-apps/tree/master/apps/Browsh)***
 <https://www.brow.sh/><br />
 ARM32/ARM64
@@ -893,20 +914,7 @@ If you are using Raspberry Pi OS, this browser has been optimized by the Raspber
 
 To play Netflix, Spotify, or other protected multimedia streams, see the Chromium Widevine app.
 To install an older version of Chromium, see the Downgrade Chromium app.
-
-Chromium supports numerous flags to enable extra features. You can add these flags either manually (by running chromium-browser in a terminal), or by adding the flag to a file in the /etc/chromium/customizations folder.
-Here's how that works: Inside the /etc/chromium/customizations folder there will be one or more files. On most systems there will already be a 00-rpi-vars file there. You can add flags to it, or create a new file. In all cases, be sure it starts with:
-CHROMIUM_FLAGS="${CHROMIUM_FLAGS}
-And be sure it ends with this character: "
-
-Now that you know how to add flags to Chromium, here are some useful ones:
-- Enable Google Chrome Sync: --oauth2-client-id=77185425430.apps.googleusercontent.com --oauth2-client-secret=OTJgUOQcT7lO7GsGZq2G4IlT
-    This flag is discussed in the Raspberry Pi Forums: https://forums.raspberrypi.com/viewtopic.php?t=314477
-- Enable dark mode: --force-dark-mode
-    If you want more themes, go visit the Chrome Web Store: https://chrome.google.com/webstore/category/themes
-- Change the scale of the browser window: --force-device-scale-factor=1.3
-    The default is 1 - smaller values will shrink the interface, while larger values will grow the interface.
-- More chromium flags can be found on this website: https://peter.sh/experiments/chromium-command-line-switches
+To improve Chromium with features such as Google sync, dark mode, performance improvements, and reducing SD card writes, see the Better Chromium app.
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Downgrade%20Chromium/icon-24.png height=32> ***[Downgrade Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Downgrade%20Chromium)***
@@ -1387,16 +1395,6 @@ Simple YouTube search engine, downloader and player.
 ```
 # Office
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LibreOffice/icon-24.png height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
-<https://www.libreoffice.org> - Botspot<br />
-Package app
-```
-Free office suite including a word editor, slideshow, spreadsheet, database, and image editor
-To run: Menu -> Office -> LibreOffice
-To run in terminal: libreoffice
-To make it look and feel like Microsoft Office, see the "Libreoffice MS Theme" app!
-```
-
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Libreoffice%20MS%20theme/icon-24.png height=32> ***[Libreoffice MS theme](https://github.com/Botspot/pi-apps/tree/master/apps/Libreoffice%20MS%20theme)***
 <https://github.com/Botspot/libreoffice-ms-theme> - Botspot made this script and theme.<br />
 ARM32/ARM64
@@ -1405,6 +1403,16 @@ Make Libreoffice to look like Microsoft office - icon theme and tabbed interface
 The icon theme was obtained from here: https://www.deviantart.com/charliecnr/art/Office-2013-theme-for-LibreOffice-512127527
 And the tabbed interface is a hidden feature within Libreoffice.
 Currently, the tabbed interface works for Calc, Impress, and Writer. Base and Math don't support it, and it doesn't display correctly on Draw for some reason.
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LibreOffice/icon-24.png height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
+<https://www.libreoffice.org> - Botspot<br />
+Package app
+```
+Free office suite including a word editor, slideshow, spreadsheet, database, and image editor
+To run: Menu -> Office -> LibreOffice
+To run in terminal: libreoffice
+To make it look and feel like Microsoft Office, see the "Libreoffice MS Theme" app!
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/NixNote2/icon-24.png height=32> ***[NixNote2](https://github.com/Botspot/pi-apps/tree/master/apps/NixNote2)***
@@ -1503,6 +1511,16 @@ Run from menu: Menu -> Accesories -> Electron Fiddle
 Run from Terminal: electron-fiddle
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Github-CLI/icon-24.png height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
+<https://cli.github.com/> - Added to pi-apps by Itai-Nelken<br />
+ARM32/ARM64
+```
+gh is GitHub on the command line.
+It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
+
+to run (terminal only): gh
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Github%20Desktop/icon-24.png height=32> ***[Github Desktop](https://github.com/Botspot/pi-apps/tree/master/apps/Github%20Desktop)***
 <https://desktop.github.com/> - Added to pi-apps and compiled by theofficialgman<br />
 ARM32/ARM64
@@ -1512,16 +1530,6 @@ Focus on what matters instead of fighting with Git. Whether you're new to Git or
 
 Run from Menu: Menu -> Accessories -> Github Desktop
 Run from Terminal: github-desktop
-```
-
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Github-CLI/icon-24.png height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
-<https://cli.github.com/> - Added to pi-apps by Itai-Nelken<br />
-ARM32/ARM64
-```
-gh is GitHub on the command line.
-It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
-
-to run (terminal only): gh
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Intellij%20IDEA/icon-24.png height=32> ***[Intellij IDEA](https://github.com/Botspot/pi-apps/tree/master/apps/Intellij%20IDEA)***
@@ -1831,15 +1839,6 @@ to start, go to Internet => Syncthing start
 Terminal: syncthing.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/SysMonTask/icon-24.png height=32> ***[SysMonTask](https://github.com/Botspot/pi-apps/tree/master/apps/SysMonTask)***
-<https://github.com/KrispyCamel4u/SysMonTask> - @KrispyCamel4u (GitHub) for the program
-@ryanfortner (GitHub) for the scripts<br />
-ARM32/ARM64
-```
-Linux system monitor similar to the Windows task manager, written in Python.
-Run via the Main Menu > System Tools > SysMonTask.
-```
-
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Sysmon/icon-24.png height=32> ***[Sysmon](https://github.com/Botspot/pi-apps/tree/master/apps/Sysmon)***
 <https://github.com/t0xic0der/sysmon> - @t0xic0der on GitHub for the creation of the app
 @ryanfortner on GitHub for the scripts<br />
@@ -1851,6 +1850,15 @@ This is a background service that hosts a website at <your Pi's IP address>:6969
 For testing purposes, you can look at the website from the Pi itself by launching Chromium browser and going to http://localhost:6969
 
 As mentioned earlier, the website is only visible to computers in the local network.
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/SysMonTask/icon-24.png height=32> ***[SysMonTask](https://github.com/Botspot/pi-apps/tree/master/apps/SysMonTask)***
+<https://github.com/KrispyCamel4u/SysMonTask> - @KrispyCamel4u (GitHub) for the program
+@ryanfortner (GitHub) for the scripts<br />
+ARM32/ARM64
+```
+Linux system monitor similar to the Windows task manager, written in Python.
+Run via the Main Menu > System Tools > SysMonTask.
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/System%20Monitoring%20Center/icon-24.png height=32> ***[System Monitoring Center](https://github.com/Botspot/pi-apps/tree/master/apps/System%20Monitoring%20Center)***
