@@ -3,7 +3,6 @@ template: overrides/main.html
 ---
 
 # Apps List
-# 
 # Appearance
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Color%20Emoji%20font/icon-24.png height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
@@ -882,14 +881,15 @@ A window will appear with options. Feel free to pick and choose what you want, a
 Be sure to close Chromium and re-launch it for the changes to take effect.
 
 Features:
-- Dark mode
-- Change UI scale
+- Dark mode for user interface
+- Dark mode for all websites
+- Change UI scale (make everything larger)
 - Google Chrome Sync
 - Widevine DRM support (for protected media like Netflix or Spotify)
-- Performance Improvements
-- Reduce writes to the SD card
+- Performance Improvements (Faster loading and scrolling)
+- Reduce writes to the SD card (Uses RAM for cache)
 
-With the exception of Widevine, this script simply adds files fo the /etc/chromium.d folder, most of which will add command-line flags to Chromium as it launches. Feel free to inspect the script to see how each of these features work.
+With the exception of Widevine, this script simply adds files to the /etc/chromium.d folder, most of which will add command-line flags to Chromium as it launches. Feel free to inspect the script to see how each of these features works.
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Browsh/icon-24.png height=32> ***[Browsh](https://github.com/Botspot/pi-apps/tree/master/apps/Browsh)***
@@ -919,7 +919,7 @@ To improve Chromium with features such as Google sync, dark mode, performance im
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Downgrade%20Chromium/icon-24.png height=32> ***[Downgrade Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Downgrade%20Chromium)***
 <https://www.raspberrypi.org/forums/viewtopic.php?f=63https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=308303t=308303><br />
-ARM32 ONLY
+ARM32/ARM64
 ```
 Change Chromium versions easily.
 Chromium 65, 72, 74, 78, 84, 86, 88, 92, and 95.
@@ -1808,6 +1808,17 @@ With GParted you can resize, copy, and move partitions without data loss, enabli
 
 To run: Menu -> System Tools -> GParted
 To run in a terminal: sudo gparted
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Neofetch/icon-24.png height=32> ***[Neofetch](https://github.com/Botspot/pi-apps/tree/master/apps/Neofetch)***
+<https://github.com/dylanaraps/neofetch> - App Credit: dylanaraps - (GitHub: https://github.com/dylanaraps)
+
+Added to Pi-Apps by nikoloiz - (GitHub: https://github.com/nikoloiz)<br />
+Package app
+```
+An aesthetically pleasing bash script to show system information.
+
+To run in terminal: 'neofetch'
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pi%20Power%20Tools/icon-24.png height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
