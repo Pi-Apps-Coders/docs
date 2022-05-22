@@ -324,6 +324,14 @@ To run in a terminal: mattercontrol
 Please note that when the window first opens that it will be black. Resizing or maximizing the window will solve this problem.
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Mission%20Planner/icon-24.png height=32> ***[Mission Planner](https://github.com/Botspot/pi-apps/tree/master/apps/Mission%20Planner)***
+<https://ardupilot.org/planner/> - Botspot made this app.<br />
+ARM32/ARM64
+```
+Software used to control autonomous vehicles.
+Mission Planner is a free, open-source ground station for communicating with autonomous aircraft, vehicles, or boats running Ardupilot firmware. It's used to monitor such vehicles, view logs, and create waypoint missions.
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/OpenSCAD/icon-24.png height=32> ***[OpenSCAD](https://github.com/Botspot/pi-apps/tree/master/apps/OpenSCAD)***
 <http://www.openscad.org/>
 https://github.com/koendv/openscad-raspberrypi<br />
@@ -2137,14 +2145,6 @@ ARM32/ARM64
 ```
 KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.
 Run via the Main Menu > Accessories > KeePassXC
-```
-
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Mission%20Planner/icon-24.png height=32> ***[Mission Planner](https://github.com/Botspot/pi-apps/tree/master/apps/Mission%20Planner)***
-<https://ardupilot.org/planner/> - Botspot made this app.<br />
-ARM32/ARM64
-```
-Software used to control autonomous vehicles.
-Mission Planner is a free, open-source ground station for communicating with autonomous aircraft, vehicles, or boats running Ardupilot firmware. It's used to monitor such vehicles, view logs, and create waypoint missions.
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/More%20RAM/icon-24.png height=32> ***[More RAM](https://github.com/Botspot/pi-apps/tree/master/apps/More%20RAM)***
