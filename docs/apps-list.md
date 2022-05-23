@@ -475,14 +475,13 @@ To run in a terminal: ~/.fheroes2/fheroes2-rpi
 <https://github.com/Sussy-OS/LRA-Community-Edition> - Sussy-OS (rb24#0032), Cycool, and theofficialgman for writing the install script Sussy-OS (rb24#0032) for making it work on linux, o7Moon for special features, and Boštjan Čadež for the original https://linerider.com game.<br />
 ARM32/ARM64
 ```
-An Open Source spiritual successor to the flash game Line Rider
-Line Rider is a classic sandbox game where you draw a track for the sledder to ride on.
-
-Open Source:
-LRA-Community-Edition is an open source spiritual successor to Line Rider 6.2
+Draw a track for a sledder to ride on. Make it sync with music and share your work with friends!
+This app, LineRider Community Edition, is a C# rewrite of the original flash game.
 
 To run: Menu -> Games -> LineRider
 To run in a terminal: mono ~/LineRider/linerider.exe
+
+To view other's creations, go to https://reddit.com/r/linerider or https://discord.gg/QWu6R5w
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Bedrock/icon-24.png height=32> ***[Minecraft Bedrock](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Bedrock)***
@@ -2055,6 +2054,22 @@ ARM32/ARM64
 Flash SD cards with a disk image. Many file types supported.
 To run: Menu -> Accessories -> BalenaEtcher
 To run in a terminal: /opt/balenaEtcher/balena-etcher-electron
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/ckb-next/icon-24.png height=32> ***[ckb-next](https://github.com/Botspot/pi-apps/tree/master/apps/ckb-next)***
+<https://github.com/ckb-next/ckb-next> - @ryanfortner (GitHub)<br />
+Package app
+```
+ckb-next is an open-source Linux driver for Corsair keyboards and mice.
+Features include:
+- Customizable key bindings
+- Lighting and animation settings
+- Adjustable DPI for mice
+- and more!
+
+Run from Menu > Preferences > ckb-next, or simply run `ckb-next` in a terminal.
+
+**DISCLAIMER**: this is NOT an official Corsair product and does not come with a warranty. Also, not all Corsair products are fully supported. Use at your own risk.
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Ducopanel/icon-24.png height=32> ***[Ducopanel](https://github.com/Botspot/pi-apps/tree/master/apps/Ducopanel)***
