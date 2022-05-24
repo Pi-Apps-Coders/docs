@@ -692,6 +692,16 @@ defeat your foes!
 
 To run: Menu -> Games -> Unciv
 ```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/WorldPainter/icon-24.png height=32> ***[WorldPainter](https://github.com/Botspot/pi-apps/tree/master/apps/WorldPainter)***
+<https://www.worldpainter.net/> - Credits to Irtexo for creating the initial scripts.
+Credits to the worldpainter creators : https://www.worldpainter.net/trac/wiki/Credits<br />
+ARM32/ARM64
+```
+WorldPainter is an interactive map generator for Minecraft.
+It allows you to "paint" landscapes using similar tools as a regular paint program.
+Sculpt and mould the terrain, paint materials, trees, snow and ice, etc. onto it, and much more.
+```
 # Internet
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Angry%20IP%20scanner/icon-24.png height=32> ***[Angry IP scanner](https://github.com/Botspot/pi-apps/tree/master/apps/Angry%20IP%20scanner)***
@@ -1401,6 +1411,21 @@ Simple YouTube search engine, downloader and player.
 - Supports searches, playlist URLs, and direct YouTube links. In addition, this supports URLs to many other video sites for easy downloading.
 ```
 # Office
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/AbiWord/icon-24.png height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
+<http://www.abisource.com/> -  open-sorcerer64<br />
+Package app
+```
+A free and open-source alternative to Microsoft Word.  
+
+AbiWord is a lightweight word processor compatible with a wide variety of file formats. It doesn't have all the bells and whistles of Microsoft Word or Libre Office's Writer, but it is more than enough for the average user.
+The source code is available at https://gitlab.gnome.org/World/AbiWord.
+
+NOTE: AbiWord uses .abw extension by default.
+
+To run: Menu -> Office -> Abiword.
+To run in terminal:  abiword.
+```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Libreoffice%20MS%20theme/icon-24.png height=32> ***[Libreoffice MS theme](https://github.com/Botspot/pi-apps/tree/master/apps/Libreoffice%20MS%20theme)***
 <https://github.com/Botspot/libreoffice-ms-theme> - Botspot made this script and theme.<br />
