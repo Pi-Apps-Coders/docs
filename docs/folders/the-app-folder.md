@@ -1,7 +1,3 @@
----
-template: overrides/main.html
----
-
 It makes sense to start here. After all, what is an app store without apps?  
 Basically, for every app, there is a **folder**. This folder is called an "**app-folder**". On a default pi-apps installation, all app-folders are located in `/home/pi/pi-apps/apps`.  
 The folder's name is the app's name. The Arduino app is a folder located at `apps/Arduino`.  

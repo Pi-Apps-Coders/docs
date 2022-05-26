@@ -1,7 +1,3 @@
----
-template: overrides/main.html
----
-
 #### Location:
 On a default pi-apps installation, you will find this script at `/home/pi/pi-apps/preload`. 
 #### Purpose:
