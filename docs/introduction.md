@@ -1,7 +1,3 @@
----
-template: overrides/main.html
----
-
 - Pi-Apps is written in **`bash`**. This is a scripting language for Linux, with origins in the 80s. Bash is not a compiled language like C, it's an interpreted language, similar to Python and Windows .bat files.  
   Bash serves a different purpose than a compiled language: orchestrating OS-level events and prioritizing programming-time over execution-time. It is system-dependent and architecture-dependent.  
   You probably interact with `bash` without even realizing it! Nearly all Linux distributions today use a **bash terminal**. *If you have ever opened a terminal, you have interacted with bash.*

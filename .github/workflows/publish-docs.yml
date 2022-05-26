@@ -24,7 +24,6 @@ jobs:
           export current=$(cat appslist-commit.txt)
           [ "$current" == "$version" ] && exit 0
           rm -f ./docs/apps-list.md
-          cp ./appslist-template.md ./docs/apps-list.md
           cat ./pi-apps.wiki/Apps-List.md >> ./docs/apps-list.md
           rm -rf ./pi-apps.wiki/
           sed -i 's/blob/raw/' ./docs/apps-list.md

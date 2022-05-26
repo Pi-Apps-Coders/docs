@@ -1,7 +1,3 @@
----
-template: overrides/main.html
----
-
 ## Hi there 👋
 
 <img src="https://github.com/Botspot/pi-apps/blob/master/icons/logo-simple.png?raw=true" align="right" height="270px"/>
