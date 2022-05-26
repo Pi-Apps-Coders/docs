@@ -1,7 +1,6 @@
 site_name: Pi-Apps Docs
 theme:
   name: material
-  custom_dir: custom
   logo: 'https://github.com/Botspot/pi-apps/blob/master/icons/logo.png?raw=true'
   favicon: 'https://github.com/Botspot/pi-apps/blob/master/icons/logo.png?raw=true'
   palette:
