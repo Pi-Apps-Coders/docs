@@ -410,6 +410,23 @@ On a PS5, go to: Settings -> System -> Remote Play -> Link Device.
 You can now double-click your console in Chiaki's main window to start remote play!
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/DDNet/icon-24.png height=32> ***[DDNet](https://github.com/Botspot/pi-apps/tree/master/apps/DDNet)***
+<https://ddnet.tw/> - Install Script made by Kolpix#1391
+Thanks to Crilum on Github for helping<br />
+ARM32/ARM64
+```
+DDRaceNetwork is a 2D cooperative platformer experience. Work together with up to 64 people and push your way through maps.
+You will see the best and worst in your teammates when they save you from certain death or leave you behind in the dust.
+We've developed DDNet for over 7 years now and made it greater than ever!
+It has been free-to-play and free-to-win since development started and will always stay free.
+It's also open source, so everyone is invited to help improve it with great new ideas!
+
+To run: Menu -> Games -> DDnet
+
+If you want to host an online Server you have to activate Port Forwarding in your Router Settings. 
+You have to create a Port Forwarding with the protocol udp and the Port of your Server (standard is 8303) 
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Descent%201/icon-24.png height=32> ***[Descent 1](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%201)***
 <<https://www.dxx-rebirth.com/>><br />
 ARM32 ONLY
@@ -440,7 +457,7 @@ Testers:
 Lukefrenner
 Botspot
 Nikolay Dubnov<br />
-ARM32 ONLY
+ARM32/ARM64
 ```
 Doom 3 is a 2004 horror first-person shooter video game developed by id Software and published by Activision.
 In this game a massive demonic invasion has overwhelmed the Union Aerospace Corporation's (UAC) Mars Research Facility, leaving only chaos and horror in its wake.
