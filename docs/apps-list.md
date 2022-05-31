@@ -355,6 +355,8 @@ To run in a terminal: OpenSCAD.AppImage
 ARM32/ARM64
 ```
 Takes a 3D model and slices it for use in a 3D printer.
+To run: Menu -> Programming -> PrusaSlicer
+To run in a terminal: ~/PrusaSlicer.AppImage
 ```
 # Games
 
@@ -2502,6 +2504,16 @@ To run the graphical interface in a terminal: ~/wor-flasher/install-wor-gui.sh
 To run the command-line interface in a terminal: ~/wor-flasher/install-wor.sh
 
 If you encounter problems, we recommend you run WoR-flasher in a terminal to catch any errors.
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Xfburn/icon-24.png height=32> ***[Xfburn](https://github.com/Botspot/pi-apps/tree/master/apps/Xfburn)***
+<https://docs.xfce.org/apps/xfburn/start> - @Rak1ta (GitHub)<br />
+Package app
+```
+Xfburn is a tool to help burning CDs and DVDs. It fits well in the Xfce Desktop Environment but can be used anywhere.
+
+To run: Menu -> Multimedia -> Xfburn
+To run in terminal: xfburn
 ```
 # Tools/Emulation
 
