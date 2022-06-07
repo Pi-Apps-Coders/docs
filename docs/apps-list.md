@@ -616,6 +616,15 @@ To make a crafting table, press "E" and then go to the Craft menu in the upper l
 Mouse scroll doesn't exist, you need to use your mouse to drag stuff like the crafting menu.
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pac-Man/icon-24.png height=32> ***[Pac-Man](https://github.com/Botspot/pi-apps/tree/master/apps/Pac-Man)***
+<https://github.com/ebuc99/pacman> - Pac-Man source code from ebuc99 on github https://github.com/ebuc99/pacman<br />
+ARM32/ARM64
+```
+Pac-Man clone in SLD2 and C/C++
+To run: Menu -> Games -> Pacman (SDL)
+To run in a terminal: pacman
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/PPSSPP%20(PSP%20emulator)/icon-24.png height=32> ***[PPSSPP (PSP emulator)](https://github.com/Botspot/pi-apps/tree/master/apps/PPSSPP%20(PSP%20emulator))***
 <http://ppsspp.org> - Added to pi-apps by @ryanfortner (Github)<br />
 ARM32/ARM64
@@ -1470,6 +1479,18 @@ To run: Menu -> Internet -> NixNote2
 To run in a terminal: nixnote2
 ```
 
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Notejot/icon-24.png height=32> ***[Notejot](https://github.com/Botspot/pi-apps/tree/master/apps/Notejot)***
+<https://github.com/lainsce/notejot> - Thanks to:
+ - @lainsce on GitHub for creating the app!
+ - @Crilum on GitHub for adding this app to Pi-Apps<br />
+ARM64 ONLY
+```
+A minimalist note-taking app with Markdown support
+
+Run from Menu: Menu -> Accessories -> Notejot
+Run from Terminal: flatpak run io.github.lainsce.Notejot
+```
+
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/WPS%20Office/icon-24.png height=32> ***[WPS Office](https://github.com/Botspot/pi-apps/tree/master/apps/WPS%20Office)***
 <https://www.wps.com> - Botspot figured out how to install WPS Office on PiOS64. (dependency handling)
 Botspot figured out how to install WPS Office on PiOS32. (chroot setup)<br />
@@ -1865,6 +1886,27 @@ Package app
 An aesthetically pleasing bash script to show system information.
 
 To run in terminal: 'neofetch'
+```
+
+### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pika%20Backup/icon-24.png height=32> ***[Pika Backup](https://github.com/Botspot/pi-apps/tree/master/apps/Pika%20Backup)***
+<https://github.com/sophie-h/pika-backup> - Thanks to:
+ - @sophie-h on GitHUb for creating this app
+ - @Crilum on GitHub forr adding this app to Pi-Apps<br />
+ARM64 ONLY
+```
+An easy way to backup all your drives. 
+
+Doing backups the easy way. Plugin your USB drive and let the Pika do the rest for you.
+
+ - Create backups locally and remote
+ - Set a schedule for regular backups
+ - Save time and disk space because Pika
+ - Backup does not need to copy known data again
+ - Encrypt your backups
+ - List created archives and browse through their contents
+ - Recover files or folders via your file browser
+
+Pika Backup is designed to save your personal data and does not support complete system recovery. Pika Backup is powered by the well-tested BorgBackup software.
 ```
 
 ### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pi%20Power%20Tools/icon-24.png height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
