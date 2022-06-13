@@ -1,6 +1,6 @@
 # Appearance
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Color%20Emoji%20font/icon-24.png height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Color%20Emoji%20font/icon-24.png" height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
 ARM32/ARM64
 ```
 Installs two fonts to display all emojis in the Unicode Emoji 13.0.
@@ -8,7 +8,7 @@ This installs Noto Color Emoji font.
 To test if it works, go to: https://tmh.conlang.org/emoji-language/all-emoji.html
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Conky/icon-24.png height=32> ***[Conky](https://github.com/Botspot/pi-apps/tree/master/apps/Conky)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Conky/icon-24.png" height=32> ***[Conky](https://github.com/Botspot/pi-apps/tree/master/apps/Conky)***
 <https://github.com/Botspot/rpi_conky><br />
 ARM32/ARM64
 ```
@@ -18,7 +18,7 @@ To run: it should autostart on boot.
 To run in a terminal: conky
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Conky%20Rings/icon-24.png height=32> ***[Conky Rings](https://github.com/Botspot/pi-apps/tree/master/apps/Conky%20Rings)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Conky%20Rings/icon-24.png" height=32> ***[Conky Rings](https://github.com/Botspot/pi-apps/tree/master/apps/Conky%20Rings)***
 <https://github.com/Botspot/rpi_conky/tree/master/conky_rings> - phoenixbyrd for the files
 ryanfortner for the scripts
 Botspot for coloring the theme<br />
@@ -28,7 +28,7 @@ Animated gauges and graphs of your system, on your desktop.
 Displays system uptime, core-specific CPU usage, CPU speed, CPU temperature, top 5 processes by CPU usage, storage usage for boot and root partitions, RAM usage, SWAP usage, top 5 processes by RAM usage, and describes the current Linux environment.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Geany%20Dark%20Mode/icon-24.png height=32> ***[Geany Dark Mode](https://github.com/Botspot/pi-apps/tree/master/apps/Geany%20Dark%20Mode)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Geany%20Dark%20Mode/icon-24.png" height=32> ***[Geany Dark Mode](https://github.com/Botspot/pi-apps/tree/master/apps/Geany%20Dark%20Mode)***
 <https://github.com/codebrainz/geany-themes> - Botspot. Oh yeah.<br />
 ARM32/ARM64
 ```
@@ -37,7 +37,7 @@ Geany's default color scheme looks horrible. Fortunately, this app will make it 
 By default, this will apply the "spyder-dark" theme, (Botspot's favorite!), but it will also install many other themes to try out as well. To switch themes in Geany: View -> Change Color Scheme.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Lightpad/icon-24.png height=32> ***[Lightpad](https://github.com/Botspot/pi-apps/tree/master/apps/Lightpad)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Lightpad/icon-24.png" height=32> ***[Lightpad](https://github.com/Botspot/pi-apps/tree/master/apps/Lightpad)***
 <https://github.com/libredeb/lightpad> - Installation Script Made By RPICoder
 App Added To Pi-Apps by RPICoder<br />
 ARM32/ARM64
@@ -47,7 +47,7 @@ To run: Menu -> Accessories -> Lightpad
 To run in a terminal: com.github.libredeb.lightpad
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Mac%20OS%20Theme/icon-24.png height=32> ***[Mac OS Theme](https://github.com/Botspot/pi-apps/tree/master/apps/Mac%20OS%20Theme)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Mac%20OS%20Theme/icon-24.png" height=32> ***[Mac OS Theme](https://github.com/Botspot/pi-apps/tree/master/apps/Mac%20OS%20Theme)***
 <https://github.com/techcoder20/MacOSBigSurThemeConverter> - App Made By And Added To Pi-Apps By RPI Coder<br />
 ARM32 ONLY
 ```
@@ -58,7 +58,7 @@ To run in a terminal: themeconverter
 Uninstalling this app should restore all of your original theme configuration. If something breaks due to this theme, please report it.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Oomox%20Theme%20Designer/icon-24.png height=32> ***[Oomox Theme Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Oomox%20Theme%20Designer)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Oomox%20Theme%20Designer/icon-24.png" height=32> ***[Oomox Theme Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Oomox%20Theme%20Designer)***
 <https://github.com/themix-project/oomox><br />
 ARM32/ARM64
 ```
@@ -72,7 +72,7 @@ To run: Menu -> Graphics -> Oomox Theme Designer
 To run in a terminal: oomox-gui
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Powerline-Shell/icon-24.png height=32> ***[Powerline-Shell](https://github.com/Botspot/pi-apps/tree/master/apps/Powerline-Shell)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Powerline-Shell/icon-24.png" height=32> ***[Powerline-Shell](https://github.com/Botspot/pi-apps/tree/master/apps/Powerline-Shell)***
 <https://github.com/techcoder20/RPI-PowerlineShell-Installer.git> - Installation Script Created By RPICoder
 Added To Pi Apps By Botspot<br />
 ARM32/ARM64
@@ -86,7 +86,7 @@ A beautiful and useful prompt generator for Bash, ZSH, Fish, and tcsh:
 -It's easy to customize and extend.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Ulauncher/icon-24.png height=32> ***[Ulauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Ulauncher)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Ulauncher/icon-24.png" height=32> ***[Ulauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Ulauncher)***
 <https://ulauncher.io/> - RPiCoder on Discord recommended this.
 Botspot made the scripts.<br />
 ARM32/ARM64
@@ -95,7 +95,7 @@ All-in-one application launcher, Google search engine, calculator, file manager.
 This is the best app launcher I've ever seen, though it can be a bit slow when searching. - Botspot
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Windows%2010%20Theme/icon-24.png height=32> ***[Windows 10 Theme](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%2010%20Theme)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Windows%2010%20Theme/icon-24.png" height=32> ***[Windows 10 Theme](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%2010%20Theme)***
 <https://github.com/Botspot/Windows-10><br />
 ARM32/ARM64
 ```
@@ -103,7 +103,7 @@ Make Raspberry Pi OS look as close to Windows 10 as possible.
 Installs an icon theme, GTK theme, openbox theme, mouse cursor theme, window shadows, window fading, desktop background and custom panel.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Windows%20Screensavers/icon-24.png height=32> ***[Windows Screensavers](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Screensavers)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Windows%20Screensavers/icon-24.png" height=32> ***[Windows Screensavers](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Screensavers)***
 <https://github.com/Botspot/Screensavers> - Botspot<br />
 ARM32 ONLY
 ```
@@ -120,7 +120,7 @@ Note: If you don't have Wine installed, this app will install it for you.
 In addition to the Windows Screensavers, Botspot's Screensaver GUI also allows convenient installation of GPU-accelerated Xscreensaver, preset to enable the best ones out of 230 screensavers.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/XSnow/icon-24.png height=32> ***[XSnow](https://github.com/Botspot/pi-apps/tree/master/apps/XSnow)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/XSnow/icon-24.png" height=32> ***[XSnow](https://github.com/Botspot/pi-apps/tree/master/apps/XSnow)***
 <https://www.ratrabbit.nl/ratrabbit/xsnow/> - Thanks to Willem Vermin for developing this project.<br />
 ARM32/ARM64
 ```
@@ -133,7 +133,7 @@ To run in terminal: xsnow
 ```
 # Creative Arts
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/BlockBench/icon-24.png height=32> ***[BlockBench](https://github.com/Botspot/pi-apps/tree/master/apps/BlockBench)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/BlockBench/icon-24.png" height=32> ***[BlockBench](https://github.com/Botspot/pi-apps/tree/master/apps/BlockBench)***
 <https://github.com/JannisX11/blockbench> - JannisX11 (GitHub) for creating the program
 ryanfortner (GitHub) for writing scripts, and hosting the debs
 cycool29 (GitHub) for compiling debs<br />
@@ -142,7 +142,7 @@ ARM32/ARM64
 Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures. Models can be exported into standardized formats, to be shared, rendered, 3D-printed, or used in game engines. There are also multiple dedicated formats for Minecraft Java and Bedrock Edition with format-specific features.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Boxy%20SVG/icon-24.png height=32> ***[Boxy SVG](https://github.com/Botspot/pi-apps/tree/master/apps/Boxy%20SVG)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Boxy%20SVG/icon-24.png" height=32> ***[Boxy SVG](https://github.com/Botspot/pi-apps/tree/master/apps/Boxy%20SVG)***
 <https://github.com/Botspot/Boxy-SVG-RPi> - Shout-out to ItzCutePikachu for figuring out how to remove the annoying "Boxy SVG will stop working" pop-up from the javascript.<br />
 ARM32/ARM64
 ```
@@ -155,7 +155,7 @@ If you have a problem using Boxy SVG, please report it on Botspot's github page,
 Note: also see the Inkscape app.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Dot%20Matrix/icon-24.png height=32> ***[Dot Matrix](https://github.com/Botspot/pi-apps/tree/master/apps/Dot%20Matrix)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Dot%20Matrix/icon-24.png" height=32> ***[Dot Matrix](https://github.com/Botspot/pi-apps/tree/master/apps/Dot%20Matrix)***
 <https://github.com/lainsce/dot-matrix> - Thanks to:
  - @lainsce (Lains) on GitHub, as well as all the other contributors for creating Dot Matrix!
  - @Crilum on GitHub for creating the scripts and submitting the app to Pi-Apps.<br />
@@ -167,7 +167,7 @@ Run from Menu: Menu -> Graphics -> Dot Matrix
 Run from Terminal: flatpak run io.github.lainsce.DotMatrix
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Drawing/icon-24.png height=32> ***[Drawing](https://github.com/Botspot/pi-apps/tree/master/apps/Drawing)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Drawing/icon-24.png" height=32> ***[Drawing](https://github.com/Botspot/pi-apps/tree/master/apps/Drawing)***
 <https://github.com/maoschanz/drawing> - Botspot<br />
 ARM32/ARM64
 ```
@@ -180,7 +180,7 @@ Note: This serves a different purpose than Microsoft Paint. If you want a Paint-
 sudo apt install kolourpaint
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/GIMP/icon-24.png height=32> ***[GIMP](https://github.com/Botspot/pi-apps/tree/master/apps/GIMP)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/GIMP/icon-24.png" height=32> ***[GIMP](https://github.com/Botspot/pi-apps/tree/master/apps/GIMP)***
 <https://www.gimp.org/> - Made by The GIMP Team
 Added to Pi Apps by Lightstrike on Discord<br />
 Package app
@@ -194,7 +194,7 @@ To run: Menu -> Graphics -> GNU Image Manipulation Program
 To run in terminal: gimp
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Inkscape/icon-24.png height=32> ***[Inkscape](https://github.com/Botspot/pi-apps/tree/master/apps/Inkscape)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Inkscape/icon-24.png" height=32> ***[Inkscape](https://github.com/Botspot/pi-apps/tree/master/apps/Inkscape)***
 <https://inkscape.org> - 1Spinne in issue #1262<br />
 Package app
 ```
@@ -210,7 +210,7 @@ Bezier and spiro curves
 Note: Also see the Boxy SVG tool.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Kolourpaint/icon-24.png height=32> ***[Kolourpaint](https://github.com/Botspot/pi-apps/tree/master/apps/Kolourpaint)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Kolourpaint/icon-24.png" height=32> ***[Kolourpaint](https://github.com/Botspot/pi-apps/tree/master/apps/Kolourpaint)***
 <https://apps.kde.org/kolourpaint/> - Botspot<br />
 Package app
 ```
@@ -226,7 +226,7 @@ To run: Menu -> Graphics -> Kolourpaint
 To run in terminal: kolourpaint
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Lego%20Digital%20Designer/icon-24.png height=32> ***[Lego Digital Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Lego%20Digital%20Designer)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Lego%20Digital%20Designer/icon-24.png" height=32> ***[Lego Digital Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Lego%20Digital%20Designer)***
 <https://github.com/Botspot/lego-digital-designer-rpi> - Botspot<br />
 ARM32 ONLY
 ```
@@ -237,7 +237,7 @@ Afterwards, you can generate step-by-step building plans and print them out. Or 
 This program runs extremely well on RPi. The only problem I (Botspot) could find was the sound effects don't work.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pinta/icon-24.png height=32> ***[Pinta](https://github.com/Botspot/pi-apps/tree/master/apps/Pinta)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Pinta/icon-24.png" height=32> ***[Pinta](https://github.com/Botspot/pi-apps/tree/master/apps/Pinta)***
 <https://www.pinta-project.com/> - Botspot<br />
 Package app
 ```
@@ -247,7 +247,7 @@ To run: Menu -> Graphics -> Pinta
 To run in a terminal: pinta
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Shotwell/icon-24.png height=32> ***[Shotwell](https://github.com/Botspot/pi-apps/tree/master/apps/Shotwell)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Shotwell/icon-24.png" height=32> ***[Shotwell](https://github.com/Botspot/pi-apps/tree/master/apps/Shotwell)***
 <https://shotwell-project.org/doc/html/> - Botspot<br />
 Package app
 ```
@@ -257,7 +257,7 @@ To run in terminal: shotwell
 ```
 # Engineering
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Cura/icon-24.png height=32> ***[Cura](https://github.com/Botspot/pi-apps/tree/master/apps/Cura)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Cura/icon-24.png" height=32> ***[Cura](https://github.com/Botspot/pi-apps/tree/master/apps/Cura)***
 <https://github.com/smartavionics/Cura><br />
 ARM32/ARM64
 ```
@@ -266,7 +266,7 @@ To run: Menu -> Programming -> Ultimaker Cura
 To run in a terminal: ~/Cura.AppImage
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Eagle%20CAD/icon-24.png height=32> ***[Eagle CAD](https://github.com/Botspot/pi-apps/tree/master/apps/Eagle%20CAD)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Eagle%20CAD/icon-24.png" height=32> ***[Eagle CAD](https://github.com/Botspot/pi-apps/tree/master/apps/Eagle%20CAD)***
 <http://eagle.autodesk.com/eagle/software-versions/1> - Botspot made this app.<br />
 ARM32 ONLY
 ```
@@ -277,7 +277,7 @@ To run: Menu -> Programming -> Eagle
 To run in a terminal: eagle
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Fritzing/icon-24.png height=32> ***[Fritzing](https://github.com/Botspot/pi-apps/tree/master/apps/Fritzing)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Fritzing/icon-24.png" height=32> ***[Fritzing](https://github.com/Botspot/pi-apps/tree/master/apps/Fritzing)***
 <https://fritzing.org/> - theofficialgman for writing the install script<br />
 ARM32/ARM64
 ```
@@ -288,7 +288,7 @@ To run: Menu -> Programming/Development -> Fritzing
 To run in a terminal: Fritzing --parts $HOME/.local/share/fritzing/parts
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LibreCAD/icon-24.png height=32> ***[LibreCAD](https://github.com/Botspot/pi-apps/tree/master/apps/LibreCAD)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/LibreCAD/icon-24.png" height=32> ***[LibreCAD](https://github.com/Botspot/pi-apps/tree/master/apps/LibreCAD)***
 <https://librecad.org/> - @Jai-JAP for adding this app to pi-apps<br />
 Package app
 ```
@@ -300,14 +300,14 @@ Documentation available at: https://dokuwiki.librecad.org/doku.php
 To run: Menu -> Graphics -> LibreCAD
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LibrePCB/icon-24.png height=32> ***[LibrePCB](https://github.com/Botspot/pi-apps/tree/master/apps/LibrePCB)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/LibrePCB/icon-24.png" height=32> ***[LibrePCB](https://github.com/Botspot/pi-apps/tree/master/apps/LibrePCB)***
 <https://librepcb.discourse.group/t/how-to-install-librepcb-on-a-raspberry-pi/212><br />
 ARM32 ONLY
 ```
 Develop printed circuit boards.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/MatterControl/icon-24.png height=32> ***[MatterControl](https://github.com/Botspot/pi-apps/tree/master/apps/MatterControl)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/MatterControl/icon-24.png" height=32> ***[MatterControl](https://github.com/Botspot/pi-apps/tree/master/apps/MatterControl)***
 <https://mattercontrol.com> - Botspot and theofficialgman<br />
 ARM32/ARM64
 ```
@@ -319,7 +319,7 @@ To run in a terminal: mattercontrol
 Please note that when the window first opens that it will be black. Resizing or maximizing the window will solve this problem.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Mission%20Planner/icon-24.png height=32> ***[Mission Planner](https://github.com/Botspot/pi-apps/tree/master/apps/Mission%20Planner)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Mission%20Planner/icon-24.png" height=32> ***[Mission Planner](https://github.com/Botspot/pi-apps/tree/master/apps/Mission%20Planner)***
 <https://ardupilot.org/planner/> - Botspot made this app.<br />
 ARM32/ARM64
 ```
@@ -327,7 +327,7 @@ Software used to control autonomous vehicles.
 Mission Planner is a free, open-source ground station for communicating with autonomous aircraft, vehicles, or boats running Ardupilot firmware. It's used to monitor such vehicles, view logs, and create waypoint missions.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/OpenSCAD/icon-24.png height=32> ***[OpenSCAD](https://github.com/Botspot/pi-apps/tree/master/apps/OpenSCAD)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/OpenSCAD/icon-24.png" height=32> ***[OpenSCAD](https://github.com/Botspot/pi-apps/tree/master/apps/OpenSCAD)***
 <http://www.openscad.org/>
 https://github.com/koendv/openscad-raspberrypi<br />
 ARM32/ARM64
@@ -350,7 +350,7 @@ To run: Menu -> Graphics -> OpenSCAD
 To run in a terminal: OpenSCAD.AppImage
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/PrusaSlicer/icon-24.png height=32> ***[PrusaSlicer](https://github.com/Botspot/pi-apps/tree/master/apps/PrusaSlicer)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/PrusaSlicer/icon-24.png" height=32> ***[PrusaSlicer](https://github.com/Botspot/pi-apps/tree/master/apps/PrusaSlicer)***
 <https://github.com/davidk/PrusaSlicer-ARM.AppImage><br />
 ARM32/ARM64
 ```
@@ -360,7 +360,7 @@ To run in a terminal: ~/PrusaSlicer.AppImage
 ```
 # Games
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Amiberry/icon-24.png height=32> ***[Amiberry](https://github.com/Botspot/pi-apps/tree/master/apps/Amiberry)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Amiberry/icon-24.png" height=32> ***[Amiberry](https://github.com/Botspot/pi-apps/tree/master/apps/Amiberry)***
 <https://github.com/midwan/amiberry/> - Program created by Dimitris Panokostas (midwan) on GitHub.
 Debian packages created by @ryanfortner (GitHub)
 Scripts created by @ryanfortner (GitHub)<br />
@@ -371,7 +371,7 @@ Amiberry is a well-optimized, high-performance emulator for running Amiga games 
 Run it via the main Menu > Games > Amiberry.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/AstroMenace/icon-24.png height=32> ***[AstroMenace](https://github.com/Botspot/pi-apps/tree/master/apps/AstroMenace)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/AstroMenace/icon-24.png" height=32> ***[AstroMenace](https://github.com/Botspot/pi-apps/tree/master/apps/AstroMenace)***
 <https://github.com/viewizard/astromenace> - All contributer in github page
 added to pi-apps by Painadath
 samuelpainadath@gmail.com<br />
@@ -380,7 +380,7 @@ ARM32/ARM64
 Immerse into a decisive battle against tons of cunning foes, face the terrifying bosses and protect your homeland throughout 15 diverse levels of the game. The hardcore gameplay of AstroMenace, packed with pure non-stop action, will become a full scale test for your basic instinct of survival.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Chiaki/icon-24.png height=32> ***[Chiaki](https://github.com/Botspot/pi-apps/tree/master/apps/Chiaki)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Chiaki/icon-24.png" height=32> ***[Chiaki](https://github.com/Botspot/pi-apps/tree/master/apps/Chiaki)***
 <https://github.com/Fredrum/chiaki/wiki/Chiaki-for-the-Raspberry-Pi> - Chiaki software implementation by Florian Märkl: https://github.com/thestr4ng3r
 Raspberry Pi fork implementation by Blueroom VR: https://github.com/Fredrum
 Added to Pi-Apps by Markieautarkie: https://github.com/Markieautarkie<br />
@@ -407,7 +407,7 @@ On a PS5, go to: Settings -> System -> Remote Play -> Link Device.
 You can now double-click your console in Chiaki's main window to start remote play!
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/DDNet/icon-24.png height=32> ***[DDNet](https://github.com/Botspot/pi-apps/tree/master/apps/DDNet)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/DDNet/icon-24.png" height=32> ***[DDNet](https://github.com/Botspot/pi-apps/tree/master/apps/DDNet)***
 <https://ddnet.tw/> - Install Script made by Kolpix#1391
 Thanks to Crilum on Github for helping<br />
 ARM32/ARM64
@@ -424,7 +424,7 @@ If you want to host an online Server you have to activate Port Forwarding in you
 You have to create a Port Forwarding with the protocol udp and the Port of your Server (standard is 8303) 
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Descent%201/icon-24.png height=32> ***[Descent 1](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%201)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Descent%201/icon-24.png" height=32> ***[Descent 1](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%201)***
 <<https://www.dxx-rebirth.com/>><br />
 ARM32 ONLY
 ```
@@ -435,7 +435,7 @@ To run in a terminal: ~/.d1x-rebirth/d1x-rebirth-rpi -hogdir ~/.d1x-rebirth
 To exit: select "Quit" in the game's main menu.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Descent%202/icon-24.png height=32> ***[Descent 2](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%202)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Descent%202/icon-24.png" height=32> ***[Descent 2](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%202)***
 https://www.dxx-rebirth.com/<br />
 ARM32 ONLY
 ```
@@ -446,7 +446,7 @@ To run in a terminal: ~/.d1x-rebirth/d1x-rebirth-rpi -hogdir ~/.d1x-rebirth
 To exit: select "Quit" in the game's main menu.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Doom%203/icon-24.png height=32> ***[Doom 3](https://github.com/Botspot/pi-apps/tree/master/apps/Doom%203)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Doom%203/icon-24.png" height=32> ***[Doom 3](https://github.com/Botspot/pi-apps/tree/master/apps/Doom%203)***
 <https://github.com/techcoder20/RPIDoom3Installer.git> - Script Created By RPI Coder
 Added To Pi apps by Botspot
 
@@ -461,7 +461,7 @@ In this game a massive demonic invasion has overwhelmed the Union Aerospace Corp
 As one of only a few survivors, you must fight your way to hell and back against a horde of evil monsters.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Friday%20Night%20Funkin'%20Rewritten/icon-24.png height=32> ***[Friday Night Funkin' Rewritten](https://github.com/Botspot/pi-apps/tree/master/apps/Friday%20Night%20Funkin'%20Rewritten)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Friday%20Night%20Funkin'%20Rewritten/icon-24.png" height=32> ***[Friday Night Funkin' Rewritten](https://github.com/Botspot/pi-apps/tree/master/apps/Friday%20Night%20Funkin'%20Rewritten)***
 <https://github.com/HTV04/funkin-rewritten> - HTV04 For this Engine. 
 LOVE2D devs
 AM7999#8935 For putting this up on Pi-Apps
@@ -481,7 +481,7 @@ To run in terminal: love $HOME/.love_games/friday_night_funkin_rewritten/funkin-
 As this game is still a work in progress, some settings (like setting fullscreen mode) can only be changed via an ini file: ~/.local/share/love/funkin-rewritten/settings.ini
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Godot/icon-24.png height=32> ***[Godot](https://github.com/Botspot/pi-apps/tree/master/apps/Godot)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Godot/icon-24.png" height=32> ***[Godot](https://github.com/Botspot/pi-apps/tree/master/apps/Godot)***
 <https://github.com/hiulit/Unofficial-Godot-Engine-Raspberry-Pi> - Credits to Irtexo for putting it on Pi-Apps.
 Credits to Hiulit for porting it to the Rpi.
 Credits to Juan Linietsky and Ariel Manzur for creating Godot.<br />
@@ -495,7 +495,7 @@ To run from GUI: Menu -> Programming -> Godot
 To run in a terminal: ~/Godot/godot_3.4-stable_rpi4_editor_lto.bin
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Heroes%202/icon-24.png height=32> ***[Heroes 2](https://github.com/Botspot/pi-apps/tree/master/apps/Heroes%202)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Heroes%202/icon-24.png" height=32> ***[Heroes 2](https://github.com/Botspot/pi-apps/tree/master/apps/Heroes%202)***
 <https://github.com/ihhub/fheroes2><br />
 ARM32 ONLY
 ```
@@ -505,7 +505,7 @@ To run: Menu -> Games -> Free Heroes 2
 To run in a terminal: ~/.fheroes2/fheroes2-rpi
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LineRider/icon-24.png height=32> ***[LineRider](https://github.com/Botspot/pi-apps/tree/master/apps/LineRider)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/LineRider/icon-24.png" height=32> ***[LineRider](https://github.com/Botspot/pi-apps/tree/master/apps/LineRider)***
 <https://github.com/Sussy-OS/LRA-Community-Edition> - Sussy-OS (rb24#0032), Cycool, and theofficialgman for writing the install script Sussy-OS (rb24#0032) for making it work on linux, o7Moon for special features, and Boštjan Čadež for the original https://linerider.com game.<br />
 ARM32/ARM64
 ```
@@ -518,7 +518,7 @@ To run in a terminal: mono ~/LineRider/linerider.exe
 To view other's creations, go to https://reddit.com/r/linerider or https://discord.gg/QWu6R5w
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Bedrock/icon-24.png height=32> ***[Minecraft Bedrock](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Bedrock)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Bedrock/icon-24.png" height=32> ***[Minecraft Bedrock](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Bedrock)***
 <https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/appimage> - Install script written by RaspberryPiNews on YT
 Appimage made by ChristopherHX on Github
 Program made by everyone at [minecraft-linux](https://github.com/minecraft-linux) on Github<br />
@@ -534,7 +534,7 @@ Run with the menu app "Minecraft Bedrock Launcher" or with the command "GALLIUM_
  ∙ And much more!
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java/icon-24.png height=32> ***[Minecraft Java](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java/icon-24.png" height=32> ***[Minecraft Java](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java)***
 <https://www.lunarclient.com/> - Lunar Client is developed by MoonsworthLLC
 The ARM fork of Lunar Client is maintained by gl91306 on Github: https://github.com/gl91306/lunar
 ARM lwjgl libs uploaded by rpiMike on the Raspberry Pi Forums
@@ -560,7 +560,7 @@ Why lunar?
 Need help? Please open an issue on this repository: https://github.com/gl91306/lunar
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20MultiMC5/icon-24.png height=32> ***[Minecraft Java MultiMC5](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20MultiMC5)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20MultiMC5/icon-24.png" height=32> ***[Minecraft Java MultiMC5](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20MultiMC5)***
 <https://github.com/cobalt2727/L4T-Megascript/raw/master/scripts/games_and_emulators/minecraft_java_multimc.sh> - Install script written by theofficialgman based on the version for the L4T Megascript<br />
 ARM32/ARM64
 ```
@@ -588,7 +588,7 @@ This supports all currently released versions of minecraft.
 Note: MultiMC5 github/discord does support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord, Forum Post, or Pi-Apps github issues.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20Server/icon-24.png height=32> ***[Minecraft Java Server](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Server)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20Server/icon-24.png" height=32> ***[Minecraft Java Server](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Server)***
 <https://serverjars.com> - Thanks to:
 Mojang for creating the Minecraft server.
 theofficialgman who wrote the script
@@ -613,7 +613,7 @@ Refer to the ~/Minecraft-Java-Server/start-server.sh file if you need to add cus
 Temurin (Adoptium) or AdoptOpenJDK Java 8/16/17 apt repos are used in this installer for compatibility.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Pi%20(Modded)/icon-24.png height=32> ***[Minecraft Pi (Modded)](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Pi%20(Modded))***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Pi%20(Modded)/icon-24.png" height=32> ***[Minecraft Pi (Modded)](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Pi%20(Modded))***
 <https://discord.com/invite/aDqejQGMMy> - Game mods made by TheBrokenRail#5376 on Discord
 
 Ported to Pi-Apps by TheBrokenRail#5376 on Discord with a little help from Botspot.<br />
@@ -636,7 +636,7 @@ To make a crafting table, press "E" and then go to the Craft menu in the upper l
 Mouse scroll doesn't exist, you need to use your mouse to drag stuff like the crafting menu.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pac-Man/icon-24.png height=32> ***[Pac-Man](https://github.com/Botspot/pi-apps/tree/master/apps/Pac-Man)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Pac-Man/icon-24.png" height=32> ***[Pac-Man](https://github.com/Botspot/pi-apps/tree/master/apps/Pac-Man)***
 <https://github.com/ebuc99/pacman> - Pac-Man source code from ebuc99 on github https://github.com/ebuc99/pacman<br />
 ARM32/ARM64
 ```
@@ -645,7 +645,7 @@ To run: Menu -> Games -> Pacman (SDL)
 To run in a terminal: pacman
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/PPSSPP%20(PSP%20emulator)/icon-24.png height=32> ***[PPSSPP (PSP emulator)](https://github.com/Botspot/pi-apps/tree/master/apps/PPSSPP%20(PSP%20emulator))***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/PPSSPP%20(PSP%20emulator)/icon-24.png" height=32> ***[PPSSPP (PSP emulator)](https://github.com/Botspot/pi-apps/tree/master/apps/PPSSPP%20(PSP%20emulator))***
 <http://ppsspp.org> - Added to pi-apps by @ryanfortner (Github)<br />
 ARM32/ARM64
 ```
@@ -654,7 +654,7 @@ A PSP emulator that can run PSP games in full HD and can upscale textures also.
 How to run: Menu > Games > PPSSPP
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Steam/icon-24.png height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Steam/icon-24.png" height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
 <https://www.tomshardware.com/how-to/raspberry-pi-install-steam><br />
 ARM32 ONLY
 ```
@@ -662,7 +662,7 @@ This emulates the x86_32bit Linux version of Steam using Box86.
 To run: Menu -> Games -> Steam
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Steam%20Link/icon-24.png height=32> ***[Steam Link](https://github.com/Botspot/pi-apps/tree/master/apps/Steam%20Link)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Steam%20Link/icon-24.png" height=32> ***[Steam Link](https://github.com/Botspot/pi-apps/tree/master/apps/Steam%20Link)***
 Botspot<br />
 Package app
 ```
@@ -671,7 +671,7 @@ To run: Menu -> Games -> Steam Link
 To run in a terminal: steamlink
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Stunt%20Rally/icon-24.png height=32> ***[Stunt Rally](https://github.com/Botspot/pi-apps/tree/master/apps/Stunt%20Rally)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Stunt%20Rally/icon-24.png" height=32> ***[Stunt Rally](https://github.com/Botspot/pi-apps/tree/master/apps/Stunt%20Rally)***
 <http://stuntrally.tuxfamily.org/> - Compiled and packaged into a deb by Itai-Nelken and ryanfortner.
 Added to pi-apps by Itai-Nelken.<br />
 ARM32/ARM64
@@ -698,7 +698,7 @@ To run in terminal: sr-editor
 
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Tetris%20CLI/icon-24.png height=32> ***[Tetris CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Tetris%20CLI)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Tetris%20CLI/icon-24.png" height=32> ***[Tetris CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Tetris%20CLI)***
 <https://github.com/k-vernooy/tetris> - DEB packages hosted by ryanfortner<br />
 ARM32/ARM64
 ```
@@ -710,7 +710,7 @@ To run: Menu -> Games -> Tetris CLI
 In terminal: tetris
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Unciv/icon-24.png height=32> ***[Unciv](https://github.com/Botspot/pi-apps/tree/master/apps/Unciv)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Unciv/icon-24.png" height=32> ***[Unciv](https://github.com/Botspot/pi-apps/tree/master/apps/Unciv)***
 <https://github.com/yairm210/Unciv> - Added by Md. Touhidur Rahman
   Github: https://github.com/touhidurrr
   Website: https://touhidur.xyz
@@ -736,7 +736,7 @@ defeat your foes!
 To run: Menu -> Games -> Unciv
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/WorldPainter/icon-24.png height=32> ***[WorldPainter](https://github.com/Botspot/pi-apps/tree/master/apps/WorldPainter)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/WorldPainter/icon-24.png" height=32> ***[WorldPainter](https://github.com/Botspot/pi-apps/tree/master/apps/WorldPainter)***
 <https://www.worldpainter.net/> - Credits to Irtexo for creating the initial scripts.
 Credits to the worldpainter creators : https://www.worldpainter.net/trac/wiki/Credits<br />
 ARM32/ARM64
@@ -747,7 +747,7 @@ Sculpt and mould the terrain, paint materials, trees, snow and ice, etc. onto it
 ```
 # Internet
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Angry%20IP%20scanner/icon-24.png height=32> ***[Angry IP scanner](https://github.com/Botspot/pi-apps/tree/master/apps/Angry%20IP%20scanner)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Angry%20IP%20scanner/icon-24.png" height=32> ***[Angry IP scanner](https://github.com/Botspot/pi-apps/tree/master/apps/Angry%20IP%20scanner)***
 <https://angryip.org> - @Itai-Nelken (GitHub)
 @ryanfortner (GitHub)<br />
 ARM32/ARM64
@@ -762,7 +762,7 @@ Free and open-source.
 Warning, using this improperly may get you in a lot of trouble. Be sure you're within legal limits.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/AnyDesk/icon-24.png height=32> ***[AnyDesk](https://github.com/Botspot/pi-apps/tree/master/apps/AnyDesk)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/AnyDesk/icon-24.png" height=32> ***[AnyDesk](https://github.com/Botspot/pi-apps/tree/master/apps/AnyDesk)***
 <https://anydesk.com/en/downloads/raspberry-pi> - @fabianmendes just brought it to the pi-apps.<br />
 ARM32 ONLY
 ```
@@ -775,7 +775,7 @@ Run from Menu -> Internet -> AnyDesk
 Run from Terminal: anydesk
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/CloudBuddy/icon-24.png height=32> ***[CloudBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/CloudBuddy)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/CloudBuddy/icon-24.png" height=32> ***[CloudBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/CloudBuddy)***
 <https://github.com/Botspot/cloudbuddy> - Botspot made, Botspot added.<br />
 ARM32/ARM64
 ```
@@ -786,7 +786,7 @@ To run: Menu -> Internet -> CloudBuddy
 To run in terminal: ~/cloudbuddy/main.sh
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Deluge/icon-24.png height=32> ***[Deluge](https://github.com/Botspot/pi-apps/tree/master/apps/Deluge)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Deluge/icon-24.png" height=32> ***[Deluge](https://github.com/Botspot/pi-apps/tree/master/apps/Deluge)***
 <https://www.deluge-torrent.org> - Botspot<br />
 Package app
 ```
@@ -800,7 +800,7 @@ Also see the Transmission app.
 Note: Torrents can contain illegal material, like pirated movies or cracked games. You use Deluge at your own risk.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Deskreen/icon-24.png height=32> ***[Deskreen](https://github.com/Botspot/pi-apps/tree/master/apps/Deskreen)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Deskreen/icon-24.png" height=32> ***[Deskreen](https://github.com/Botspot/pi-apps/tree/master/apps/Deskreen)***
 <https://deskreen.com/> - Thanks to pavlobu and all contibuters for developing Deskreen.
 Thanks to Crilum on GitHub for making the scripts.
 Thanks to ryanfortner on GitHub for having and hosting the debs!<br />
@@ -812,7 +812,7 @@ How to run: Menu -> Programming -> Deskreen
 or run from your Terminal: deskreen
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Filezilla/icon-24.png height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Filezilla/icon-24.png" height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
 <https://filezilla-project.org/> - Botspot<br />
 Package app
 ```
@@ -823,7 +823,7 @@ To run in terminal: filezilla
 Note: For more cloud-storage, see the CloudBuddy app.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/HTTrack%20Website%20Copier/icon-24.png height=32> ***[HTTrack Website Copier](https://github.com/Botspot/pi-apps/tree/master/apps/HTTrack%20Website%20Copier)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/HTTrack%20Website%20Copier/icon-24.png" height=32> ***[HTTrack Website Copier](https://github.com/Botspot/pi-apps/tree/master/apps/HTTrack%20Website%20Copier)***
 <https://httrack.com> - Thanks to:
  - Xavier Roche and all contributors for creating HTTrack!
  - Thanks to Crilum on GitHub for adding HTTrack to Pi-Apps!<br />
@@ -843,7 +843,7 @@ Run from Terminal: webhttrack
 Run from Menu: Menu -> Internet -> WebHTTrack Website Copier
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Lokinet/icon-24.png height=32> ***[Lokinet](https://github.com/Botspot/pi-apps/tree/master/apps/Lokinet)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Lokinet/icon-24.png" height=32> ***[Lokinet](https://github.com/Botspot/pi-apps/tree/master/apps/Lokinet)***
 <https://wiki.oxen.io/wiki/Main_Page> - This application is a product of ongoing research and various tool development of the Oxen Privacy Tech Foundation.
 https://optf.ngo/<br />
 ARM32/ARM64
@@ -859,7 +859,7 @@ Users wishing to access the regular internet anonymously need not pay for access
 Currently the Oxen Privacy Tech Foundation offers free Lokinet exit node access at address "exit.loki". A wiki for Lokinet is located at https://wiki.oxen.io/wiki/Main_Page
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Persepolis%20Download%20Manager/icon-24.png height=32> ***[Persepolis Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Persepolis%20Download%20Manager)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Persepolis%20Download%20Manager/icon-24.png" height=32> ***[Persepolis Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Persepolis%20Download%20Manager)***
 <https://persepolisdm.github.io/><br />
 ARM32/ARM64
 ```
@@ -868,7 +868,7 @@ Persepolis is a Download Manager and a GUI For aria2.
 It's written in Python. Persepolis is a Sample of Free and open source software. It's developed For GNU/Linux Distributions, BSDs, macOS and Microsoft Windows. 
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/SpeedTest-CLI/icon-24.png height=32> ***[SpeedTest-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/SpeedTest-CLI)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/SpeedTest-CLI/icon-24.png" height=32> ***[SpeedTest-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/SpeedTest-CLI)***
 <https://www.speedtest.net/><br />
 ARM32/ARM64
 ```
@@ -880,7 +880,7 @@ To run: Menu -> Internet -> Run Speedtest
 To run in a terminal: speedtest
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/TeamViewer%20Host/icon-24.png height=32> ***[TeamViewer Host](https://github.com/Botspot/pi-apps/tree/master/apps/TeamViewer%20Host)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/TeamViewer%20Host/icon-24.png" height=32> ***[TeamViewer Host](https://github.com/Botspot/pi-apps/tree/master/apps/TeamViewer%20Host)***
 <https://github.com/Benmac83/Teamviewer-installer-for-pi> - Credits go to @Benmac83 on the Botspot discord server<br />
 ARM32/ARM64
 ```
@@ -890,7 +890,7 @@ To run in terminal: teamviewer
 If you get an error running it from command line follow the instructions it gives you. They're very simple to follow.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Transmission/icon-24.png height=32> ***[Transmission](https://github.com/Botspot/pi-apps/tree/master/apps/Transmission)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Transmission/icon-24.png" height=32> ***[Transmission](https://github.com/Botspot/pi-apps/tree/master/apps/Transmission)***
 <https://transmissionbt.com> - Botspot<br />
 Package app
 ```
@@ -903,7 +903,7 @@ Also see the Deluge app.
 Note: Torrents can contain illegal material, like pirated movies or cracked games. You use Transmission at your own risk.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Web%20Apps/icon-24.png height=32> ***[Web Apps](https://github.com/Botspot/pi-apps/tree/master/apps/Web%20Apps)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Web%20Apps/icon-24.png" height=32> ***[Web Apps](https://github.com/Botspot/pi-apps/tree/master/apps/Web%20Apps)***
 <https://itsfoss.com/web-app-manager-linux-mint/> - Phoenixbyrd for making it install successfully
 Botspot made the app.<br />
 ARM32 ONLY
@@ -917,7 +917,7 @@ To run: Menu -> Internet -> Web Apps
 To run in a terminal: webapp-manager
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Xtreme%20Download%20Manager/icon-24.png height=32> ***[Xtreme Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Xtreme%20Download%20Manager)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Xtreme%20Download%20Manager/icon-24.png" height=32> ***[Xtreme Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Xtreme%20Download%20Manager)***
 <https://xtremedownloadmanager.com><br />
 ARM32/ARM64
 ```
@@ -931,7 +931,7 @@ Support for HTTP, HTTPS, FTP, DASH, HLS, HDS protocols, firewalls, proxy servers
 ```
 # Internet/Browsers
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Better%20Chromium/icon-24.png height=32> ***[Better Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Better%20Chromium)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Better%20Chromium/icon-24.png" height=32> ***[Better Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Better%20Chromium)***
 Botspot<br />
 ARM32/ARM64
 ```
@@ -952,7 +952,7 @@ Features:
 With the exception of Widevine, this script simply adds files to the /etc/chromium.d folder, most of which will add command-line flags to Chromium as it launches. Feel free to inspect the script to see how each of these features works.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Browsh/icon-24.png height=32> ***[Browsh](https://github.com/Botspot/pi-apps/tree/master/apps/Browsh)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Browsh/icon-24.png" height=32> ***[Browsh](https://github.com/Botspot/pi-apps/tree/master/apps/Browsh)***
 <https://www.brow.sh/><br />
 ARM32/ARM64
 ```
@@ -965,7 +965,7 @@ To run in a terminal: browsh
 NOTE: This will also install firefox-esr
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Chromium/icon-24.png height=32> ***[Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Chromium/icon-24.png" height=32> ***[Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium)***
 Botspot<br />
 Package app
 ```
@@ -977,7 +977,7 @@ To install an older version of Chromium, see the Downgrade Chromium app.
 To improve Chromium with features such as Google sync, dark mode, performance improvements, and reducing SD card writes, see the Better Chromium app.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Downgrade%20Chromium/icon-24.png height=32> ***[Downgrade Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Downgrade%20Chromium)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Downgrade%20Chromium/icon-24.png" height=32> ***[Downgrade Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Downgrade%20Chromium)***
 <https://www.raspberrypi.org/forums/viewtopic.php?f=63https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=308303t=308303><br />
 ARM32/ARM64
 ```
@@ -990,7 +990,7 @@ Using older browser versions can be a security risk, proceed with caution.
 All deb files are downloaded from https://archive.raspberrypi.org/debian/pool/main/c/chromium-browser
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Epiphany/icon-24.png height=32> ***[Epiphany](https://github.com/Botspot/pi-apps/tree/master/apps/Epiphany)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Epiphany/icon-24.png" height=32> ***[Epiphany](https://github.com/Botspot/pi-apps/tree/master/apps/Epiphany)***
 <https://gitlab.gnome.org/GNOME/epiphany> - open-sorcerrer64<br />
 Package app
 ```
@@ -1001,7 +1001,7 @@ Epiphany is the default web browser for GNOME desktop and elementary OS. Epiphan
 To run: Menu  -> Internet -> Epiphany Web Browser
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Firefox%20Rapid%20Release/icon-24.png height=32> ***[Firefox Rapid Release](https://github.com/Botspot/pi-apps/tree/master/apps/Firefox%20Rapid%20Release)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Firefox%20Rapid%20Release/icon-24.png" height=32> ***[Firefox Rapid Release](https://github.com/Botspot/pi-apps/tree/master/apps/Firefox%20Rapid%20Release)***
 <https://firefox.com> - Scripts made by chunky-milk
 Added to Pi-Apps by Tejas Singh YT
 Original Web-Browser made by Mozilla Foundation.<br />
@@ -1014,7 +1014,7 @@ To run: Menu -> Internet -> Firefox Web Browser
 To run in terminal: firefox
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Min/icon-24.png height=32> ***[Min](https://github.com/Botspot/pi-apps/tree/master/apps/Min)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Min/icon-24.png" height=32> ***[Min](https://github.com/Botspot/pi-apps/tree/master/apps/Min)***
 <https://minbrowser.org/> - @ryanfortner (GitHub)<br />
 ARM32/ARM64
 ```
@@ -1024,7 +1024,7 @@ To run: Menu -> Internet -> Min
 To run in terminal: min
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pale%20Moon/icon-24.png height=32> ***[Pale Moon](https://github.com/Botspot/pi-apps/tree/master/apps/Pale%20Moon)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Pale%20Moon/icon-24.png" height=32> ***[Pale Moon](https://github.com/Botspot/pi-apps/tree/master/apps/Pale%20Moon)***
 <https://www.palemoon.org/> - Botspot<br />
 ARM32/ARM64
 ```
@@ -1040,7 +1040,7 @@ To run: Menu -> Internet -> Pale Moon
 To run in terminal: palemoon
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Puffin/icon-24.png height=32> ***[Puffin](https://github.com/Botspot/pi-apps/tree/master/apps/Puffin)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Puffin/icon-24.png" height=32> ***[Puffin](https://github.com/Botspot/pi-apps/tree/master/apps/Puffin)***
 <https://www.puffin.com/raspberry-pi/> - Botspot added this app to Pi-Apps.<br />
 ARM32/ARM64
 ```
@@ -1052,7 +1052,7 @@ To run: Menu -> Internet -> Puffin Internet Terminal (Demo)
 To run in a terminal: puffin-internet-terminal-demo
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Quartz/icon-24.png height=32> ***[Quartz](https://github.com/Botspot/pi-apps/tree/master/apps/Quartz)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Quartz/icon-24.png" height=32> ***[Quartz](https://github.com/Botspot/pi-apps/tree/master/apps/Quartz)***
 <https://github.com/ksharindam/quartz-browser-qt5><br />
 ARM32/ARM64
 ```
@@ -1065,14 +1065,14 @@ This has minimal settings to avoid confusion.Yet it has most useful settings, su
 To save pages to read later, print feature can be used to save as pdf. And it can also export the whole page as png image.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Tor/icon-24.png height=32> ***[Tor](https://github.com/Botspot/pi-apps/tree/master/apps/Tor)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Tor/icon-24.png" height=32> ***[Tor](https://github.com/Botspot/pi-apps/tree/master/apps/Tor)***
 <https://sourceforge.net/projects/tor-browser-ports/files/><br />
 ARM32/ARM64
 ```
 The Tor Browser is a web broswer that anonymizes your web traffic using the Tor network, making it easy to protect your identity online.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Vivaldi/icon-24.png height=32> ***[Vivaldi](https://github.com/Botspot/pi-apps/tree/master/apps/Vivaldi)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Vivaldi/icon-24.png" height=32> ***[Vivaldi](https://github.com/Botspot/pi-apps/tree/master/apps/Vivaldi)***
 <https://vivaldi.com> - Big thanks to chunky-milk for app idea and install script:
 https://github.com/chunky-milk/pi-bashscripts-files/tree/main/vivaldi
 
@@ -1085,7 +1085,7 @@ Official Vivaldi browser for ARM Linux.
 ```
 # Internet/Communication
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Caprine/icon-24.png height=32> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Caprine/icon-24.png" height=32> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***
 <https://sindresorhus.com/caprine/><br />
 ARM32/ARM64
 ```
@@ -1097,7 +1097,7 @@ Caprine is a third-party app and is not affiliated with Facebook.
 
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Cawbird/icon-24.png height=32> ***[Cawbird](https://github.com/Botspot/pi-apps/tree/master/apps/Cawbird)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Cawbird/icon-24.png" height=32> ***[Cawbird](https://github.com/Botspot/pi-apps/tree/master/apps/Cawbird)***
 <https://ibboard.co.uk/cawbird/> - IBBoard for continuously developing Cawbird.<br />
 ARM32/ARM64
 ```
@@ -1106,7 +1106,7 @@ Cawbird is a fork of the Corebird GTK Twitter client that continues to work with
 Cawbird works with the new APIs and includes a few fixes and modifications that have historically been patched in to IBBoard's custom Corebird build on his personal Open Build Service account.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Discord/icon-24.png height=32> ***[Discord](https://github.com/Botspot/pi-apps/tree/master/apps/Discord)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Discord/icon-24.png" height=32> ***[Discord](https://github.com/Botspot/pi-apps/tree/master/apps/Discord)***
 <https://github.com/SpacingBat3/WebCord/> - Discord app by SpacingBat3<br />
 ARM32/ARM64
 ```
@@ -1118,7 +1118,7 @@ This client is not officially provided or supported by Discord and technically v
 Made by SpacingBat3 on Github with care :)
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Email%20Checker/icon-24.png height=32> ***[Email Checker](https://github.com/Botspot/pi-apps/tree/master/apps/Email%20Checker)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Email%20Checker/icon-24.png" height=32> ***[Email Checker](https://github.com/Botspot/pi-apps/tree/master/apps/Email%20Checker)***
 <https://github.com/Botspot/raspi-email-checker><br />
 ARM32/ARM64
 ```
@@ -1128,7 +1128,7 @@ If you want to change the settings later, just click the Install button again.
 Originally adapted from: https://learn.adafruit.com/raspberry-pi-e-mail-notifier-using-leds/python-script
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Microsoft%20Teams/icon-24.png height=32> ***[Microsoft Teams](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20Teams)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Microsoft%20Teams/icon-24.png" height=32> ***[Microsoft Teams](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20Teams)***
 <https://github.com/IsmaelMartinez/teams-for-linux> - @IsmaelMartinez on GitHub for the creation of the app.<br />
 ARM32/ARM64
 ```
@@ -1140,7 +1140,7 @@ To run: Menu -> Internet -> Teams
 Build with nativefier. 
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Telegram/icon-24.png height=32> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Telegram/icon-24.png" height=32> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***
 <https://github.com/telegramdesktop/tdesktop><br />
 ARM32/ARM64
 ```
@@ -1150,7 +1150,7 @@ To run: Menu -> Internet -> Telegram Desktop
 To run from terminal: telegram-desktop
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Thunderbird/icon-24.png height=32> ***[Thunderbird](https://github.com/Botspot/pi-apps/tree/master/apps/Thunderbird)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Thunderbird/icon-24.png" height=32> ***[Thunderbird](https://github.com/Botspot/pi-apps/tree/master/apps/Thunderbird)***
 <https://www.thunderbird.net/features> - Botspot<br />
 Package app
 ```
@@ -1159,7 +1159,7 @@ To run: Menu -> Internet -> Thunderbird
 To run in a terminal: thunderbird
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Wechat/icon-24.png height=32> ***[Wechat](https://github.com/Botspot/pi-apps/tree/master/apps/Wechat)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Wechat/icon-24.png" height=32> ***[Wechat](https://github.com/Botspot/pi-apps/tree/master/apps/Wechat)***
 <https://www.wechat.com/en/> - Install script written by RaspberryPiNews on YT
 With help from chills340 on Discord
 Script edits made by Botspot. Botspot was unable to login and test everything though.<br />
@@ -1178,7 +1178,7 @@ WeChat Desktop App:
 To run: Menu -> Internet -> WeChat
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/WhatsApp/icon-24.png height=32> ***[WhatsApp](https://github.com/Botspot/pi-apps/tree/master/apps/WhatsApp)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/WhatsApp/icon-24.png" height=32> ***[WhatsApp](https://github.com/Botspot/pi-apps/tree/master/apps/WhatsApp)***
 no website - Apps compiled using Nativefier and DEB packages hosted by cycool29
 Nativefier made by jiahaog.
 Thanks to Botspot for help with debugging the menu shortcut and for creating pi-apps!<br />
@@ -1193,7 +1193,7 @@ To run:
 menu>internet>Whatsapp Web
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Zoom/icon-24.png height=32> ***[Zoom](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Zoom/icon-24.png" height=32> ***[Zoom](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom)***
 <https://github.com/Botspot/pi-apps/issues/188><br />
 ARM32/ARM64
 ```
@@ -1206,7 +1206,7 @@ To run: Menu -> Internet -> Zoom
 To run in a terminal: ~/zoom/runzoom.sh
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Zoom%20PWA/icon-24.png height=32> ***[Zoom PWA](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom%20PWA)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Zoom%20PWA/icon-24.png" height=32> ***[Zoom PWA](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom%20PWA)***
 <https://github.com/Botspot/zoom-pwa> - Botspot<br />
 ARM32/ARM64
 ```
@@ -1222,7 +1222,7 @@ To run in a terminal: cat ~/.local/share/applications/chrome-gbmplfifepjenigdepe
 ```
 # Multimedia
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Audacious/icon-24.png height=32> ***[Audacious](https://github.com/Botspot/pi-apps/tree/master/apps/Audacious)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Audacious/icon-24.png" height=32> ***[Audacious](https://github.com/Botspot/pi-apps/tree/master/apps/Audacious)***
 <https://audacious-media-player.org/> - Botspot<br />
 Package app
 ```
@@ -1232,7 +1232,7 @@ To run: Menu -> Sound & Video -> Audacious
 To run in a terminal: audacious
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Audacity/icon-24.png height=32> ***[Audacity](https://github.com/Botspot/pi-apps/tree/master/apps/Audacity)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Audacity/icon-24.png" height=32> ***[Audacity](https://github.com/Botspot/pi-apps/tree/master/apps/Audacity)***
 <https://www.audacityteam.org/> - Botspot<br />
 Package app
 ```
@@ -1243,7 +1243,7 @@ To run in a terminal: audacity
 Also see MuseScore2 and Sonic-Pi
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Bongo%20Cam/icon-24.png height=32> ***[Bongo Cam](https://github.com/Botspot/pi-apps/tree/master/apps/Bongo%20Cam)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Bongo%20Cam/icon-24.png" height=32> ***[Bongo Cam](https://github.com/Botspot/pi-apps/tree/master/apps/Bongo%20Cam)***
 <https://github.com/kuroni/bongocat-osu> - Install code made by Raspberry Pi News on Youtube
 Original app made by kuromi: https://github.com/kuroni/bongocat-osu<br />
 ARM32 ONLY
@@ -1257,7 +1257,7 @@ Go here for configuration options: https://github.com/kuroni/bongocat-osu/wiki/S
 NOTE: The app files are stored in ~/bongocam/
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Chromium%20Widevine/icon-24.png height=32> ***[Chromium Widevine](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium%20Widevine)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Chromium%20Widevine/icon-24.png" height=32> ***[Chromium Widevine](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium%20Widevine)***
 <https://github.com/Botspot/chromium-v84-widevine><br />
 ARM32 ONLY
 ```
@@ -1283,7 +1283,7 @@ This is known to work on these websites:
 • Bell Satellite TV
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/FreeTube/icon-24.png height=32> ***[FreeTube](https://github.com/Botspot/pi-apps/tree/master/apps/FreeTube)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/FreeTube/icon-24.png" height=32> ***[FreeTube](https://github.com/Botspot/pi-apps/tree/master/apps/FreeTube)***
 <https://freetubeapp.io/> - Installation Script and added to Pi-Apps by RPICoder<br />
 ARM32/ARM64
 ```
@@ -1294,7 +1294,7 @@ FreeTube has an interface similar to YouTube, but is slower and more innefficien
 Disabling the compositor improves playback performance.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Kodi/icon-24.png height=32> ***[Kodi](https://github.com/Botspot/pi-apps/tree/master/apps/Kodi)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Kodi/icon-24.png" height=32> ***[Kodi](https://github.com/Botspot/pi-apps/tree/master/apps/Kodi)***
 <https://kodi.tv/about> - Botspot<br />
 ARM32/ARM64
 ```
@@ -1314,7 +1314,7 @@ To run in a terminal: kodi
 To make this run on startup, consider using the Autostar app.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LMMS/icon-24.png height=32> ***[LMMS](https://github.com/Botspot/pi-apps/tree/master/apps/LMMS)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/LMMS/icon-24.png" height=32> ***[LMMS](https://github.com/Botspot/pi-apps/tree/master/apps/LMMS)***
 <https://lmms.io> - Thanks to:
  - the LMMS community for developing LMMS
  - @Crilum on GitHub for adding LMMS to Pi-Apps <br />
@@ -1334,7 +1334,7 @@ Features:
  - Import of MIDI files and Hydrogen project files
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/MuseScore/icon-24.png height=32> ***[MuseScore](https://github.com/Botspot/pi-apps/tree/master/apps/MuseScore)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/MuseScore/icon-24.png" height=32> ***[MuseScore](https://github.com/Botspot/pi-apps/tree/master/apps/MuseScore)***
 <https://musescore.org> - Botspot<br />
 Package app
 ```
@@ -1343,7 +1343,7 @@ To run: Menu -> Sound & Video -> MuseScore 2
 To run in terminal: mscore
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/OBS%20Studio/icon-24.png height=32> ***[OBS Studio](https://github.com/Botspot/pi-apps/tree/master/apps/OBS%20Studio)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/OBS%20Studio/icon-24.png" height=32> ***[OBS Studio](https://github.com/Botspot/pi-apps/tree/master/apps/OBS%20Studio)***
 <https://obsproject.com/> - Install script made by Botspot and RPICoder :)<br />
 ARM32/ARM64
 ```
@@ -1353,7 +1353,7 @@ To run: Menu -> Sound & Video -> OBS Studio
 To run in a terminal: obs
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Reaper/icon-24.png height=32> ***[Reaper](https://github.com/Botspot/pi-apps/tree/master/apps/Reaper)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Reaper/icon-24.png" height=32> ***[Reaper](https://github.com/Botspot/pi-apps/tree/master/apps/Reaper)***
 <https://reaper.fm> - Thanks to @Crilum on GitHub for adding this app to Pi-Apps<br />
 ARM32/ARM64
 ```
@@ -1372,7 +1372,7 @@ To run from Menu: Menu -> Sound and Video -> Reaper
 To run ReaPack: Open Reaper, go to the "Extentions" menu, and hover over the "ReaPack" item.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Renoise%20(Demo)/icon-24.png height=32> ***[Renoise (Demo)](https://github.com/Botspot/pi-apps/tree/master/apps/Renoise%20(Demo))***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Renoise%20(Demo)/icon-24.png" height=32> ***[Renoise (Demo)](https://github.com/Botspot/pi-apps/tree/master/apps/Renoise%20(Demo))***
 <https://renoise.com> - Thanks to:
  - Renoise developer for making Renoise, and providing Raspberry Pi builds!
  - @Crilum on GitHub for adding teh app to Pi-Apps<br />
@@ -1398,7 +1398,7 @@ To Run from Menu: Menu -> Sound and Video -> Renoise
 To run in Terminal: renoise
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/SimpleScreenRecorder/icon-24.png height=32> ***[SimpleScreenRecorder](https://github.com/Botspot/pi-apps/tree/master/apps/SimpleScreenRecorder)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/SimpleScreenRecorder/icon-24.png" height=32> ***[SimpleScreenRecorder](https://github.com/Botspot/pi-apps/tree/master/apps/SimpleScreenRecorder)***
 <https://www.maartenbaert.be/simplescreenrecorder/> - App Made by: MaartenBaert
 Suggestion from Kolpix<br />
 Package app
@@ -1413,14 +1413,14 @@ It has a Qt-based graphical user interface.
 Its complexity becomes apparent in its powerful features. It allows one to record X11 screen areas and fullscreen OpenGL applications including sound supporting both ALSA, PulseAudio, JACK and OSS. It uses libavformat to encode the recorded material into a variety of video formats. Scaling the recorded video is possible as well as configuring the encoding quality for the codec chosen directly from the user interface.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Sonic%20Pi/icon-24.png height=32> ***[Sonic Pi](https://github.com/Botspot/pi-apps/tree/master/apps/Sonic%20Pi)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Sonic%20Pi/icon-24.png" height=32> ***[Sonic Pi](https://github.com/Botspot/pi-apps/tree/master/apps/Sonic%20Pi)***
 <https://sonic-pi.net/#rp><br />
 ARM32 ONLY
 ```
 Write code to make music. Latest version of Sonic Pi.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/WACUP%20(new%20WinAmp)/icon-24.png height=32> ***[WACUP (new WinAmp)](https://github.com/Botspot/pi-apps/tree/master/apps/WACUP%20(new%20WinAmp))***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/WACUP%20(new%20WinAmp)/icon-24.png" height=32> ***[WACUP (new WinAmp)](https://github.com/Botspot/pi-apps/tree/master/apps/WACUP%20(new%20WinAmp))***
 <https://getwacup.com/> - Botspot for the scripts
 ralf1307 (github) issue #192 for the suggestion.<br />
 ARM32 ONLY
@@ -1428,7 +1428,7 @@ ARM32 ONLY
 Cross-platform audio player - emulated Windows app
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Waveform/icon-24.png height=32> ***[Waveform](https://github.com/Botspot/pi-apps/tree/master/apps/Waveform)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Waveform/icon-24.png" height=32> ***[Waveform](https://github.com/Botspot/pi-apps/tree/master/apps/Waveform)***
 <https://tracktion.com/products/waveform-free> - Thanks to @Crilum on GitHub for adding this app to Pi-Apps!<br />
 ARM32/ARM64
 ```
@@ -1443,7 +1443,7 @@ To run from Menu: Menu -> Sound and Video -> Waveform 11
 To run from Terminal: Waveform11
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/YouTubuddy/icon-24.png height=32> ***[YouTubuddy](https://github.com/Botspot/pi-apps/tree/master/apps/YouTubuddy)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/YouTubuddy/icon-24.png" height=32> ***[YouTubuddy](https://github.com/Botspot/pi-apps/tree/master/apps/YouTubuddy)***
 <https://github.com/Botspot/youtubuddy> - Botspot added this to Pi-Apps.<br />
 ARM32/ARM64
 ```
@@ -1455,7 +1455,7 @@ Simple YouTube search engine, downloader and player.
 ```
 # Office
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/AbiWord/icon-24.png height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/AbiWord/icon-24.png" height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
 <http://www.abisource.com/> -  open-sorcerer64<br />
 Package app
 ```
@@ -1470,7 +1470,7 @@ To run: Menu -> Office -> Abiword.
 To run in terminal:  abiword.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Libreoffice%20MS%20theme/icon-24.png height=32> ***[Libreoffice MS theme](https://github.com/Botspot/pi-apps/tree/master/apps/Libreoffice%20MS%20theme)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Libreoffice%20MS%20theme/icon-24.png" height=32> ***[Libreoffice MS theme](https://github.com/Botspot/pi-apps/tree/master/apps/Libreoffice%20MS%20theme)***
 <https://github.com/Botspot/libreoffice-ms-theme> - Botspot made this script and theme.<br />
 ARM32/ARM64
 ```
@@ -1480,7 +1480,7 @@ And the tabbed interface is a hidden feature within Libreoffice.
 Currently, the tabbed interface works for Calc, Impress, and Writer. Base and Math don't support it, and it doesn't display correctly on Draw for some reason.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/LibreOffice/icon-24.png height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/LibreOffice/icon-24.png" height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
 <https://www.libreoffice.org> - Botspot<br />
 Package app
 ```
@@ -1490,7 +1490,7 @@ To run in terminal: libreoffice
 To make it look and feel like Microsoft Office, see the "Libreoffice MS Theme" app!
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/NixNote2/icon-24.png height=32> ***[NixNote2](https://github.com/Botspot/pi-apps/tree/master/apps/NixNote2)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/NixNote2/icon-24.png" height=32> ***[NixNote2](https://github.com/Botspot/pi-apps/tree/master/apps/NixNote2)***
 <https://github.com/baumgarr/Nixnote2> - Botspot<br />
 Package app
 ```
@@ -1499,7 +1499,7 @@ To run: Menu -> Internet -> NixNote2
 To run in a terminal: nixnote2
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Notejot/icon-24.png height=32> ***[Notejot](https://github.com/Botspot/pi-apps/tree/master/apps/Notejot)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Notejot/icon-24.png" height=32> ***[Notejot](https://github.com/Botspot/pi-apps/tree/master/apps/Notejot)***
 <https://github.com/lainsce/notejot> - Thanks to:
  - @lainsce on GitHub for creating the app!
  - @Crilum on GitHub for adding this app to Pi-Apps<br />
@@ -1511,7 +1511,7 @@ Run from Menu: Menu -> Accessories -> Notejot
 Run from Terminal: flatpak run io.github.lainsce.Notejot
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/WPS%20Office/icon-24.png height=32> ***[WPS Office](https://github.com/Botspot/pi-apps/tree/master/apps/WPS%20Office)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/WPS%20Office/icon-24.png" height=32> ***[WPS Office](https://github.com/Botspot/pi-apps/tree/master/apps/WPS%20Office)***
 <https://www.wps.com> - Botspot figured out how to install WPS Office on PiOS64. (dependency handling)
 Botspot figured out how to install WPS Office on PiOS32. (chroot setup)<br />
 ARM32/ARM64
@@ -1541,7 +1541,7 @@ If you are using a 64-bit OS:
 ```
 # Programming
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Arduino/icon-24.png height=32> ***[Arduino](https://github.com/Botspot/pi-apps/tree/master/apps/Arduino)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Arduino/icon-24.png" height=32> ***[Arduino](https://github.com/Botspot/pi-apps/tree/master/apps/Arduino)***
 <https://www.arduino.cc/en/main/software><br />
 ARM32/ARM64
 ```
@@ -1551,7 +1551,7 @@ To run: Menu -> Programming -> Arduino IDE.
 To run in a terminal: /home/pi/arduino-1.8.13/arduino
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/BlockPi/icon-24.png height=32> ***[BlockPi](https://github.com/Botspot/pi-apps/tree/master/apps/BlockPi)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/BlockPi/icon-24.png" height=32> ***[BlockPi](https://github.com/Botspot/pi-apps/tree/master/apps/BlockPi)***
 <https://github.com/alienzhangyw/BlockPi> - Botspot made the app's install scripts<br />
 ARM32/ARM64
 ```
@@ -1562,7 +1562,7 @@ To run: Menu -> Programming -> BlockPi
 To run in a terminal: /opt/BlockPi/blockpi
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/BlueJ%20Java%20IDE/icon-24.png height=32> ***[BlueJ Java IDE](https://github.com/Botspot/pi-apps/tree/master/apps/BlueJ%20Java%20IDE)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/BlueJ%20Java%20IDE/icon-24.png" height=32> ***[BlueJ Java IDE](https://github.com/Botspot/pi-apps/tree/master/apps/BlueJ%20Java%20IDE)***
 <https://bluej.org> - open-sorcerer64<br />
 Package app
 ```
@@ -1573,7 +1573,7 @@ BlueJ is an integrated development environment for the Java programming language
 To run: Menu -> Programming -> BlueJ Java IDE
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Codex/icon-24.png height=32> ***[Codex](https://github.com/Botspot/pi-apps/tree/master/apps/Codex)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Codex/icon-24.png" height=32> ***[Codex](https://github.com/Botspot/pi-apps/tree/master/apps/Codex)***
 <https://github.com/jcv8000/Codex><br />
 ARM32/ARM64
 ```
@@ -1582,7 +1582,7 @@ A free note-taking software for programmers and Computer Science students.
 To run: Menu -> Accessories -> Codex
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Electron%20Fiddle/icon-24.png height=32> ***[Electron Fiddle](https://github.com/Botspot/pi-apps/tree/master/apps/Electron%20Fiddle)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Electron%20Fiddle/icon-24.png" height=32> ***[Electron Fiddle](https://github.com/Botspot/pi-apps/tree/master/apps/Electron%20Fiddle)***
 <https://www.electronjs.org/fiddle> - Thanks to:
  - All contributers to Electron, and Electron Fiddle.
  - Crilum on GitHub for making the scripts.<br />
@@ -1598,7 +1598,7 @@ Run from menu: Menu -> Accesories -> Electron Fiddle
 Run from Terminal: electron-fiddle
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Github-CLI/icon-24.png height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Github-CLI/icon-24.png" height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
 <https://cli.github.com/> - Added to pi-apps by Itai-Nelken<br />
 ARM32/ARM64
 ```
@@ -1608,7 +1608,7 @@ It brings pull requests, issues, and other GitHub concepts to the terminal next 
 to run (terminal only): gh
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Github%20Desktop/icon-24.png height=32> ***[Github Desktop](https://github.com/Botspot/pi-apps/tree/master/apps/Github%20Desktop)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Github%20Desktop/icon-24.png" height=32> ***[Github Desktop](https://github.com/Botspot/pi-apps/tree/master/apps/Github%20Desktop)***
 <https://desktop.github.com/> - Added to pi-apps and compiled by theofficialgman<br />
 ARM32/ARM64
 ```
@@ -1619,7 +1619,7 @@ Run from Menu: Menu -> Accessories -> Github Desktop
 Run from Terminal: github-desktop
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Intellij%20IDEA/icon-24.png height=32> ***[Intellij IDEA](https://github.com/Botspot/pi-apps/tree/master/apps/Intellij%20IDEA)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Intellij%20IDEA/icon-24.png" height=32> ***[Intellij IDEA](https://github.com/Botspot/pi-apps/tree/master/apps/Intellij%20IDEA)***
 <https://www.jetbrains.com/idea/> - Thanks to GlacierPark19 for suggesting this app be added.
 Botspot made it.<br />
 ARM32/ARM64
@@ -1628,7 +1628,7 @@ IntelliJ IDEA is an IDE designed to maximize developer productivity.
 It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/jGRASP%20IDE/icon-24.png height=32> ***[jGRASP IDE](https://github.com/Botspot/pi-apps/tree/master/apps/jGRASP%20IDE)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/jGRASP%20IDE/icon-24.png" height=32> ***[jGRASP IDE](https://github.com/Botspot/pi-apps/tree/master/apps/jGRASP%20IDE)***
 <https://www.jgrasp.org/index.html> - Botspot made this app.<br />
 ARM32/ARM64
 ```
@@ -1636,7 +1636,7 @@ An IDE with visualizations for improving software comprehensibility.
 This IDE is used by many learning institutions and colleges for their classes.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Notepad%20++/icon-24.png height=32> ***[Notepad ++](https://github.com/Botspot/pi-apps/tree/master/apps/Notepad%20++)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Notepad%20++/icon-24.png" height=32> ***[Notepad ++](https://github.com/Botspot/pi-apps/tree/master/apps/Notepad%20++)***
 <https://notepad-plus-plus.org/> - App added to pi-apps by RPICoder<br />
 ARM32 ONLY
 ```
@@ -1646,7 +1646,7 @@ To Run:  Menu -> Accessories -> Notepad++
 This app runs with the help of box86 and wine.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Processing%20IDE/icon-24.png height=32> ***[Processing IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Processing%20IDE)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Processing%20IDE/icon-24.png" height=32> ***[Processing IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Processing%20IDE)***
 <https://processing.org/> - added by pi-dev500<br />
 ARM32/ARM64
 ```
@@ -1658,7 +1658,7 @@ To run: Menu -> Programming -> Processing IDE
 To run in a terminal: ~/.local/share/processing-3.5.3/processing
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pycharm%20CE/icon-24.png height=32> ***[Pycharm CE](https://github.com/Botspot/pi-apps/tree/master/apps/Pycharm%20CE)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Pycharm%20CE/icon-24.png" height=32> ***[Pycharm CE](https://github.com/Botspot/pi-apps/tree/master/apps/Pycharm%20CE)***
 <https://www.jetbrains.com/pycharm/> - Thanks to gam3t3chelectronicshobbyhouse a.k.a 'Gam3t3ch' for "Installing PyCharm on Raspberry Pi 4" from element14. Also, fabianmendes for introducing it into pi-apps.<br />
 ARM32/ARM64
 ```
@@ -1670,7 +1670,7 @@ You must configure the IDE to run each script ("py" file), or create a new envir
 For Educational purposes, the "EDUtools" plugin can be installed. Go to the right corner from the Pycharm start up portal: Configurate > Plugins > Search for: EDUtools > Install it and restart the IDE. Then you will able to select "Learn and Teach" for courses.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Remarkable/icon-24.png height=32> ***[Remarkable](https://github.com/Botspot/pi-apps/tree/master/apps/Remarkable)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Remarkable/icon-24.png" height=32> ***[Remarkable](https://github.com/Botspot/pi-apps/tree/master/apps/Remarkable)***
 <https://remarkableapp.github.io> - Added to Pi-Apps by Itai-Nelken.
 Thanks to seiferteric on GitHub for providing the DEB package fix.<br />
 ARM32/ARM64
@@ -1687,7 +1687,7 @@ Remarkable has many features including:
 - Keyboard Shortcuts
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Scratch%202/icon-24.png height=32> ***[Scratch 2](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%202)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Scratch%202/icon-24.png" height=32> ***[Scratch 2](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%202)***
 <https://github.com/Botspot/scratch2> - Botspot<br />
 ARM32 ONLY
 ```
@@ -1697,7 +1697,7 @@ To run: Menu -> Programming -> Scratch 2.
 To run in a terminal: scratch2
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Scratch%203/icon-24.png height=32> ***[Scratch 3](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%203)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Scratch%203/icon-24.png" height=32> ***[Scratch 3](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%203)***
 <https://scratch.mit.edu> - Botspot<br />
 Package app
 ```
@@ -1708,7 +1708,7 @@ To run in a terminal: /usr/lib/scratch3/scratch-desktop
 Note: Consider trying Turbowarp or Scratch 2 - both run faster than this version.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Sphero%20SDK/icon-24.png height=32> ***[Sphero SDK](https://github.com/Botspot/pi-apps/tree/master/apps/Sphero%20SDK)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Sphero%20SDK/icon-24.png" height=32> ***[Sphero SDK](https://github.com/Botspot/pi-apps/tree/master/apps/Sphero%20SDK)***
 <https://sdk.sphero.com> - Sphero SDK maintainers
 zShqdows (GitHub)
 ryanfortner (GitHub) for some improvements<br />
@@ -1731,7 +1731,7 @@ Lastly, connect RX from the Raspberry Pi to TX on the RVR.
 There you go! You are now ready to run your programs.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/StackEdit/icon-24.png height=32> ***[StackEdit](https://github.com/Botspot/pi-apps/tree/master/apps/StackEdit)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/StackEdit/icon-24.png" height=32> ***[StackEdit](https://github.com/Botspot/pi-apps/tree/master/apps/StackEdit)***
 <https://stackedit.io/> - Added to pi-apps by Itai-Nelken.
 webapps compiled by Itai-Nelken using nativefier.
 nativefier by jiahaog.<br />
@@ -1744,7 +1744,7 @@ To run: Menu -> Programming -> StackEdit
 To run in a terminal: ~/stackedit/StackEdit
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Sublime%20Text/icon-24.png height=32> ***[Sublime Text](https://github.com/Botspot/pi-apps/tree/master/apps/Sublime%20Text)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Sublime%20Text/icon-24.png" height=32> ***[Sublime Text](https://github.com/Botspot/pi-apps/tree/master/apps/Sublime%20Text)***
 <https://www.sublimetext.com/> - Added to pi-apps by Itai Nelken<br />
 ARM32/ARM64
 ```
@@ -1757,7 +1757,7 @@ On armhf based Operating Systems, this runs Sublime Text 2 with the Box86 emulat
 However on arm64 based Operating Systems this runs the latest Sublime Text 4 without any emulation.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Turbowarp/icon-24.png height=32> ***[Turbowarp](https://github.com/Botspot/pi-apps/tree/master/apps/Turbowarp)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Turbowarp/icon-24.png" height=32> ***[Turbowarp](https://github.com/Botspot/pi-apps/tree/master/apps/Turbowarp)***
 <https://turbowarp.org/> - App added to pi-apps by Raspberry Pi News (bit.ly/rpnsite)
 
 Made by the TurboWarp dev team (https://github.com/TurboWarp/)<br />
@@ -1769,7 +1769,7 @@ TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run
 To run: Menu -> Programming -> TurboWarp
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Visual%20Studio%20Code/icon-24.png height=32> ***[Visual Studio Code](https://github.com/Botspot/pi-apps/tree/master/apps/Visual%20Studio%20Code)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Visual%20Studio%20Code/icon-24.png" height=32> ***[Visual Studio Code](https://github.com/Botspot/pi-apps/tree/master/apps/Visual%20Studio%20Code)***
 <https://code.visualstudio.com/> - Install script written by RaspberryPiNews on YT
 Small change to description by CleanMachine1
 Original program made by Microsoft<br />
@@ -1782,7 +1782,7 @@ Note: If you are using Raspberry Pi OS, you don't need to install this app. Just
 
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/VSCodium/icon-24.png height=32> ***[VSCodium](https://github.com/Botspot/pi-apps/tree/master/apps/VSCodium)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/VSCodium/icon-24.png" height=32> ***[VSCodium](https://github.com/Botspot/pi-apps/tree/master/apps/VSCodium)***
 <https://vscodium.com/> - Added to pi-apps by @ryanfortner (Github)<br />
 ARM32/ARM64
 ```
@@ -1791,7 +1791,7 @@ Microsoft's vscode source code is open source (MIT-licensed), but the product av
 ```
 # System Management
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/All%20Is%20Well/icon-24.png height=32> ***[All Is Well](https://github.com/Botspot/pi-apps/tree/master/apps/All%20Is%20Well)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/All%20Is%20Well/icon-24.png" height=32> ***[All Is Well](https://github.com/Botspot/pi-apps/tree/master/apps/All%20Is%20Well)***
 <https://github.com/spectrumgamer75/All-is-well><br />
 ARM32/ARM64
 ```
@@ -1799,7 +1799,7 @@ ALL IS WELL is a bash script that allows users to easily update and upgrade thei
 It will also fix any broken packages and dependencies. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Autostar/icon-24.png height=32> ***[Autostar](https://github.com/Botspot/pi-apps/tree/master/apps/Autostar)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Autostar/icon-24.png" height=32> ***[Autostar](https://github.com/Botspot/pi-apps/tree/master/apps/Autostar)***
 <https://github.com/Botspot/autostar> - Botspot made, Botspot added.<br />
 ARM32/ARM64
 ```
@@ -1814,7 +1814,7 @@ To run: Menu -> Preferences -> AutoStar
 To run in terminal: ~/autostar/main.sh
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/BleachBit/icon-24.png height=32> ***[BleachBit](https://github.com/Botspot/pi-apps/tree/master/apps/BleachBit)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/BleachBit/icon-24.png" height=32> ***[BleachBit](https://github.com/Botspot/pi-apps/tree/master/apps/BleachBit)***
 <https://www.bleachbit.org/><br />
 ARM32/ARM64
 ```
@@ -1834,7 +1834,7 @@ Comparison to APT version:
 - Support showing debug messages
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/btop++/icon-24.png height=32> ***[btop++](https://github.com/Botspot/pi-apps/tree/master/apps/btop++)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/btop++/icon-24.png" height=32> ***[btop++](https://github.com/Botspot/pi-apps/tree/master/apps/btop++)***
 <https://github.com/aristocratos/btop> - Thanks to:
  - aristocratos and all contributers.
  - Crilum on GitHub for writing the scripts.<br />
@@ -1850,7 +1850,7 @@ btop is also very user customizable, with different layouts and ways of displayi
 If you want to look at screenshots of btop, go to the GitHub README.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Clam%20Antivirus/icon-24.png height=32> ***[Clam Antivirus](https://github.com/Botspot/pi-apps/tree/master/apps/Clam%20Antivirus)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Clam%20Antivirus/icon-24.png" height=32> ***[Clam Antivirus](https://github.com/Botspot/pi-apps/tree/master/apps/Clam%20Antivirus)***
 <https://gitlab.com/dave_m/clamtk><br />
 ARM32/ARM64
 ```
@@ -1864,7 +1864,7 @@ Run with the command "clamscan" or go to Menu > Utility > ClamTK.
 
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/CommanderPi/icon-24.png height=32> ***[CommanderPi](https://github.com/Botspot/pi-apps/tree/master/apps/CommanderPi)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/CommanderPi/icon-24.png" height=32> ***[CommanderPi](https://github.com/Botspot/pi-apps/tree/master/apps/CommanderPi)***
 <https://github.com/Jack477/CommanderPi><br />
 ARM32/ARM64
 ```
@@ -1874,7 +1874,7 @@ To run: Menu -> Accessories -> CommanderPi
 To run in a terminal: /home/pi/CommanderPi/src/start.sh
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Disk%20Usage%20Analyzer/icon-24.png height=32> ***[Disk Usage Analyzer](https://github.com/Botspot/pi-apps/tree/master/apps/Disk%20Usage%20Analyzer)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Disk%20Usage%20Analyzer/icon-24.png" height=32> ***[Disk Usage Analyzer](https://github.com/Botspot/pi-apps/tree/master/apps/Disk%20Usage%20Analyzer)***
 <https://wiki.gnome.org/Apps/DiskUsageAnalyzer> - Botspot<br />
 Package app
 ```
@@ -1883,7 +1883,7 @@ To run: Menu -> System Tools -> Disk Usage Analyzer
 To run in a terminal: baobab
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/GParted/icon-24.png height=32> ***[GParted](https://github.com/Botspot/pi-apps/tree/master/apps/GParted)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/GParted/icon-24.png" height=32> ***[GParted](https://github.com/Botspot/pi-apps/tree/master/apps/GParted)***
 <https://gparted.org> - Botspot<br />
 Package app
 ```
@@ -1897,7 +1897,7 @@ To run: Menu -> System Tools -> GParted
 To run in a terminal: sudo gparted
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Neofetch/icon-24.png height=32> ***[Neofetch](https://github.com/Botspot/pi-apps/tree/master/apps/Neofetch)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Neofetch/icon-24.png" height=32> ***[Neofetch](https://github.com/Botspot/pi-apps/tree/master/apps/Neofetch)***
 <https://github.com/dylanaraps/neofetch> - App Credit: dylanaraps - (GitHub: https://github.com/dylanaraps)
 
 Added to Pi-Apps by nikoloiz - (GitHub: https://github.com/nikoloiz)<br />
@@ -1908,7 +1908,7 @@ An aesthetically pleasing bash script to show system information.
 To run in terminal: 'neofetch'
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pika%20Backup/icon-24.png height=32> ***[Pika Backup](https://github.com/Botspot/pi-apps/tree/master/apps/Pika%20Backup)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Pika%20Backup/icon-24.png" height=32> ***[Pika Backup](https://github.com/Botspot/pi-apps/tree/master/apps/Pika%20Backup)***
 <https://github.com/sophie-h/pika-backup> - Thanks to:
  - @sophie-h on GitHUb for creating this app
  - @Crilum on GitHub forr adding this app to Pi-Apps<br />
@@ -1929,7 +1929,7 @@ Doing backups the easy way. Plugin your USB drive and let the Pika do the rest f
 Pika Backup is designed to save your personal data and does not support complete system recovery. Pika Backup is powered by the well-tested BorgBackup software.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pi%20Power%20Tools/icon-24.png height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Pi%20Power%20Tools/icon-24.png" height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
 <https://github.com/Botspot/Pi-Power-Tools><br />
 ARM32/ARM64
 ```
@@ -1940,7 +1940,7 @@ To run: Menu -> Accessories -> Pi Power Tools
 To run in a terminal: ~/Pi-Power-Tools/home
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Synaptic/icon-24.png height=32> ***[Synaptic](https://github.com/Botspot/pi-apps/tree/master/apps/Synaptic)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Synaptic/icon-24.png" height=32> ***[Synaptic](https://github.com/Botspot/pi-apps/tree/master/apps/Synaptic)***
 <https://www.lifewire.com/guide-to-synaptic-package-manager-220570y> - Botspot<br />
 Package app
 ```
@@ -1949,7 +1949,7 @@ To run: Menu -> Preferences -> Synaptic Package Manager
 To run in terminal: sudo synaptic
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Syncthing/icon-24.png height=32> ***[Syncthing](https://github.com/Botspot/pi-apps/tree/master/apps/Syncthing)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Syncthing/icon-24.png" height=32> ***[Syncthing](https://github.com/Botspot/pi-apps/tree/master/apps/Syncthing)***
 <https://syncthing.net> - @theofficialgman on GitHub for the scripts<br />
 ARM32/ARM64
 ```
@@ -1958,7 +1958,7 @@ to start, go to Internet => Syncthing start
 Terminal: syncthing.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Sysmon/icon-24.png height=32> ***[Sysmon](https://github.com/Botspot/pi-apps/tree/master/apps/Sysmon)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Sysmon/icon-24.png" height=32> ***[Sysmon](https://github.com/Botspot/pi-apps/tree/master/apps/Sysmon)***
 <https://github.com/t0xic0der/sysmon> - @t0xic0der on GitHub for the creation of the app
 @ryanfortner on GitHub for the scripts<br />
 ARM32/ARM64
@@ -1971,7 +1971,7 @@ For testing purposes, you can look at the website from the Pi itself by launchin
 As mentioned earlier, the website is only visible to computers in the local network.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/SysMonTask/icon-24.png height=32> ***[SysMonTask](https://github.com/Botspot/pi-apps/tree/master/apps/SysMonTask)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/SysMonTask/icon-24.png" height=32> ***[SysMonTask](https://github.com/Botspot/pi-apps/tree/master/apps/SysMonTask)***
 <https://github.com/KrispyCamel4u/SysMonTask> - @KrispyCamel4u (GitHub) for the program
 @ryanfortner (GitHub) for the scripts<br />
 ARM32/ARM64
@@ -1980,7 +1980,7 @@ Linux system monitor similar to the Windows task manager, written in Python.
 Run via the Main Menu > System Tools > SysMonTask.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/System%20Monitoring%20Center/icon-24.png height=32> ***[System Monitoring Center](https://github.com/Botspot/pi-apps/tree/master/apps/System%20Monitoring%20Center)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/System%20Monitoring%20Center/icon-24.png" height=32> ***[System Monitoring Center](https://github.com/Botspot/pi-apps/tree/master/apps/System%20Monitoring%20Center)***
 <https://github.com/hakandundar34coding/system-monitoring-center> - @hakandundar34coding (GitHub)
 @ryanfortner (GitHub)<br />
 ARM32/ARM64
@@ -1990,7 +1990,7 @@ Graphical Linux System Monitor that provides information about CPU/RAM/Disk/Netw
 Run via the Main Menu > System Tools > System Monitoring Center.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Timeshift/icon-24.png height=32> ***[Timeshift](https://github.com/Botspot/pi-apps/tree/master/apps/Timeshift)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Timeshift/icon-24.png" height=32> ***[Timeshift](https://github.com/Botspot/pi-apps/tree/master/apps/Timeshift)***
 <https://github.com/teejee2008/timeshift> - app created by: teejee2008 
 https://github.com/teejee2008/
 
@@ -2005,7 +2005,7 @@ System restore tool for Linux. Creates filesystem snapshots using rsync+hardlink
 to run from terminal: timeshift
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Update%20Buddy/icon-24.png height=32> ***[Update Buddy](https://github.com/Botspot/pi-apps/tree/master/apps/Update%20Buddy)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Update%20Buddy/icon-24.png" height=32> ***[Update Buddy](https://github.com/Botspot/pi-apps/tree/master/apps/Update%20Buddy)***
 <https://github.com/Botspot/update-buddy><br />
 ARM32/ARM64
 ```
@@ -2016,7 +2016,7 @@ To run in a terminal: ~/update-buddy/onstartup.sh
 ```
 # Terminals
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Alacritty%20Terminal/icon-24.png height=32> ***[Alacritty Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Alacritty%20Terminal)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Alacritty%20Terminal/icon-24.png" height=32> ***[Alacritty Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Alacritty%20Terminal)***
 <https://github.com/alacritty/alacritty> - Thanks to all contributors of the Alacritty project!
 Thanks to jmcerrejon on GitHub for making the compiling scripts!
 Thanks to ryanfortner on GitHub for hosting the deb, and cycool29 for making debs!
@@ -2031,7 +2031,7 @@ or with full path:
 /opt/alacritty/alacritty
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Cool%20Retro%20Term/icon-24.png height=32> ***[Cool Retro Term](https://github.com/Botspot/pi-apps/tree/master/apps/Cool%20Retro%20Term)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Cool%20Retro%20Term/icon-24.png" height=32> ***[Cool Retro Term](https://github.com/Botspot/pi-apps/tree/master/apps/Cool%20Retro%20Term)***
 <https://github.com/Swordfish90/cool-retro-term><br />
 ARM32/ARM64
 ```
@@ -2043,7 +2043,7 @@ To run: Menu -> System Tools -> Cool Retro Term
 To run in terminal: ~/cool-retro-term/cool-retro-term
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/eDEX-UI/icon-24.png height=32> ***[eDEX-UI](https://github.com/Botspot/pi-apps/tree/master/apps/eDEX-UI)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/eDEX-UI/icon-24.png" height=32> ***[eDEX-UI](https://github.com/Botspot/pi-apps/tree/master/apps/eDEX-UI)***
 <https://github.com/GitSquared/edex-ui><br />
 ARM32/ARM64
 ```
@@ -2059,7 +2059,7 @@ View all keyboard shortcuts with Ctrl+Shift+K.
 Novaspirit Tech made an excellent walkthrough video a while ago: https://www.youtube.com/watch?v=DJOAmYlDQuM
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Guake%20Terminal/icon-24.png height=32> ***[Guake Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Guake%20Terminal)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Guake%20Terminal/icon-24.png" height=32> ***[Guake Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Guake%20Terminal)***
 <http://guake-project.org/> - Botspot<br />
 ARM32/ARM64
 ```
@@ -2072,7 +2072,7 @@ To run manually: Menu -> System Tools -> Guake Terminal
 To run in a terminal: guake
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Hyper/icon-24.png height=32> ***[Hyper](https://github.com/Botspot/pi-apps/tree/master/apps/Hyper)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Hyper/icon-24.png" height=32> ***[Hyper](https://github.com/Botspot/pi-apps/tree/master/apps/Hyper)***
 <https://hyper.is> - Thanks to:
  - vercel and all contributors for creating Hyper!
  - @Jai-JAP on GitHub for armv7l build & fixing arm64 build
@@ -2090,7 +2090,7 @@ Run from Terminal: hyper
 Run from Menu: Menu -> Accessories -> Hyper
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Microsoft%20PowerShell/icon-24.png height=32> ***[Microsoft PowerShell](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20PowerShell)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Microsoft%20PowerShell/icon-24.png" height=32> ***[Microsoft PowerShell](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20PowerShell)***
 <https://docs.microsoft.com/en-us/powershell/scripting/install/install-raspbian?view=powershell-7.2> - Made by Microsoft [ Open Source Code ]
 Ported by TurquoiseTNT<br />
 ARM32/ARM64
@@ -2101,7 +2101,7 @@ To run: Menu -> Accessories -> Microsoft PowerShell
 In terminal: pwsh
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Tabby/icon-24.png height=32> ***[Tabby](https://github.com/Botspot/pi-apps/tree/master/apps/Tabby)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Tabby/icon-24.png" height=32> ***[Tabby](https://github.com/Botspot/pi-apps/tree/master/apps/Tabby)***
 <https://tabby.sh/> - Thanks to:
  - Eugeny and all contributors for creating Tabby!
  - @Jai-JAP on GitHub for armv7l & arm64 builds & for the simple scripts<br />
@@ -2115,7 +2115,7 @@ Run from Menu: Menu -> Accessories -> Tabby
 ```
 # Tools
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/AndroidBuddy/icon-24.png height=32> ***[AndroidBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/AndroidBuddy)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/AndroidBuddy/icon-24.png" height=32> ***[AndroidBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/AndroidBuddy)***
 <https://gitlab.com/gazlene/droidbuddy> - Made by gazlene#8088 on Discord
 
 Added to pi-apps by Raspberry Pi News and Botspot<br />
@@ -2133,7 +2133,7 @@ Features:
 - AND MORE! Check out the website for more info.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/AntiMicroX/icon-24.png height=32> ***[AntiMicroX](https://github.com/Botspot/pi-apps/tree/master/apps/AntiMicroX)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/AntiMicroX/icon-24.png" height=32> ***[AntiMicroX](https://github.com/Botspot/pi-apps/tree/master/apps/AntiMicroX)***
 <https://antimicrox.github.io/> - Thanks to:
  - All contributers for creating AntiMicroX.
  - ryanfortner for his information on how to build AntiMicroX.
@@ -2148,7 +2148,7 @@ Run from Menu: Menu -> Accesories -> AntiMicroX
 Run from Terminal: antimicrox
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/BalenaEtcher/icon-24.png height=32> ***[BalenaEtcher](https://github.com/Botspot/pi-apps/tree/master/apps/BalenaEtcher)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/BalenaEtcher/icon-24.png" height=32> ***[BalenaEtcher](https://github.com/Botspot/pi-apps/tree/master/apps/BalenaEtcher)***
 <https://www.raspberrypi.org/forums/viewtopic.php?f=62https://www.raspberrypi.org/forums/viewtopic.php?f=62&t=255205&start=25#p1564958t=255205https://www.raspberrypi.org/forums/viewtopic.php?f=62&t=255205&start=25#p1564958start=25#p1564958> - @Itai-Nelken (GitHub)
 @ryanfortner (GitHub)<br />
 ARM32/ARM64
@@ -2158,7 +2158,7 @@ To run: Menu -> Accessories -> BalenaEtcher
 To run in a terminal: /opt/balenaEtcher/balena-etcher-electron
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/ckb-next/icon-24.png height=32> ***[ckb-next](https://github.com/Botspot/pi-apps/tree/master/apps/ckb-next)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/ckb-next/icon-24.png" height=32> ***[ckb-next](https://github.com/Botspot/pi-apps/tree/master/apps/ckb-next)***
 <https://github.com/ckb-next/ckb-next> - @ryanfortner (GitHub)<br />
 Package app
 ```
@@ -2174,7 +2174,7 @@ Run from Menu > Preferences > ckb-next, or simply run `ckb-next` in a terminal.
 **DISCLAIMER**: this is NOT an official Corsair product and does not come with a warranty. Also, not all Corsair products are fully supported. Use at your own risk.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Ducopanel/icon-24.png height=32> ***[Ducopanel](https://github.com/Botspot/pi-apps/tree/master/apps/Ducopanel)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Ducopanel/icon-24.png" height=32> ***[Ducopanel](https://github.com/Botspot/pi-apps/tree/master/apps/Ducopanel)***
 <https://github.com/ponsato/ducopanel> - @ponsato (GitHub) for the program
 @ryanfortner (GitHub) for the scripts<br />
 ARM64 ONLY
@@ -2190,7 +2190,7 @@ ElectronJs has been used for this purpose.
 To run the program: Main Menu -> Accessories -> Ducopanel
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/FF%20Multi%20Converter/icon-24.png height=32> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/FF%20Multi%20Converter/icon-24.png" height=32> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
 <https://sites.google.com/site/ffmulticonverter/> - Thanks to Crilum on GitHub for writing the scripts.
 Thanks to ilstad on GitHub and all Contributors for creating FF Multi Converter!<br />
 ARM32/ARM64
@@ -2208,7 +2208,7 @@ Run from Menu: Menu -> Accesories -> FF Multi Converter
 Run from Terminal: ffmulticonverter
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Flameshot/icon-24.png height=32> ***[Flameshot](https://github.com/Botspot/pi-apps/tree/master/apps/Flameshot)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Flameshot/icon-24.png" height=32> ***[Flameshot](https://github.com/Botspot/pi-apps/tree/master/apps/Flameshot)***
 <https://flameshot.org/> - Flameshot.org for creating the tool + all github contributors
 CleanMachine1 for the install scripts and suggestion
 Itai-Nelken for finding the .deb files for installing
@@ -2222,7 +2222,7 @@ To use: find the flameshot icon in your taskbar (system tray) and click it to op
 To run in a terminal: flameshot
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Geekbench/icon-24.png height=32> ***[Geekbench](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Geekbench/icon-24.png" height=32> ***[Geekbench](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench)***
 <https://www.geekbench.com/><br />
 ARM32/ARM64
 ```
@@ -2234,7 +2234,7 @@ Find out today with Geekbench 5.
 To run in terminal: geekbench
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Https%20File%20Server/icon-24.png height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Https%20File%20Server/icon-24.png" height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
 <http://www.rejetto.com/hfs/?f=intro><br />
 ARM32 ONLY
 ```
@@ -2245,7 +2245,7 @@ This app uses Wine to run a windows exe file.
 To launch: Menu -> Applications -> HTTPS File Server
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Imager/icon-24.png height=32> ***[Imager](https://github.com/Botspot/pi-apps/tree/master/apps/Imager)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Imager/icon-24.png" height=32> ***[Imager](https://github.com/Botspot/pi-apps/tree/master/apps/Imager)***
 <https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility> - Botspot<br />
 Package app
 ```
@@ -2255,7 +2255,7 @@ To run: Menu -> Accessories -> Imager
 To run in terminal: rpi-imager
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/KeePassXC/icon-24.png height=32> ***[KeePassXC](https://github.com/Botspot/pi-apps/tree/master/apps/KeePassXC)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/KeePassXC/icon-24.png" height=32> ***[KeePassXC](https://github.com/Botspot/pi-apps/tree/master/apps/KeePassXC)***
 <https://github.com/keepassxreboot/keepassxc> - @ryanfortner (GitHub) for the scripts
 @raspbian-addons maintainers for the deb<br />
 ARM32/ARM64
@@ -2264,7 +2264,7 @@ KeePassXC is a modern, secure, and open-source password manager that stores and 
 Run via the Main Menu > Accessories > KeePassXC
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Linux%20Wifi%20Hotspot/icon-24.png height=32> ***[Linux Wifi Hotspot](https://github.com/Botspot/pi-apps/tree/master/apps/Linux%20Wifi%20Hotspot)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Linux%20Wifi%20Hotspot/icon-24.png" height=32> ***[Linux Wifi Hotspot](https://github.com/Botspot/pi-apps/tree/master/apps/Linux%20Wifi%20Hotspot)***
 <https://github.com/lakinduakash/linux-wifi-hotspot> - Thanks to:
  - @lakinduakash on GitHub (as well as all contributors) for creating this app
  - @Crilum on GitHub for adding this app to Pi-Apps<br />
@@ -2292,7 +2292,7 @@ Features:
 Note: Running Linux Wifi Hotspot from the Menu will turn on your Wifi, becuause trying to start a Hotspot with your Wifi off won't work.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/More%20RAM/icon-24.png height=32> ***[More RAM](https://github.com/Botspot/pi-apps/tree/master/apps/More%20RAM)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/More%20RAM/icon-24.png" height=32> ***[More RAM](https://github.com/Botspot/pi-apps/tree/master/apps/More%20RAM)***
 <https://forums.raspberrypi.com/viewtopic.php?t=327238> - Botspot<br />
 ARM32/ARM64
 ```
@@ -2322,7 +2322,7 @@ What about Novaspirit Tech's popular ZRAM tutorial from a few years ago? Is this
 Overall, this app is designed to get the most out of ZRAM. Even if your Pi never uses all available RAM, installing this app will unlock more space for file-caching, thereby improving performance while reducing writes to the SD card.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Nautilus/icon-24.png height=32> ***[Nautilus](https://github.com/Botspot/pi-apps/tree/master/apps/Nautilus)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Nautilus/icon-24.png" height=32> ***[Nautilus](https://github.com/Botspot/pi-apps/tree/master/apps/Nautilus)***
 <https://wiki.gnome.org/Apps/Files> - Botspot<br />
 Package app
 ```
@@ -2331,7 +2331,7 @@ To run: Menu -> Accessories -> Nautilus
 To run in terminal: nautilus
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Nemo/icon-24.png height=32> ***[Nemo](https://github.com/Botspot/pi-apps/tree/master/apps/Nemo)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Nemo/icon-24.png" height=32> ***[Nemo](https://github.com/Botspot/pi-apps/tree/master/apps/Nemo)***
 <https://github.com/linuxmint/nemo> - open-sorcerer64
 linuxmint<br />
 Package app
@@ -2345,7 +2345,7 @@ To run: Menu -> Accessories -> Files
 To run in terminal: nemo
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Node.js/icon-24.png height=32> ***[Node.js](https://github.com/Botspot/pi-apps/tree/master/apps/Node.js)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Node.js/icon-24.png" height=32> ***[Node.js](https://github.com/Botspot/pi-apps/tree/master/apps/Node.js)***
 <https://nodesource.com/> - Script by ilobilo
 Script improved by Itai-Nelken<br />
 ARM32/ARM64
@@ -2355,7 +2355,7 @@ Node.js is used for all npm packages and is the foundation of Electron.
 As usual, this app will keep it updated.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/PeaZip/icon-24.png height=32> ***[PeaZip](https://github.com/Botspot/pi-apps/tree/master/apps/PeaZip)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/PeaZip/icon-24.png" height=32> ***[PeaZip](https://github.com/Botspot/pi-apps/tree/master/apps/PeaZip)***
 <https://peazip.github.io> - @ryanfortner (GitHub)<br />
 ARM64 ONLY
 ```
@@ -2364,7 +2364,7 @@ PeaZip is free file archiver utility, based on Open Source technologies of 7-Zip
 Cross-platform, full-featured but user-friendly alternative to WinRar, WinZip and similar general purpose archive manager applications, open and extract 200+ archive formats: 001, 7Z, ACE, ARC, ARJ, BR, BZ2, CAB, DMG, GZ, ISO, LHA, PAQ, PEA, RAR, TAR, UDF, WIM, XZ, ZIP, ZIPX, ZST - view full list of supported archive file formats for archiving and for extraction.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pi-Apps%20Terminal%20Plugin%20(bash)/icon-24.png height=32> ***[Pi-Apps Terminal Plugin (bash)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(bash))***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Pi-Apps%20Terminal%20Plugin%20(bash)/icon-24.png" height=32> ***[Pi-Apps Terminal Plugin (bash)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(bash))***
 <https://github.com/Itai-Nelken/PiApps-terminal_bash-edition> - Created and added to pi-apps by Itai-Nelken<br />
 ARM32/ARM64
 ```
@@ -2387,7 +2387,7 @@ It has all the commands you will ever need:
 and it makes life easier by eliminating the use of quotes for apps with a space in their name (unless you are using 'multi-install' or 'multi-uninstall').
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Pi-Apps%20Terminal%20Plugin%20(python)/icon-24.png height=32> ***[Pi-Apps Terminal Plugin (python)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(python))***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Pi-Apps%20Terminal%20Plugin%20(python)/icon-24.png" height=32> ***[Pi-Apps Terminal Plugin (python)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(python))***
 <https://github.com/techcoder20/PiAppsTerminalAdvanced> - App made by and added to pi-apps by RPICoder<br />
 ARM32 ONLY
 ```
@@ -2410,7 +2410,7 @@ Available Arguments:
 Run "pi-apps help" to get this information
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/PiGro/icon-24.png height=32> ***[PiGro](https://github.com/Botspot/pi-apps/tree/master/apps/PiGro)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/PiGro/icon-24.png" height=32> ***[PiGro](https://github.com/Botspot/pi-apps/tree/master/apps/PiGro)***
 <https://github.com/actionschnitzel/PiGro-Aid-><br />
 ARM32/ARM64
 ```
@@ -2418,7 +2418,7 @@ PiGro is a program designed to make all Debian-based distributions easier to use
 The most common terminal commands can be executed with one click.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/PiKISS%20GUI/icon-24.png height=32> ***[PiKISS GUI](https://github.com/Botspot/pi-apps/tree/master/apps/PiKISS%20GUI)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/PiKISS%20GUI/icon-24.png" height=32> ***[PiKISS GUI](https://github.com/Botspot/pi-apps/tree/master/apps/PiKISS%20GUI)***
 <https://github.com/Jai-JAP/PiKISS-GUI> - @krishenriksen on Github for creating PiKISS-GUI.
 @Jai-JAP on Github for modifying the app to add semi-automated app syncs from piKISS & adding this app to Pi-Apps.<br />
 ARM32/ARM64
@@ -2434,7 +2434,7 @@ Run: Menu -> Accessories -> PiKISS GUI Sync Apps
 From terminal run: ~/local/share/pikiss-gui/getapps.sh
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/piKiss/icon-24.png height=32> ***[piKiss](https://github.com/Botspot/pi-apps/tree/master/apps/piKiss)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/piKiss/icon-24.png" height=32> ***[piKiss](https://github.com/Botspot/pi-apps/tree/master/apps/piKiss)***
 <https://github.com/jmcerrejon/PiKISS><br />
 ARM32/ARM64
 ```
@@ -2448,7 +2448,7 @@ To run in a terminal: ~/piKiss/piKiss.sh
  ∙ AND MUCH MORE!
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/PiSafe/icon-24.png height=32> ***[PiSafe](https://github.com/Botspot/pi-apps/tree/master/apps/PiSafe)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/PiSafe/icon-24.png" height=32> ***[PiSafe](https://github.com/Botspot/pi-apps/tree/master/apps/PiSafe)***
 <https://github.com/RichardMidnight/pi-safe><br />
 ARM32/ARM64
 ```
@@ -2457,7 +2457,7 @@ To run: Menu -> Accessories -> PiSafe
 To run in a terminal: pisafe
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Scrcpy/icon-24.png height=32> ***[Scrcpy](https://github.com/Botspot/pi-apps/tree/master/apps/Scrcpy)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Scrcpy/icon-24.png" height=32> ***[Scrcpy](https://github.com/Botspot/pi-apps/tree/master/apps/Scrcpy)***
 <https://github.com/Genymobile/scrcpy><br />
 ARM32/ARM64
 ```
@@ -2476,7 +2476,7 @@ Notes:
 - If you have issues, try to run the app a couple of times through Terminal.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Screenshot/icon-24.png height=32> ***[Screenshot](https://github.com/Botspot/pi-apps/tree/master/apps/Screenshot)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Screenshot/icon-24.png" height=32> ***[Screenshot](https://github.com/Botspot/pi-apps/tree/master/apps/Screenshot)***
 <https://apps.gnome.org/app/org.gnome.Screenshot> - Botspot<br />
 Package app
 ```
@@ -2485,7 +2485,7 @@ To run: Menu -> Accessories -> Screenshot
 To run in terminal: gnome-screenshot
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Snapdrop/icon-24.png height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Snapdrop/icon-24.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
 <https://github.com/RobinLinus/snapdrop> - @ryanfortner (GitHub)<br />
 ARM32/ARM64
 ```
@@ -2495,7 +2495,7 @@ To use: Open a web browser on the other computer/smartphone and go to snapdrop.n
 Now drag and drop files to the website, and the other device will see the files and download them.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Snap%20Store/icon-24.png height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Snap%20Store/icon-24.png" height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
 <https://snapcraft.io/store> - Installation script and made by RPICoder<br />
 ARM32/ARM64
 ```
@@ -2503,7 +2503,7 @@ Snaps are app packages for desktop, cloud and IoT that are easy to install, secu
 Snaps are discoverable and installable from the Snap Store, the app store for Linux with an audience of millions.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Temps/icon-24.png height=32> ***[Temps](https://github.com/Botspot/pi-apps/tree/master/apps/Temps)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Temps/icon-24.png" height=32> ***[Temps](https://github.com/Botspot/pi-apps/tree/master/apps/Temps)***
 <https://github.com/musicpro/temps> - Thanks to Crilum on GitHub for making the scripts.
 Thanks to jackd248 on GitHub for the original temps.
 Thanks to promusic on GitHub for forking and continuing development on this awesome app!<br />
@@ -2516,14 +2516,14 @@ or from Terminal: temps
 
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/TiLP/icon-24.png height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/TiLP/icon-24.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
 <https://github.com/debrouxl/tilp_and_gfm> - @ryanfortner (GitHub)<br />
 Package app
 ```
 TiLP is a linking program for Texas Instruments graphing calculators. It can transfer apps, programs, and more to a calculator.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/tldr/icon-24.png height=32> ***[tldr](https://github.com/Botspot/pi-apps/tree/master/apps/tldr)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/tldr/icon-24.png" height=32> ***[tldr](https://github.com/Botspot/pi-apps/tree/master/apps/tldr)***
 <https://github.com/dbrgn/tealdeer> - Ported to pi-apps by Raspberry Pi News on youtube
 Updated by CleanMachine1
 Made by the community at https://github.com/tldr-pages/tldr<br />
@@ -2538,7 +2538,7 @@ Maybe you are new to the command-line world? Or just a little rusty? Or perhaps 
 It also is more digestable than man pages which blasts pages of useless stuff at you every time you use it.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/USBImager/icon-24.png height=32> ***[USBImager](https://github.com/Botspot/pi-apps/tree/master/apps/USBImager)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/USBImager/icon-24.png" height=32> ***[USBImager](https://github.com/Botspot/pi-apps/tree/master/apps/USBImager)***
 <https://bztsrc.gitlab.io/usbimager/><br />
 ARM32/ARM64
 ```
@@ -2548,7 +2548,7 @@ USBImager is a very useful and minimal app that works like etcher and Raspberry 
 To run from terminal, type: usbimager.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/VeraCrypt/icon-24.png height=32> ***[VeraCrypt](https://github.com/Botspot/pi-apps/tree/master/apps/VeraCrypt)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/VeraCrypt/icon-24.png" height=32> ***[VeraCrypt](https://github.com/Botspot/pi-apps/tree/master/apps/VeraCrypt)***
 <https://www.veracrypt.fr/en/Documentation.html> - nielsbaloe on Github suggested this be added.
 Botspot added it.<br />
 ARM32/ARM64
@@ -2564,7 +2564,7 @@ Open source disk encryption software
 - More information about the features of VeraCrypt may be found in the documentation.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/VMware%20Horizon%20Client/icon-24.png height=32> ***[VMware Horizon Client](https://github.com/Botspot/pi-apps/tree/master/apps/VMware%20Horizon%20Client)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/VMware%20Horizon%20Client/icon-24.png" height=32> ***[VMware Horizon Client](https://github.com/Botspot/pi-apps/tree/master/apps/VMware%20Horizon%20Client)***
 <https://www.vmware.com/products/horizon><br />
 ARM32 ONLY
 ```
@@ -2575,7 +2575,7 @@ The Horizon Client app communicates with the View Connection Server, which acts 
 IT administrators can also use Horizon Client and the View Connection Server to deliver Microsoft Remote Desktop Session Host (RDSH) desktops and applications from an RDSH farm or to deliver VMware ThinApp applications within Horizon View.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Windows%20Flasher/icon-24.png height=32> ***[Windows Flasher](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Flasher)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Windows%20Flasher/icon-24.png" height=32> ***[Windows Flasher](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Flasher)***
 <https://github.com/Botspot/wor-flasher> - Botspot<br />
 ARM32/ARM64
 ```
@@ -2597,7 +2597,7 @@ To run the command-line interface in a terminal: ~/wor-flasher/install-wor.sh
 If you encounter problems, we recommend you run WoR-flasher in a terminal to catch any errors.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Xfburn/icon-24.png height=32> ***[Xfburn](https://github.com/Botspot/pi-apps/tree/master/apps/Xfburn)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Xfburn/icon-24.png" height=32> ***[Xfburn](https://github.com/Botspot/pi-apps/tree/master/apps/Xfburn)***
 <https://docs.xfce.org/apps/xfburn/start> - @Rak1ta (GitHub)<br />
 Package app
 ```
@@ -2608,7 +2608,7 @@ To run in terminal: xfburn
 ```
 # Tools/Emulation
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Box64/icon-24.png height=32> ***[Box64](https://github.com/Botspot/pi-apps/tree/master/apps/Box64)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Box64/icon-24.png" height=32> ***[Box64](https://github.com/Botspot/pi-apps/tree/master/apps/Box64)***
 <https://github.com/ptitSeb/box64> - ptitseb for creating box64
 debs made by @ryanfortner (GitHub)<br />
 ARM64 ONLY
@@ -2620,7 +2620,7 @@ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux sys
 Because Box64 uses the native versions of some "system" libraries, like libc, libm, SDL, and OpenGL, it's easy to integrate and use with most applications, and performance can be surprisingly high in many cases.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Box86/icon-24.png height=32> ***[Box86](https://github.com/Botspot/pi-apps/tree/master/apps/Box86)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Box86/icon-24.png" height=32> ***[Box86](https://github.com/Botspot/pi-apps/tree/master/apps/Box86)***
 <https://github.com/ptitSeb/box86> - Itai-Nelken for his box86 debs and script creation<br />
 ARM32/ARM64
 ```
@@ -2630,7 +2630,7 @@ Because Box86 uses the native versions of some "system" libraries, like libc, li
 Box86 now integrates a DynaRec (dynamic recompiler) for the ARM platform, providing a speed boost between 5 to 10 times faster than only using the interpreter.
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/QEMU/icon-24.png height=32> ***[QEMU](https://github.com/Botspot/pi-apps/tree/master/apps/QEMU)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/QEMU/icon-24.png" height=32> ***[QEMU](https://github.com/Botspot/pi-apps/tree/master/apps/QEMU)***
 <https://www.qemu.org/> - Added to Pi-Apps by Itai-Nelken
 debs compiled and packaged using QEMU2DEB (tool by Itai-Nelken) by ryanfortner.<br />
 ARM32/ARM64
@@ -2641,7 +2641,7 @@ If you ever had trouble using the repository's QEMU, this version will work way 
 (for example the MacOS 9 dock doesn't appear using the repository's QEMU).
 ```
 
-### <img src=https://github.com/Botspot/pi-apps/raw/master/apps/Wine%20(x86)/icon-24.png height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Wine%20(x86)/icon-24.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
 <https://www.winehq.org/> - Script by Itai-Nelken and Botspot<br />
 ARM32 ONLY
 ```
