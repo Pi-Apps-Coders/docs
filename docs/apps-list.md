@@ -654,6 +654,55 @@ A PSP emulator that can run PSP games in full HD and can upscale textures also.
 How to run: Menu > Games > PPSSPP
 ```
 
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Project%20OutFox/icon-24.png" height=32> ***[Project OutFox](https://github.com/Botspot/pi-apps/tree/master/apps/Project%20OutFox)***
+<https://projectoutfox.com/> - All the hardworking stepmania contributors: https://github.com/stepmania/stepmania/graphs/contributors
+Project OutFox contributors: https://projectoutfox.com/about<br />
+ARM32/ARM64
+```
+Project OutFox is a free BUT CLOSED SOURCE, cross-platform rhythm game. It is a fork of the OPEN SOURCE game, StepMania. It supports common key-based rhythm game formats (including 4-panel and 5-panel dance games among others), as well as keyboard and dance pad controllers.
+It is customizable with user-made add-ons such as themes, and provides an integrated editor for creating your own simfiles.
+
+Project OutFox only comes with a couple of songs, so you are expected to add your own content! There are multiple websites out there for hosting songpacks, here is one of them: https://search.stepmaniaonline.net/
+There are also official Project OutFox packs here: https://projectoutfox.com/outfox-serenity
+
+To run: Menu -> Games -> Project OutFox
+To run in a terminal: ~/ProjectOutFox/*/OutFox
+
+How to customize Project OutFox (adding songpacks, theming, etc):
+https://outfox.wiki/user-guide/config/folders/
+
+Your User Data folder is where you place custom content (like songpacks):
+~/.project-outfox
+```
+
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/PyChess/icon-24.png" height=32> ***[PyChess](https://github.com/Botspot/pi-apps/tree/master/apps/PyChess)***
+<http://www.pychess.org/> - Rak1ta
+Crilum<br />
+ARM32/ARM64
+```
+PyChess is a chess client for playing and analyzing chess games. It is intended to be usable both for those totally new to chess as well as advanced users who want to use a computer to further enhance their play.
+When you get sick of playing computer players you can login to FICS (the Free Internet Chess Server) and play against people all over the world. PyChess has a built-in Timeseal client, so you won't lose clock time during a game due to lag. PyChess also has pre-move support, which means you can make (or start making) a move before your opponent has made their move.
+PyChess has many other features including: - CECP and UCI chess engine support with customizable engine configurations - Polyglot opening book support - Hint and Spy move arrows.
+
+
+To run: Menu -> Accessories -> pychess
+To run in terminal: pychess
+```
+
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Shattered%20Pixel%20Dungeon/icon-24.png" height=32> ***[Shattered Pixel Dungeon](https://github.com/Botspot/pi-apps/tree/master/apps/Shattered%20Pixel%20Dungeon)***
+<https://shatteredpixel.com/> - Evan Debenham for his work on Shattered Pixel Dungeon and keeping it Open Source
+Watabou for the original Pixel Dungeon and making it Open Source<br />
+ARM32/ARM64
+```
+Shattered Pixel Dungeon is a Roguelike Dungeon Crawler RPG with pixel art graphics.
+Every game is a unique challenge, with four different playable characters, randomized levels and enemies, and hundreds of items to collect and use.
+The game is simple to get into, but strategy is required if you want to win!
+
+To run: Menu -> Games -> Shattered Pixel Dungeon
+
+Saves and configs are stored in: ~/.local/share/.shatteredpixel/shattered-pixel-dungeon
+```
+
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Steam/icon-24.png" height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
 <https://www.tomshardware.com/how-to/raspberry-pi-install-steam><br />
 ARM32 ONLY
@@ -669,6 +718,25 @@ Package app
 The Steam Link app brings desktop gaming to your Raspberry Pi. Just pair a controller to your device, connect to a computer running Steam on the same local network, and start playing your existing Steam games.
 To run: Menu -> Games -> Steam Link
 To run in a terminal: steamlink
+```
+
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/StepMania/icon-24.png" height=32> ***[StepMania](https://github.com/Botspot/pi-apps/tree/master/apps/StepMania)***
+<https://www.stepmania.com/> - All the hardworking stepmania contributors: https://github.com/stepmania/stepmania/graphs/contributors<br />
+ARM32/ARM64
+```
+StepMania is a free and open source, cross-platform rhythm game. It supports common key-based rhythm game formats (including 4-panel and 5-panel dance games among others), as well as keyboard and dance pad controllers.
+It is customizable with user-made add-ons such as themes, and provides an integrated editor for creating your own simfiles.
+
+Stepmania by default only comes with three songs, so you are expected to add your own content! There are multiple websites out there for hosting songpacks, here is one of them: https://search.stepmaniaonline.net/
+
+To run: Menu -> Games -> Stepmania
+To run in a terminal: /usr/local/stepmania-5.1/stepmania
+
+How to customize stepmania (adding songpacks, theming, etc):
+https://github.com/stepmania/stepmania/wiki/Customization
+
+Your User Data folder is where you place custom content (like songpacks):
+~/.stepmania-5.1
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Stunt%20Rally/icon-24.png" height=32> ***[Stunt Rally](https://github.com/Botspot/pi-apps/tree/master/apps/Stunt%20Rally)***
