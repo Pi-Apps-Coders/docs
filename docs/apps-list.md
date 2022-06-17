@@ -1715,15 +1715,16 @@ This app runs with the help of box86 and wine.
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Processing%20IDE/icon-24.png" height=32> ***[Processing IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Processing%20IDE)***
-<https://processing.org/> - added by pi-dev500<br />
+<https://processing.org/> - added by pi-dev500
+updated by theofficialgman<br />
 ARM32/ARM64
 ```
 Simple Java IDE
-Processing is an IDE + Programming Language used for Visual Arts.
+Processing 4 is an IDE + Programming Language used for Visual Arts.
 It is an Open-Source and Free Software (FOSS) which is built from Java and is used to create graphics.
 
 To run: Menu -> Programming -> Processing IDE
-To run in a terminal: ~/.local/share/processing-3.5.3/processing
+To run in a terminal: ~/.local/share/processing-*/processing
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Pycharm%20CE/icon-24.png" height=32> ***[Pycharm CE](https://github.com/Botspot/pi-apps/tree/master/apps/Pycharm%20CE)***
