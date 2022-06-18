@@ -518,6 +518,26 @@ To run in a terminal: mono ~/LineRider/linerider.exe
 To view other's creations, go to https://reddit.com/r/linerider or https://discord.gg/QWu6R5w
 ```
 
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Marathon/icon-24.png" height=32> ***[Marathon](https://github.com/Botspot/pi-apps/tree/master/apps/Marathon)***
+<https://https://alephone.lhowon.org> - Rak1ta on github for the install scripts
+theofficialgman for tweaking them and adding them to pi-apps
+The developers at https://github.com/Aleph-One-Marathon<br />
+ARM32/ARM64
+```
+Marathon, Marathon 2 and Marathon Infinity are single and online multiplayer old school 1st person shooter games.
+Aleph One is the open source continuation of Bungie™’s Marathon® 2 game engine and played these games.
+Many third party scenarios and net maps are also available. Available for Mac OS X, Windows, and Linux.
+This package includes the Marathon trilogy.
+
+To run:
+  Menu -> Games -> Marathon, Marathon 2, or Marathon Infinity
+
+To run in a terminal: 
+  /usr/local/bin/alephone ~/AlephOneData/Marathon/
+  /usr/local/bin/alephone ~/AlephOneData/Marathon_2/
+  /usr/local/bin/alephone ~/AlephOneData/Marathon_Infinity/
+```
+
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Bedrock/icon-24.png" height=32> ***[Minecraft Bedrock](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Bedrock)***
 <https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/appimage> - Install script written by RaspberryPiNews on YT
 Appimage made by ChristopherHX on Github
