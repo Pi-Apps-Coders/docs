@@ -557,9 +557,9 @@ Run with the menu app "Minecraft Bedrock Launcher" or with the command "GALLIUM_
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java/icon-24.png" height=32> ***[Minecraft Java](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java)***
 <https://www.lunarclient.com/> - Lunar Client is developed by MoonsworthLLC
 The ARM fork of Lunar Client is maintained by gl91306 on Github: https://github.com/gl91306/lunar
-ARM lwjgl libs uploaded by rpiMike on the Raspberry Pi Forums
+ARM lwjgl2/3 libs from theofficialgman
 Install script written by RaspberryPiNews on Youtube/mobilegmYT on Github
-Scripts re-written by Botspot<br />
+Scripts re-written by Botspot and theofficialgman<br />
 ARM32/ARM64
 ```
 Lunar Client is an all-in-one modpack integrated Launcher available for ONLY popular versions of Minecraft 
@@ -581,7 +581,7 @@ Need help? Please open an issue on this repository: https://github.com/gl91306/l
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20MultiMC5/icon-24.png" height=32> ***[Minecraft Java MultiMC5](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20MultiMC5)***
-<https://github.com/cobalt2727/L4T-Megascript/raw/master/scripts/games_and_emulators/minecraft_java_multimc.sh> - Install script written by theofficialgman based on the version for the L4T Megascript<br />
+<https://github.com/MultiMC/Launcher> - Install script written by theofficialgman based on the version for the L4T Megascript<br />
 ARM32/ARM64
 ```
 CUSTOM BUILD of MultiMC5/Launcher code for ARMhf/ARM64 support. Includes Microsoft, Mojang, and PC GamePass Account support. This launcher allows you to easily manage multiple instances of minecraft and your mods at once.
@@ -598,11 +598,11 @@ The MultiMC5 Wiki can be found here: https://github.com/MultiMC/MultiMC5/wiki
 If you need help installing Optifine: https://github.com/MultiMC/MultiMC5/wiki/MultiMC-and-OptiFine
 How to choose the correct java version: https://github.com/MultiMC/Launcher/wiki/Using-the-right-Java#setting-up-java-in-multimc
 
-The install script contains OS detection (ubuntu and debian/raspbian based systems supported), and automatic java 8/11/16/17 installation.
+Ubuntu and Debian/Raspbian based systems supported. Includes automatic java 8/11/16/17 installation.
 
-MultiMC5 supports minecraft versions from the old beta/alphas all the way up to 1.18+. Fabric and Forge mod loading is fully supported.
+MultiMC5 supports minecraft versions from the old beta/alphas all the way up to 1.19+. Fabric, Forge, and Quilt mod loading is fully supported.
 
-A custom meta repo is used for arm32 and arm64 to provide lwjgl 2.9.4, 3.1.2(fake), 3.1.6, 3.2.1, 3.2.2, and 3.2.3(unused) native libraries. (https://github.com/theofficialgman/meta-multimc)
+A custom meta repo is used for arm32 and arm64 lwjgl 2.9.4, 3.1.2(fake), 3.1.6, 3.2.1, 3.2.2, and 3.3.1 native libraries. (https://github.com/theofficialgman/meta-multimc)
 This supports all currently released versions of minecraft.
 
 Note: MultiMC5 github/discord does support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord, Forum Post, or Pi-Apps github issues.
