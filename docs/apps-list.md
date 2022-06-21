@@ -968,12 +968,12 @@ To run: Menu -> Internet -> Run Speedtest
 To run in a terminal: speedtest
 ```
 
-### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/TeamViewer%20Host/icon-24.png" height=32> ***[TeamViewer Host](https://github.com/Botspot/pi-apps/tree/master/apps/TeamViewer%20Host)***
-<https://github.com/Benmac83/Teamviewer-installer-for-pi> - Credits go to @Benmac83 on the Botspot discord server<br />
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/TeamViewer/icon-24.png" height=32> ***[TeamViewer](https://github.com/Botspot/pi-apps/tree/master/apps/TeamViewer)***
+<https://github.com/Benmac83/Teamviewer-installer-for-pi> - Benmac83 on the Botspot discord server, GYKGamer on GitHub for the heads up on the client/host preview, and theofficialgman for the scripts<br />
 ARM32/ARM64
 ```
-Remote desktop server software.
-To run: Menu -> Internet -> TeamViewer Host
+Remote desktop server and client software.
+To run: Menu -> Internet -> TeamViewer
 To run in terminal: teamviewer
 If you get an error running it from command line follow the instructions it gives you. They're very simple to follow.
 ```
