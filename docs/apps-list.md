@@ -1173,6 +1173,15 @@ Official Vivaldi browser for ARM Linux.
 ```
 # Internet/Communication
 
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/ArmCord/icon-24.png" height=32> ***[ArmCord](https://github.com/Botspot/pi-apps/tree/master/apps/ArmCord)***
+<https://github.com/ArmCord/ArmCord> - @ryanfortner (GitHub)<br />
+ARM32/ARM64
+```
+ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+
+Run from the Menu > Internet > ArmCord, or simply run `armcord` in a terminal.
+```
+
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Caprine/icon-24.png" height=32> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***
 <https://sindresorhus.com/caprine/><br />
 ARM32/ARM64
@@ -2725,9 +2734,7 @@ debs compiled and packaged using QEMU2DEB (tool by Itai-Nelken) by ryanfortner.<
 ARM32/ARM64
 ```
 QEMU is a generic and open source machine emulator and virtualizer.
-Latest version of QEMU, Not outdated like the repository's QEMU.
-If you ever had trouble using the repository's QEMU, this version will work way better.
-(for example the MacOS 9 dock doesn't appear using the repository's QEMU).
+QEMU 6.1 for Buster, system QEMU for other distros (Bullseye is currently using 7.0).
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Wine%20(x86)/icon-24.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
