@@ -554,7 +554,7 @@ Run with the menu app "Minecraft Bedrock Launcher" or with the command "GALLIUM_
  ∙ And much more!
 ```
 
-### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java/icon-24.png" height=32> ***[Minecraft Java](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java)***
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20Lunar/icon-24.png" height=32> ***[Minecraft Java Lunar](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Lunar)***
 <https://www.lunarclient.com/> - Lunar Client is developed by MoonsworthLLC
 The ARM fork of Lunar Client is maintained by gl91306 on Github: https://github.com/gl91306/lunar
 ARM lwjgl2/3 libs from theofficialgman
@@ -2623,8 +2623,7 @@ TiLP is a linking program for Texas Instruments graphing calculators. It can tra
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/tldr/icon-24.png" height=32> ***[tldr](https://github.com/Botspot/pi-apps/tree/master/apps/tldr)***
 <https://github.com/dbrgn/tealdeer> - Ported to pi-apps by Raspberry Pi News on youtube
-Updated by CleanMachine1
-Made by the community at https://github.com/tldr-pages/tldr<br />
+Updated by CleanMachine1<br />
 ARM32/ARM64
 ```
 The tldr project is a collection of community-maintained help pages for command-line tools, that aims to be a simpler, more approachable complement to traditional man pages.
