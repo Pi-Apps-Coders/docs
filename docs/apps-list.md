@@ -380,6 +380,19 @@ ARM32/ARM64
 Immerse into a decisive battle against tons of cunning foes, face the terrifying bosses and protect your homeland throughout 15 diverse levels of the game. The hardcore gameplay of AstroMenace, packed with pure non-stop action, will become a full scale test for your basic instinct of survival.
 ```
 
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Celeste%20Classic/icon-24.png" height=32> ***[Celeste Classic](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste%20Classic)***
+lemon32767 for the classic celeste port
+theofficialgman for better controller support additions and the pi-apps script
+Matt Thorson and Noel Berry for making the original game<br />
+ARM32/ARM64
+```
+This is a C source port of the original celeste (Celeste classic) for the PICO-8, designed to be portable.
+
+This game can be played with controllers or with keyboard. The general mapping is found here: https://github.com/lemon32767/ccleste#controls
+
+To run: Menu -> Games -> Celeste Classic
+```
+
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Chiaki/icon-24.png" height=32> ***[Chiaki](https://github.com/Botspot/pi-apps/tree/master/apps/Chiaki)***
 <https://github.com/Fredrum/chiaki/wiki/Chiaki-for-the-Raspberry-Pi> - Chiaki software implementation by Florian Märkl: https://github.com/thestr4ng3r
 Raspberry Pi fork implementation by Blueroom VR: https://github.com/Fredrum
