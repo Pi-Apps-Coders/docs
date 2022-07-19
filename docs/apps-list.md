@@ -1115,6 +1115,19 @@ To run: Menu -> Internet -> Firefox Web Browser
 To run in terminal: firefox
 ```
 
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Flow/icon-24.png" height=32> ***[Flow](https://github.com/Botspot/pi-apps/tree/master/apps/Flow)***
+<https://www.ekioh.com/flow-browser/> - Botspot<br />
+ARM32/ARM64
+```
+High-performance browser built from the ground up without relying on Chromium.
+This is a closed source web browser specifically designed for running on the Raspberry Pi platform. It makes extensive usage of the GPU, and it outperforms many faster computers on the same benchmark.
+
+This is a preview version, and you are bound to find places where it does not work well. Javascript support is still buggy, and other features are missing. But when Flow Browser works, the result is impressive.
+
+To run: Menu -> Internet -> Flow Browser
+To run in a terminal: flow
+```
+
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Min/icon-24.png" height=32> ***[Min](https://github.com/Botspot/pi-apps/tree/master/apps/Min)***
 <https://minbrowser.org/> - @ryanfortner (GitHub)<br />
 ARM32/ARM64
