@@ -1538,9 +1538,12 @@ Its complexity becomes apparent in its powerful features. It allows one to recor
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Sonic%20Pi/icon-24.png" height=32> ***[Sonic Pi](https://github.com/Botspot/pi-apps/tree/master/apps/Sonic%20Pi)***
 <https://sonic-pi.net/#rp><br />
-ARM32 ONLY
+ARM32/ARM64
 ```
 Write code to make music. Latest version of Sonic Pi.
+
+To run: Menu -> Programming -> Sonic Pi
+To run in a terminal: sonic-pi
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/WACUP%20(new%20WinAmp)/icon-24.png" height=32> ***[WACUP (new WinAmp)](https://github.com/Botspot/pi-apps/tree/master/apps/WACUP%20(new%20WinAmp))***
