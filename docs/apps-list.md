@@ -2573,6 +2573,8 @@ To run in a terminal: ~/piKiss/piKiss.sh
  ∙ Emulators galore!
  ∙ Install apps like OBS and Cool-Retro-Term!
  ∙ AND MUCH MORE!
+
+ATTENTION! The pi-kiss maintainer only uses edge versions of software. This means that if you installed something and it works, it does not mean that it will work in the future. Currently only Bullseye is supported, operation on Buster and similar systems is not guaranteed. Do not rush to remove your programs, you may not be able to install them in the future.
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/PiSafe/icon-24.png" height=32> ***[PiSafe](https://github.com/Botspot/pi-apps/tree/master/apps/PiSafe)***
