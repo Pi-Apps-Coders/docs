@@ -2144,18 +2144,14 @@ To run in a terminal: ~/update-buddy/onstartup.sh
 # Terminals
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Alacritty%20Terminal/icon-24.png" height=32> ***[Alacritty Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Alacritty%20Terminal)***
-<https://github.com/alacritty/alacritty> - Thanks to all contributors of the Alacritty project!
-Thanks to jmcerrejon on GitHub for making the compiling scripts!
-Thanks to ryanfortner on GitHub for hosting the deb, and cycool29 for making debs!
-Thanks to Crilum on GitHib for making the scripts!<br />
+<https://github.com/alacritty/alacritty> - theofficialgman for building the debs.
+barnumbirr on github for making the debian sources.<br />
 ARM32/ARM64
 ```
 A fast, cross-platform, OpenGL terminal emulator
 
 Run from Menu: Menu -> System Tools -> Alacritty
 Run from Terminal: alacritty
-or with full path:
-/opt/alacritty/alacritty
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Cool%20Retro%20Term/icon-24.png" height=32> ***[Cool Retro Term](https://github.com/Botspot/pi-apps/tree/master/apps/Cool%20Retro%20Term)***
