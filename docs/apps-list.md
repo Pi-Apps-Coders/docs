@@ -302,7 +302,7 @@ To run: Menu -> Graphics -> LibreCAD
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/LibrePCB/icon-24.png" height=32> ***[LibrePCB](https://github.com/Botspot/pi-apps/tree/master/apps/LibrePCB)***
 <https://librepcb.discourse.group/t/how-to-install-librepcb-on-a-raspberry-pi/212><br />
-ARM32 ONLY
+ARM32/ARM64
 ```
 Develop printed circuit boards.
 ```
@@ -629,7 +629,7 @@ GYKGAMER for the initial idea/implementation
 Crilum for bugtesting<br />
 ARM32/ARM64
 ```
-This is a simple tool to create a Minecraft server: Vanilla, Fabric, Forge, Paper, Bukkit, Spigot, Purpur and Tuinity are supported
+This is a simple tool to create a Minecraft server: Vanilla, Fabric, Forge, Paper, Bukkit, Spigot, Sponge, Purpur and Tuinity are supported
 
 You can play over your local network (or you can create a port forward on your internet router/modem at port 25565 to play over the internet)
 
@@ -644,6 +644,8 @@ To start on automatically on boot and stop on shutdown: sudo systemctl enable mi
 Refer to the ~/Minecraft-Java-Server/start-server.sh file if you need to add custom JVM arguements
 
 Temurin (Adoptium) or AdoptOpenJDK Java 8/16/17 apt repos are used in this installer for compatibility.
+
+If you uninstall or update this app for whatever reason, your world, mod, and versions folder will remain in ~/Minecraft-Java-Server so there is no data loss.
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Pi%20(Modded)/icon-24.png" height=32> ***[Minecraft Pi (Modded)](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Pi%20(Modded))***
