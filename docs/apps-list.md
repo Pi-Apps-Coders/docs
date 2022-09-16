@@ -302,7 +302,7 @@ To run: Menu -> Graphics -> LibreCAD
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/LibrePCB/icon-24.png" height=32> ***[LibrePCB](https://github.com/Botspot/pi-apps/tree/master/apps/LibrePCB)***
 <https://librepcb.discourse.group/t/how-to-install-librepcb-on-a-raspberry-pi/212><br />
-ARM32/ARM64
+ARM64 ONLY
 ```
 Develop printed circuit boards.
 ```
@@ -565,6 +565,23 @@ Run with the menu app "Minecraft Bedrock Launcher" or with the command "GALLIUM_
  ∙ Active comunity to ask for help
  ∙ FPS Counter mod
  ∙ And much more!
+```
+
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20GDLauncher/icon-24.png" height=32> ***[Minecraft Java GDLauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20GDLauncher)***
+<https://gdevs.io/> - theofficialgman<br />
+ARM64 ONLY
+```
+GDLauncher is simple, yet powerful Minecraft launcher with a strong focus on the user experience. Includes Microsoft, Mojang, and PC GamePass Account support as well as CurseForge Mod and Modpack installation. This is a CUSTOM BUILD of GDLauncher for ARM64 support.
+
+NOTE: The use of performance enhancing mods is highly encouraged, such as optifine with Optifabric and Fabric/Forge or Sodium/Lithium/Phosphor Fabric Mods.
+
+To run: Menu -> Games -> GDLauncher
+To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 gdlauncher
+
+A custom meta repo is used for arm64 lwjgl 2.9.4, 3.1.2(fake), 3.1.6, 3.2.1, 3.2.2, and 3.3.1 native libraries. (https://github.com/theofficialgman/piston-meta-arm64)
+This supports all currently released versions of minecraft.
+
+Note: GDLauncher github/discord does support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord or Pi-Apps github issues.
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20Lunar/icon-24.png" height=32> ***[Minecraft Java Lunar](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Lunar)***
@@ -1268,7 +1285,7 @@ Build with nativefier.
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Telegram/icon-24.png" height=32> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***
 <https://github.com/telegramdesktop/tdesktop><br />
-ARM32/ARM64
+ARM64 ONLY
 ```
 Telegram is a free and open source, cross-platform, cloud-based instant messaging software. This service also provides end-to-end encrypted video calling, VoIP, file sharing and several other features. 
 
