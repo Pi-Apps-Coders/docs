@@ -29,6 +29,7 @@ jobs:
           sed -i 's/blob/raw/' ./docs/apps-list.md
           sed -i 's/icon-64/icon-24/' ./docs/apps-list.md
           sed -i 's/^# /## /' ./docs/apps-list.md
+          sed  -i '1i # Apps List' ./docs/apps-list.md
           #replace $website to <website>
           for line in $(awk '/###/{getline; print}' ./docs/apps-list.md |  awk '{print $1;}' | grep http --color=none | sed 's/<br//g'); do 
             sed -i -z "s+$line+<$line>+" ./docs/apps-list.md
