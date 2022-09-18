@@ -21,6 +21,8 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
 
 repo_name: Pi-Apps-Coders/docs
 repo_url: https://github.com/Pi-Apps-Coders/docs
