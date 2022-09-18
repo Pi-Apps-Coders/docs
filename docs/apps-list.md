@@ -1,4 +1,4 @@
-# Appearance
+## Appearance
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Color%20Emoji%20font/icon-24.png" height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
 ARM32/ARM64
@@ -131,7 +131,7 @@ Over time, snow will begin to collect on the top of your windows.
 To run: Menu -> Games -> xsnow
 To run in terminal: xsnow
 ```
-# Creative Arts
+## Creative Arts
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/BlockBench/icon-24.png" height=32> ***[BlockBench](https://github.com/Botspot/pi-apps/tree/master/apps/BlockBench)***
 <https://github.com/JannisX11/blockbench> - JannisX11 (GitHub) for creating the program
@@ -255,7 +255,7 @@ Organize, edit, and publish your photos.
 To run: Menu -> Graphics -> Shotwell
 To run in terminal: shotwell
 ```
-# Engineering
+## Engineering
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Cura/icon-24.png" height=32> ***[Cura](https://github.com/Botspot/pi-apps/tree/master/apps/Cura)***
 <https://github.com/smartavionics/Cura><br />
@@ -358,7 +358,7 @@ Takes a 3D model and slices it for use in a 3D printer.
 To run: Menu -> Programming -> PrusaSlicer
 To run in a terminal: ~/PrusaSlicer.AppImage
 ```
-# Games
+## Games
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Amiberry/icon-24.png" height=32> ***[Amiberry](https://github.com/Botspot/pi-apps/tree/master/apps/Amiberry)***
 <https://github.com/midwan/amiberry/> - Program created by Dimitris Panokostas (midwan) on GitHub.
@@ -865,7 +865,7 @@ WorldPainter is an interactive map generator for Minecraft.
 It allows you to "paint" landscapes using similar tools as a regular paint program.
 Sculpt and mould the terrain, paint materials, trees, snow and ice, etc. onto it, and much more.
 ```
-# Internet
+## Internet
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Angry%20IP%20scanner/icon-24.png" height=32> ***[Angry IP scanner](https://github.com/Botspot/pi-apps/tree/master/apps/Angry%20IP%20scanner)***
 <https://angryip.org> - @Itai-Nelken (GitHub)
@@ -1049,7 +1049,7 @@ XDM has built in video converter which lets you convert downloaded videos to pop
 
 Support for HTTP, HTTPS, FTP, DASH, HLS, HDS protocols, firewalls, proxy servers, PAC scripts, file redirects, cookies, authorization, download queue, scheduler and many more feature makes XDM a very useful tool
 ```
-# Internet/Browsers
+## Internet/Browsers
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Better%20Chromium/icon-24.png" height=32> ***[Better Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Better%20Chromium)***
 Botspot<br />
@@ -1217,7 +1217,7 @@ Fast, private browser with unique features.
 
 Official Vivaldi browser for ARM Linux.
 ```
-# Internet/Communication
+## Internet/Communication
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/ArmCord/icon-24.png" height=32> ***[ArmCord](https://github.com/Botspot/pi-apps/tree/master/apps/ArmCord)***
 <https://github.com/ArmCord/ArmCord> - @ryanfortner (GitHub)<br />
@@ -1363,7 +1363,7 @@ Note: this app requires you to have chromium-browser, chromium, or google-chrome
 To run: Menu -> Internet -> Zoom PWA
 To run in a terminal: cat ~/.local/share/applications/chrome-gbmplfifepjenigdepeahbecfkcalfhg-Zoom-PWA.desktop | grep Exec | sed 's/Exec=//g' | bash
 ```
-# Multimedia
+## Multimedia
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Audacious/icon-24.png" height=32> ***[Audacious](https://github.com/Botspot/pi-apps/tree/master/apps/Audacious)***
 <https://audacious-media-player.org/> - Botspot<br />
@@ -1599,7 +1599,7 @@ Simple YouTube search engine, downloader and player.
 - Perfect for downloading/playing batches of videos with a few clicks.
 - Supports searches, playlist URLs, and direct YouTube links. In addition, this supports URLs to many other video sites for easy downloading.
 ```
-# Office
+## Office
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/AbiWord/icon-24.png" height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
 <http://www.abisource.com/> -  open-sorcerer64<br />
@@ -1685,7 +1685,7 @@ If you are using a 64-bit OS:
 - To run in a terminal: wps
 - If you trust WPS Office and want to use its Internet features, edit the menu button and get rid of the "firejail --net=none" part.
 ```
-# Programming
+## Programming
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Arduino/icon-24.png" height=32> ***[Arduino](https://github.com/Botspot/pi-apps/tree/master/apps/Arduino)***
 <https://www.arduino.cc/en/main/software><br />
@@ -1944,7 +1944,7 @@ ARM32/ARM64
 Visual Studio Code builds without the telemetry and tracking.
 Microsoft's vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under this not-FLOSS license and contains telemetry/tracking.
 ```
-# System Management
+## System Management
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/All%20Is%20Well/icon-24.png" height=32> ***[All Is Well](https://github.com/Botspot/pi-apps/tree/master/apps/All%20Is%20Well)***
 <https://github.com/spectrumgamer75/All-is-well><br />
@@ -2169,7 +2169,7 @@ If anything can be upgraded, asks permission to upgrade.
 To run: should run automatically on startup.
 To run in a terminal: ~/update-buddy/onstartup.sh
 ```
-# Terminals
+## Terminals
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Alacritty%20Terminal/icon-24.png" height=32> ***[Alacritty Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Alacritty%20Terminal)***
 <https://github.com/alacritty/alacritty> - theofficialgman for building the debs.
@@ -2264,7 +2264,7 @@ Tabby (formerly Terminus) is a highly configurable terminal emulator, SSH and se
 Run from Terminal: tabby
 Run from Menu: Menu -> Accessories -> Tabby
 ```
-# Tools
+## Tools
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/AndroidBuddy/icon-24.png" height=32> ***[AndroidBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/AndroidBuddy)***
 <https://gitlab.com/gazlene/droidbuddy> - Made by gazlene#8088 on Discord
@@ -2783,7 +2783,7 @@ NOTE:
 This is not a Bitcoin miner! Most XMRig users mine Monero - a cryptocurrency with exceptional privacy, security, and decentralization measures.
 Monero is probably the best currency for PC mining, as its mining algorithm is specifically designed to thwart specialized mining equipment.
 ```
-# Tools/Emulation
+## Tools/Emulation
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Box64/icon-24.png" height=32> ***[Box64](https://github.com/Botspot/pi-apps/tree/master/apps/Box64)***
 <https://github.com/ptitSeb/box64> - ptitseb for creating box64
