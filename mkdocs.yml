@@ -25,7 +25,3 @@ theme:
 repo_name: Pi-Apps-Coders/docs
 repo_url: https://github.com/Pi-Apps-Coders/docs
 edit_uri: https://github.com/Pi-Apps-Coders/docs/edit/master/docs/
-
-markdown_extensions:
-  - toc:
-      toc_depth: 3
