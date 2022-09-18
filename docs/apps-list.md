@@ -569,16 +569,16 @@ Run with the menu app "Minecraft Bedrock Launcher" or with the command "GALLIUM_
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20GDLauncher/icon-24.png" height=32> ***[Minecraft Java GDLauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20GDLauncher)***
 <https://gdevs.io/> - theofficialgman<br />
-ARM64 ONLY
+ARM32/ARM64
 ```
-GDLauncher is simple, yet powerful Minecraft launcher with a strong focus on the user experience. Includes Microsoft, Mojang, and PC GamePass Account support as well as CurseForge Mod and Modpack installation. This is a CUSTOM BUILD of GDLauncher for ARM64 support.
+GDLauncher is simple, yet powerful Minecraft launcher with a strong focus on the user experience. Includes Microsoft, Mojang, and PC GamePass Account support as well as CurseForge Mod and Modpack installation. This is a CUSTOM BUILD of GDLauncher for ARM32/ARM64 support.
 
 NOTE: The use of performance enhancing mods is highly encouraged, such as optifine with Optifabric and Fabric/Forge or Sodium/Lithium/Phosphor Fabric Mods.
 
 To run: Menu -> Games -> GDLauncher
 To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 gdlauncher
 
-A custom meta repo is used for arm64 lwjgl 2.9.4, 3.1.2(fake), 3.1.6, 3.2.1, 3.2.2, and 3.3.1 native libraries. (https://github.com/theofficialgman/piston-meta-arm64)
+A custom meta repo is used for arm32/arm64 lwjgl 2.9.4, 3.1.2(fake), 3.1.6, 3.2.1, 3.2.2, and 3.3.1 native libraries. (https://github.com/theofficialgman/piston-meta-arm32 https://github.com/theofficialgman/piston-meta-arm64)
 This supports all currently released versions of minecraft.
 
 Note: GDLauncher github/discord does support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord or Pi-Apps github issues.
@@ -1780,6 +1780,14 @@ ARM32/ARM64
 ```
 An IDE with visualizations for improving software comprehensibility.
 This IDE is used by many learning institutions and colleges for their classes.
+```
+
+### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Mu/icon-24.png" height=32> ***[Mu](https://github.com/Botspot/pi-apps/tree/master/apps/Mu)***
+<https://codewith.mu/> - Botspot<br />
+Package app
+```
+A simple Python editor for beginner programmers.
+This is probably the simplest Python code editor available, with an intuitive UI designed to make sense on first run. Mu is the recommended Python IDE by the Raspberry Pi Foundation.
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Notepad%20++/icon-24.png" height=32> ***[Notepad ++](https://github.com/Botspot/pi-apps/tree/master/apps/Notepad%20++)***
