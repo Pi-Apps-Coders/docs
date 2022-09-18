@@ -28,4 +28,4 @@ edit_uri: https://github.com/Pi-Apps-Coders/docs/edit/master/docs/
 
 markdown_extensions:
   - toc:
-      toc_depth: 1
+      toc_depth: 2
