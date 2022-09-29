@@ -574,7 +574,7 @@ ARM32/ARM64
 ```
 GDLauncher is simple, yet powerful Minecraft launcher with a strong focus on the user experience. Includes Microsoft, Mojang, and PC GamePass Account support as well as CurseForge Mod and Modpack installation. This is a CUSTOM BUILD of GDLauncher for ARM32/ARM64 support.
 
-NOTE: The use of performance enhancing mods is highly encouraged, such as optifine with Optifabric and Fabric/Forge or Sodium/Lithium/Phosphor Fabric Mods.
+NOTE: The use of performance enhancing mods is highly encouraged, such as optifine with Optifabric and Fabric/Forge or Sodium/Lithium/Starlight Fabric Mods.
 
 To run: Menu -> Games -> GDLauncher
 To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 gdlauncher
@@ -582,7 +582,7 @@ To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 gdlauncher
 A custom meta repo is used for arm32/arm64 lwjgl 2.9.4, 3.1.2(fake), 3.1.6, 3.2.1, 3.2.2, and 3.3.1 native libraries. (https://github.com/theofficialgman/piston-meta-arm32 https://github.com/theofficialgman/piston-meta-arm64)
 This supports all currently released versions of minecraft.
 
-Note: GDLauncher github/discord does support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord or Pi-Apps github issues.
+Note: GDLauncher GitHub/Discord does NOT support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord or Pi-Apps GitHub issues.
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20Lunar/icon-24.png" height=32> ***[Minecraft Java Lunar](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Lunar)***
@@ -617,26 +617,24 @@ ARM32/ARM64
 ```
 CUSTOM BUILD of MultiMC5/Launcher code for ARMhf/ARM64 support. Includes Microsoft, Mojang, and PC GamePass Account support. This launcher allows you to easily manage multiple instances of minecraft and your mods at once.
 
-NOTE: The use of performance enhancing mods is highly encouraged, such as optifine with Optifabric and Fabric/Forge or Sodium/Lithium/Phosphor Fabric Mods.
+NOTE: The use of performance enhancing mods is highly encouraged, such as optifine with Optifabric and Fabric/Forge or Sodium/Lithium/Starlight Fabric Mods.
 
-Minecraft Java MultiMC5 for the Raspberry Pi
+Minecraft Java MultiMC5 for ARM
 To run: Menu -> Games -> MultiMC
 To run in a terminal: ~/MultiMC/install/MultiMC
 
-Link to the Raspberry Pi Forum Post: https://forums.raspberrypi.com/viewtopic.php?f=78&t=321888
-
+IMPORTANT: How to choose the correct Java version: https://github.com/MultiMC/Launcher/wiki/Using-the-right-Java#setting-up-java-in-multimc
 The MultiMC5 Wiki can be found here: https://github.com/MultiMC/MultiMC5/wiki
 If you need help installing Optifine: https://github.com/MultiMC/MultiMC5/wiki/MultiMC-and-OptiFine
-How to choose the correct java version: https://github.com/MultiMC/Launcher/wiki/Using-the-right-Java#setting-up-java-in-multimc
 
-Ubuntu and Debian/Raspbian based systems supported. Includes automatic java LTS 8/11/17 installation.
+Ubuntu and Debian/Raspbian based systems supported. Includes automatic Java LTS 8/11/17 installation.
 
 MultiMC5 supports minecraft versions from the old beta/alphas all the way up to 1.19+. Fabric, Forge, and Quilt mod loading is fully supported.
 
 A custom meta repo is used for arm32 and arm64 lwjgl 2.9.4, 3.1.2(fake), 3.1.6, 3.2.1, 3.2.2, and 3.3.1 native libraries. (https://github.com/theofficialgman/meta-multimc)
 This supports all currently released versions of minecraft.
 
-Note: MultiMC5 github/discord does support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord, Forum Post, or Pi-Apps github issues.
+Note: MultiMC5 GitHub/Discord does NOT support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord or Pi-Apps GitHub issues.
 ```
 
 ### <img src="https://github.com/Botspot/pi-apps/raw/master/apps/Minecraft%20Java%20Server/icon-24.png" height=32> ***[Minecraft Java Server](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Server)***
