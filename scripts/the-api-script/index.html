@@ -1,0 +1,998 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../folders/the-main-pi-apps-folder/">
+      
+      
+        <link rel="next" href="../the-categoryedit-script/">
+      
+      <link rel="icon" href="https://github.com/Botspot/pi-apps/blob/master/icons/logo.png?raw=true">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
+    
+    
+      
+        <title>The api script - Pi-Apps Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.558e4712.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#location" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Pi-Apps Docs" class="md-header__button md-logo" aria-label="Pi-Apps Docs" data-md-component="logo">
+      
+  <img src="https://github.com/Botspot/pi-apps/blob/master/icons/logo.png?raw=true" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pi-Apps Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The api script
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Pi-Apps-Coders/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Pi-Apps-Coders/docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Pi-Apps Docs" class="md-nav__button md-logo" aria-label="Pi-Apps Docs" data-md-component="logo">
+      
+  <img src="https://github.com/Botspot/pi-apps/blob/master/icons/logo.png?raw=true" alt="logo">
+
+    </a>
+    Pi-Apps Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Pi-Apps-Coders/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Pi-Apps-Coders/docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apps-list/" class="md-nav__link">
+        Apps List
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
+          Folders
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Folders" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Folders
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../folders/the-app-folder/" class="md-nav__link">
+        The app folder
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../folders/the-app-status-folder/" class="md-nav__link">
+        The app status folder
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../folders/the-main-pi-apps-folder/" class="md-nav__link">
+        The main pi apps folder
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" tabindex="0" aria-expanded="true">
+          Scripts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Scripts" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Scripts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          The api script
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        The api script
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#location" class="md-nav__link">
+    Location:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    Purpose:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#list-of-functions" class="md-nav__link">
+    List of functions:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-categoryedit-script/" class="md-nav__link">
+        The categoryedit script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-createapp-script/" class="md-nav__link">
+        The createapp script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-gui-script/" class="md-nav__link">
+        The gui script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-logviewer-script/" class="md-nav__link">
+        The logviewer script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-manage-script/" class="md-nav__link">
+        The manage script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-pkg-install-script/" class="md-nav__link">
+        The pkg install script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-preload-daemon-script/" class="md-nav__link">
+        The preload daemon script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-preload-script/" class="md-nav__link">
+        The preload script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-purge-installed-script/" class="md-nav__link">
+        The purge installed script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-settings-script/" class="md-nav__link">
+        The settings script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-terminal-run-script/" class="md-nav__link">
+        The terminal run script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-updater-script/" class="md-nav__link">
+        The updater script
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-viewlog-script/" class="md-nav__link">
+        The viewlog script
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#location" class="md-nav__link">
+    Location:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    Purpose:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#list-of-functions" class="md-nav__link">
+    List of functions:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+
+  <h1>The api script</h1>
+
+<h4 id="location">Location:</h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/api</code>. </p>
+<h4 id="purpose">Purpose:</h4>
+<p>This script is a collection of <strong>functions</strong> that do various things. Functions are small chunks of bash-code that can be run like a normal command.</p>
+<h4 id="usage">Usage:</h4>
+<pre><code class="language-bash">source ~/pi-apps/api
+</code></pre>
+<p>You can now run any of the functions inside the api script as if they were real commands.<br />
+Alternatively, the <code>api</code> script supports running a single function <em>without</em> being sourced:</p>
+<pre><code class="language-bash">~/pi-apps/api apt_lock_wait
+</code></pre>
+<h4 id="list-of-functions">List of functions:</h4>
+<p>Note: new functions are added often. If you don't see a function on this list but do see it in the api, please let us know.
+- <code>error</code> - display a custom message in red and exit with a return code of <code>1</code>.
+  Usage:
+  <code>error "The command 'sudo apt update' failed!"</code>
+  This is often seen at the end of a command with the <code>||</code> operator:
+  <code>sudo apt update || error "The command 'sudo apt update' failed!"</code>
+- <code>warning</code> - Display a custom message in yellow and prefix it with "WARNING: ".
+  - Useful for everything where something is wrong but it's not a fatal error.<br>
+  - This function outputs to <code>stderr</code>.
+- <code>status</code> - Display a custom message in light-blue.
+  - Used by scripts to indicate current status, like "Downloading...", "Extracting...", and "Please wait."
+  - This function outputs to <code>stderr</code>.
+  - Some scripts don't want the ending newline, so this function allows for flags to be passed to the <code>echo</code> command. Example usage: <code>status -n "Downloading... "</code>
+- <code>status-green</code> - Display a custom message in green.
+  - Used by scripts to indicate the success of an action, like "Installed FreeCAD successfully", "Update complete", and "All packages have been purged successfully."
+  - This function outputs to <code>stderr</code>.
+- <code>generate_logo</code> - Displays the Pi-Apps logo in a terminal.
+- <code>add_english</code> - Ensures an English locale is installed so that log-diagnosing tools can function properly.
+  - This was added in <a href="https://github.com/Botspot/pi-apps/pull/1031">PR #1031</a></p>
+<p>Apt/dpkg/package functions below.</p>
+<ul>
+<li><code>apt_lock_wait</code> - waits until apt locks are released.</li>
+<li><code>package_info</code> - List everything <code>dpkg</code> knows about the specified package.</li>
+<li>This retrieves a block of text from the <code>/var/lib/dpkg/status</code> file.</li>
+<li><code>package_installed</code> - determine if the specified package is installed.</li>
+<li>Returns an exit code of <code>0</code> if the package is installed, otherwise it returns <code>1</code>.</li>
+<li><code>package_available</code> - determine if the specified package is able to be installed with <code>apt</code>.</li>
+<li>This uses <code>grep</code> to search the <code>/var/lib/apt/lists/</code> folder.</li>
+<li>Returns an exit code of <code>0</code> if the package was found, otherwise it returns <code>1</code>.</li>
+<li><code>package_dependencies</code> - List the dependencies of a package</li>
+<li>This simply isolates a line from the output of the <code>package_info</code> function.</li>
+<li>This is <em>much</em> faster than doing an <code>apt-cache search</code>.</li>
+<li><code>less_apt</code> - Reduce the output of an <code>apt</code> operation.</li>
+<li>Example usage:
+  <code>bash
+  sudo apt update 2&gt;&amp;1 | less_apt</code></li>
+<li><code>apt_update</code> - A wrapper function to run <code>sudo apt update</code>.</li>
+<li>This will wait for apt locks to be released, handle status information, and display helpful tips if packages are upgradable or autoremovable.</li>
+<li>Arguments to the function will be passed on to the <code>apt</code> command.</li>
+</ul>
+<p>Below are three functions that manage <strong>the Pi-Apps local APT repository</strong>.<br />
+This is a special folder (<code>/tmp/pi-apps-local-packages</code>) used by the <code>install_packages</code> function to handle installing local deb files. Installing local packages from a repository improves dependency-handling, condenses the operation into one <code>apt</code> operation, and allows the packages to be specified in any order.  </p>
+<ul>
+<li><code>repo_add</code> - Add the specified deb file(s) to the local repository.</li>
+<li>This simply copies specified files to the <code>/tmp/pi-apps-local-packages</code> folder.</li>
+<li><code>repo_referesh</code> - Index the local repository, create a <code>Packages</code> file, and a <code>source.list</code>.</li>
+<li>At this point, you can make <code>apt</code> use the repository by passing this flag to it: <code>-o Dir::Etc::SourceList=/tmp/pi-apps-local-packages/source.list</code></li>
+<li><code>repo_rm</code> - Removes the local repository.</li>
+<li><code>app_to_pkgname</code> - Convert an app-name to an <code>apt</code>-compatible package name.</li>
+<li>This function generates the name to use for creating dummy apt packages. The naming scheme is: <code>pi-apps-XXXXXXXX</code> (each <code>X</code> can be any lowercase letter or number)</li>
+<li>View which dummy packages are installed now by running <code>apt search pi-apps-</code> in a terminal.</li>
+<li><code>install_packages</code> - Used by apps to install packages.</li>
+<li>This function is replacing the <code>pkg-install</code> script.</li>
+<li>Example usage: <code>install_packages package1 /path/to/package2.deb https://example.com/package3.deb package4-* || exit 1</code></li>
+<li>First, each argument is analyzed.<ul>
+<li>If it's a URL, the file is downloaded and added to the local repository.</li>
+<li>If it's a deb-file, it's added to the local repository.</li>
+<li>If it contains regex (regular expression, aka the <code>*</code> character), a list of packages is generated using the <code>apt-cache search</code> command.</li>
+</ul>
+</li>
+<li>Next, the local repository is initialized. (if necessary)</li>
+<li>Now an <code>apt_update</code> takes place.</li>
+<li>It's time to configure and install an empty apt-package that "depends on" the packages we want to install. We refer to it as a "dummy deb".<ul>
+<li>First the name of the dummy deb is determined, using the <code>app_to_pkgname</code> function.</li>
+<li>If the dummy deb is <em>already</em> installed, <code>install_packages</code> will inherit its dependencies and then purge the dummy deb. This means that <strong>the <code>install-packages</code> function can be used multiple times</strong>in an app's script because it's accumulative.</li>
+<li>The dummy deb is created, packaged, and finally installed.</li>
+</ul>
+</li>
+<li><code>purge-packages</code> - Used by apps to remove packages that they previously installed.</li>
+<li>This function accepts no arguments. It reads the <code>$app</code> variable, purges its associated dummy deb, and autoremoves any packages that are no longer necessary.</li>
+<li><code>get_icon_from_package</code> - Given a package (or space-separated list of packages), this function will automatically find the program icon for it.</li>
+<li>This is useful for the <code>createapp</code> script to automatically find a suitable icon for package-apps you're trying to add.</li>
+<li>This uses <code>dpkg-query</code> to list all files each package installed. The list is filteres to only show <code>.png</code> files in <code>/icons/</code> or <code>/pixmaps/</code> folders.</li>
+<li>The list is sorted by filesize to find the picture with the most pixels.</li>
+</ul>
+<p>End of apt functions. App functions below.</p>
+<ul>
+<li><code>list_apps</code> - List all apps that match a given criteria. (In a newline-separated format)</li>
+<li><code>list_apps local</code> will list apps that exist locally.</li>
+<li><code>list_apps</code> is the same as <code>list_apps local</code>.</li>
+<li><code>list_apps app</code> will list all apps, both local and online.</li>
+<li><code>list_apps installed</code> will list apps that are currently installed.</li>
+<li><code>list_apps corrupted</code> will list apps that are currently corrupted.</li>
+<li><code>list_apps disabled</code> will list apps that are currently disabled.</li>
+<li><code>list_apps uninstalled</code> will list apps that are currently uninstalled.</li>
+<li><code>list_apps have_status</code> will list apps that currently have a known status. (A clean Pi-Apps installation won't have any status files)</li>
+<li><code>list_apps missing_status</code> will list apps that don't have status files.</li>
+<li><code>list_apps cpu_installable</code> will list apps that have an installation script compatible with your operating system's CPU architecture.<ul>
+<li>If "app1" only has an <code>install-64</code> script but your system is 32-bit, then "app1" will be excluded from this list.</li>
+<li>Likewise, if "app1" only has an <code>install-32</code> script but your system is 64-bit, then "app1" will be excluded from this list.</li>
+</ul>
+</li>
+<li><code>list_apps package</code> will list apps that don't have scripts but have a <code>packages</code> file.</li>
+<li><code>list_apps standard</code> will list apps that do have scripts and don't have a <code>packages</code> file.</li>
+<li><code>list_apps hidden</code> will list apps that are in the special "hidden" category.</li>
+<li><code>list_apps visible</code> will list apps that are <strong>not</strong> in the special "hidden" category.</li>
+<li><code>list_apps online</code> will list apps that exist in the <code>update/pi-apps/apps</code> folder.</li>
+<li><code>list_apps online_only</code> will list apps that are <strong>only</strong> in the <code>update/pi-apps/apps</code> folder.</li>
+<li><code>list_apps local_only</code> will list apps that are <strong>not</strong> in the <code>update/pi-apps/apps</code> folder.</li>
+<li><code>list_intersect</code> - Takes two lists of apps and <em>intersects</em> them, meaning that only apps that are listed in <strong>both</strong> lists are returned.
+  For example, this will show apps that are both cpu_installable and visible:
+  <code>list_apps cpu_installable | list_intersect "$(list_apps visible)"</code></li>
+<li><code>list_subtract</code> - Takes two lists of apps and <em>subtracts</em> one from other, meaning that only apps listed in the first list and <strong>not</strong> in the second list, are returned.
+  For example, this will show apps that are <em>not</em> compatible with your system's architecture:
+  <code>list_apps local | list_subtract "$(list_apps cpu_installable)"</code></li>
+<li><code>read_category_files</code> - Generates a list of categories; data compiled from the <code>data/category-overrides</code> and <code>etc/categories</code> files, with added support for unlisted apps.</li>
+<li>
+<p><code>app_categories</code> - Format the categories file, then list all apps, as if they were inside folders, based on the categories file. Also lists all apps under special "Installed" and "All Apps" categories.</p>
+</li>
+<li>
+<p><code>bitly_link</code> - Increase/decrease the "number of users" a certain app has.</p>
+</li>
+<li>Botspot creates <a href="https://bitly.com">bitly</a> links for every app: one link for installing it, and one link for uninstalling it.</li>
+<li>Bitly will track how many times each link has been clicked.</li>
+<li>Assuming the "Enable Analytics" setting was not turned off, this function will "click" one of those links.</li>
+<li>Botspot uses a script to upload bitly's statistics to the <a href="https://github.com/Botspot/pi-apps-analytics">pi-apps-analytics</a> repository.</li>
+<li><code>usercount</code> - returns the number of users an app has, based on the current number in the <a href="https://github.com/Botspot/pi-apps-analytics">pi-apps-analytics</a> repository.
+  To display the number of users for the Arduino app:
+  <code>usercount Arduino</code></li>
+<li><code>script_name</code> - returns name of install script(s) for the specified app. Possible outputs: '', 'install', 'install-32', 'install-64', 'install-32 install-64'
+  Usage:
+  <code>script_name Arduino</code></li>
+<li><code>script_name_cpu</code> - Given an app, this returns the name of the app's installation script that would be run if you ran it.</li>
+<li>For example, if your operating system is 32-bit and the app has an <code>install-32</code> script, this function would return "install-32".</li>
+<li>If your operating system is 64-bit and the app has an <code>install-64</code> script, this function would return "install-64".</li>
+<li>If the app has an <code>install</code> script, this function would return "install".</li>
+<li>If none of the above, don't return anything.</li>
+<li><code>app_status</code> - return the given app's current status.</li>
+<li>If the app's status file does not exist, this function returns 'uninstalled'.</li>
+<li>Otherwise, this function returns the contents of the app's status file.</li>
+<li><code>app_type</code> - Determine if an app is a <code>standard</code> app or if it's a <code>package</code>.</li>
+<li><code>will_reinstall</code> - Return an exit code of <code>0</code> if the specified app would be reinstalled during an update, otherwise return an exit code of <code>1</code>.</li>
+<li>If the app's existing installation script is not identical to the new version of the installation script, AND the app is currently installed, exit with a code of <code>0</code>, otherwise exit <code>1</code>.</li>
+<li><code>app_search</code> - Search all apps for the specified search query.</li>
+<li>In each app-folder, this will search for matches in the following files:<ul>
+<li><code>description</code></li>
+<li><code>credits</code></li>
+<li><code>website</code></li>
+</ul>
+</li>
+<li>It hides incompatible and invisible apps before displaying the results. (list of app names, one per line)</li>
+<li><code>app_search_gui</code> - A graphical front-end for the <code>app_search</code> function.</li>
+<li>This displays all results from <code>app_search</code> in a graphical list.</li>
+<li>One app should be selected from the list before clicking OK.<ul>
+<li>If only one app is displayed in the list, no need to select it.</li>
+</ul>
+</li>
+<li>The chosen app (if any) is returned.</li>
+<li><code>generate_app_icons</code> - Resize a specified image and place the icons in the specified app-folder.</li>
+<li>This requires imagemagick to be installed. If it's missing, a dialog box will appear and ask permission to install it.</li>
+<li>Example usage: <code>generate_app_icons /path/to/my-image.png my-app</code></li>
+<li><code>refresh_pkgapp_status</code> - For the specified package-app, if dpkg thinks it's installed, then mark it as installed.</li>
+<li><code>refresh_all_pkgapp_status</code> - For every package-app, if dpkg thinks it's installed, then mark it as installed.</li>
+</ul>
+<p>Logfile functions below.
+- <code>get_logfile</code> - Find the most recent logfile for the specified app.
+- <code>log_diagnose</code> - Search a specified logfile for phrases that indicate non-errors.
+  - Many errors are not Pi-Apps's fault. Most are outside of Pi-Apps's control, but caused by user-interference, Internet problems, or apt configuration errors.
+  - Errors are categorized into three types: <code>system</code>, <code>internet</code>, <code>package</code>, and unknown.
+    - If a known phrase is identified, the <code>$error_type</code> variable is set to either <code>system</code> or <code>internet</code> or <code>package</code>.
+    - If no phrases were identified, the <code>$error_type</code> variable will be set to <code>unknown</code>. Only when the error_type is "unknown" will Pi-Apps allow the user to send an error report.
+  - Each detected error has an accompanying caption for the user to read. This caption explains what the problem is and how to fix it.
+    - As multiple error messages might be identified, the error captions are stored in an <strong>array</strong> variable called <code>$error_caption</code>. Storing explanations in an array allows multiple explanations to be displayed to the user.
+  - Before exiting, this function returns the collected information. The first line is the value of <code>$error_type</code>, while subsequent lines are the value(s) of <code>$error_caption</code>.
+- <code>format_logfile</code> - Log files store the entire output of all apps being installed or uninstalled. This function formats the logfile to improve its readability.
+  - Unwanted patterns are removed, like terminal color-codes, long arrays of periods, etc.
+  - All instances of the <code>\r</code> character are replaced by the <code>\n</code> character.
+  - A header is added to the file, containing the output from <code>get_device_info</code>.
+- <code>send_error_report</code> - Sends a log file to the Pi-Apps developers.
+- <code>send_error_report_gui</code> - A graphical front-end for <code>send_error_report</code> - asks the user permission before sending an error log.
+  - Please note that this is currently not being used. The <code>manage</code> script has its own error-reporting gui and directly uses <code>send_error_report</code>.</p>
+<p>Below are all functions that don't have anything to do with apps.
+- <code>runonce</code> - this function runs code only once, ever. Used by other scripts to run one-time workarounds to ensure a smooth transition as Pi-Apps evolves.
+  - For example, this is a real usage of <code>runonce</code> in the Pi-Apps <code>gui</code> script:
+    <code>bash
+    #ensure curl is installed
+    runonce &lt;&lt;"EOF"
+      if ! command -v curl &gt;/dev/null ;then
+        sudo apt install -y curl
+      fi
+    EOF</code>
+    It installs <code>curl</code> on the system, but only tries once.
+  - This works by hashing the entire command first, using <code>sha256sum</code>.
+  - If the hash matches a line in the <code>data/runonce_hashes</code> file, nothing occurs. Otherwise, the command is executed.
+- <code>text_editor</code> - Use a text editor to open a file.
+  - This obeys your choice of "Preferred text editor".
+  Usage:
+  <code>text_editor /path/to/your.file</code>
+- <code>view_file</code> - Display a maximized <code>yad</code> window to view a file. This is used to view logfiles.
+- <code>is_supported_system</code> - determines if your operating system is supported. This returns an exit-code of <code>0</code> if supported, otherwise<code>1</code>.
+  If any of the below criteria are true, then your system is unsupported:
+  - The kernel matches "x86" or "i686 or "i386".
+  - The <code>/proc/version</code> file matches "Android".
+  - The operating system's <code>PRETTY_NAME</code> matches "stretch", "wheezy", "jessie", "manjaro" or "Ubuntu 16".
+  - The kernel matches "armv6*".
+  - The script is being run as <code>root</code>.
+  - The system has less than 500MB of free space.
+- <code>get_device_info</code> - summarizes the current system setup for debug use.
+  - To view the output on your  system, run this command:
+  <code>~/pi-apps/api get_device_info</code>
+  - This function is used in the <code>format_log_file</code> function.
+- <code>functions_to_files</code> - Takes every function in the <code>api</code> and turns them into their own miniature bash scripts.
+  - This exists purely for developer-convenience. It allows you to handle functions as if they were files.
+  - It creates a folder (<code>~/pi-apps/function-files</code>) and then places files in it.
+- <code>files_to_functions</code> - Takes every file in the <code>function-files</code> folder and re-combines them.
+  - The resulting output is printed to the terminal.</p>
+<p>Command interceptors below:
+- <code>git_clone</code> - Wrapper function for the <code>git clone</code> command with improvements:
+  - Status information is displayed. ("Downloading XXXXXX repository...")
+  - <code>git</code>'s output is suppressed. But if the operation fails, its full output will be displayed in the error message.
+  - Before cloning the repo, the destination folder is removed. This prevents the common error "<code>Fatal: destination path 'XXXXXX' already exists and is not an empty directory.</code>".
+  - There may be times when an app-script doesn't want the output suppressed, or status information, or the folder removed first. That's why this function is an "opt-in" function; script-writers have to consciencely switch to <code>git_clone</code> if they want to.
+- <code>wget</code> - This function overrides the <code>wget</code> command in all app-scripts. To speed up app-installation, it uses the <code>aria2c</code> tool when possible. Aria2c is faster and more reliable than wget, but it can't be used in all situations.
+  - To determine if <code>aria2c</code> can be used, this function parses all flags given to it. It stores the url and the output filename.
+    - If any flags other than <code>-q</code>, <code>-O</code>, and <code>-qO</code> are passed, <code>wget</code> is used.
+    - If the <code>aria2c</code> command does not exist, <code>wget</code> is used.
+    - If the output is not a file but is being sent to <code>stdout</code> (using the <code>-qO-</code> flag, for example), <code>wget</code> is used.
+  - If <code>aria2c</code> is enabled, it runs with the following flags:
+  <code>-c -x 16 -s 16 -m 10 --retry-wait 30 --console-log-level=error --show-console-readout=false --summary-interval=0 "$url" --dir '/' -o "${file:1}" --allow-overwrite</code>
+    - If the <code>-q</code> flag was passed, the <code>--quiet</code> flag is sent to aria2c.
+  - Otherwise, if aria2c was ruled out, <code>wget</code> is run as it normally would.
+  - This function is designed to operate seamlessly in 100% of cases. App-developers <em>should not have to even know</em> that this function is really translating <code>wget</code> commands to <code>aria2c</code> - it should operate exactly the same as <code>wget</code>, but faster.
+- <code>chmod</code> - Wrapper function for the <code>chmod</code> command with status information.
+  - This displays "<code>Making executable: /path/to/file</code>".
+- <code>unzip</code> - Wrapper function for the <code>unzip</code> command with status information.
+  - This displays "<code>Extracting: /path/to/file</code>".</p>
+<p>And with that, we come to the end of functions in the <code>api</code> script. If you see a function that's not listed here, please let us know.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.51d95adb.min.js"></script>
+      
+    
+  </body>
+</html>
